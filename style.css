@@ -33,7 +33,7 @@ body {
 #intro {
     transform: skew(0deg, 10deg);
     text-align: left;
-    margin-top: 10vh;
+    margin-top: 20vh;
 }
 
 #intro h2 {
@@ -48,7 +48,7 @@ body {
     line-height: 14pt;
     font-weight: 100;
     color: rgba(255,255,255,1);
-    margin: 10px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
 }
 
 /* PAGE HEADERS */
