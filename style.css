@@ -8,4 +8,11 @@
 #bottom {
     height: 40px;
     background-color: #f8f8f8;
+    padding: 10px 0px 10px 0px;
+}
+
+.footerbtm span {
+    color: rgba(0,0,0,0.8);
+    font-size: 10pt;
+    margin: 0px;
 }
