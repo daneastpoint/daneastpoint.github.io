@@ -7,7 +7,7 @@ body {
     background-color: transparent;
     border: 0px;
 }
-.navbar-brand {
+.navbar-brand a {
     font-size: 14pt;
     font-weight: 600;
     color: rgba(255,255,255,1);
