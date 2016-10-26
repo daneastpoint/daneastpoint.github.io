@@ -37,13 +37,15 @@ body {
 }
 
 #intro h2 {
-    font-size: 24pt;
+    font-size: 26pt;
+    line-height: 28pt
     font-weight: 200;
     color: rgba(255,255,255,1);
     margin: 0px;
 }
 #intro p {
-    font-size: 18pt;
+    font-size: 12pt;
+    line-height: 14pt;
     font-weight: 100;
     color: rgba(255,255,255,1);
     margin: 10px 0px 0px 0px;
