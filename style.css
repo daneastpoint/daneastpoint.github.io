@@ -27,13 +27,13 @@ body{
 }
 
 .skewed-bg{
-  background: $main-color;
+  background: #00B285;
   padding: 200px 0;
-  @include transform(skew(0deg, -10deg));
+  transform: skew(0deg, -10deg);
   margin-top: -200px;
 }  
 .content{
-    @include transform(skew(0deg, 10deg));
+    transform: skew(0deg, 10deg);
     text-align: center;
 }
     
