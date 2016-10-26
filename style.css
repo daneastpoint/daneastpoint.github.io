@@ -2,8 +2,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 /* CONTAINERS */
-.container, .container-global {
+.container-global {
     max-width: 1040px;
+    display: flex;
+    margin: auto;
 }
 /* CONTAINERS */
 
