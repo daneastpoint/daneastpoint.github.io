@@ -13,6 +13,10 @@ body {
     color: rgba(255,255,255,1);
 }
 
+.container, .container-lg {
+    max-width: 1040px;
+}
+
 .test {
     background-color: #333;
 }
