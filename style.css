@@ -2,6 +2,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.nav {
+    z-index: 1000;
+}
+
 .test {
     background-color: #333;
 }
