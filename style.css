@@ -33,20 +33,20 @@ body {
 #intro {
     transform: skew(0deg, 10deg);
     text-align: left;
-    margin-top: 4vh;
+    margin-top: 10vh;
 }
 
 #intro h2 {
     font-size: 24pt;
-    font-weight: 600;
+    font-weight: 200;
     color: rgba(255,255,255,1);
     margin: 0px;
 }
 #intro p {
     font-size: 18pt;
-    font-weight: 200;
+    font-weight: 100;
     color: rgba(255,255,255,1);
-    margin: 20px 0px 0px 0px;
+    margin: 10px 0px 0px 0px;
 }
 
 /* PAGE HEADERS */
