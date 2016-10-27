@@ -18,6 +18,9 @@ body {
 .nopadding {
     padding: 0px!important;
 }
+.align-right {
+    text-align: right;
+}
 /* PADDING + MARGINS ETC */
 /* NAVBAR */
 .nav {
