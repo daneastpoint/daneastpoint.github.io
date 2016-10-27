@@ -34,7 +34,7 @@ body {
 /* NAVBAR */
 
 /* PAGE HEADERS */
-header {
+header, .skewed-gb {
     margin-bottom: 114px;
 } 
 .skewed-bg {
