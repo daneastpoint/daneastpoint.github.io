@@ -72,7 +72,7 @@ header, .skewed-gb {
     height: 200px;
     background-color: #f6f9fc;
 }
-.footertop h3, li {
+.footertop h3, li, a {
     color: #8898aa;
 }
 .footertop h3 {
@@ -82,7 +82,7 @@ header, .skewed-gb {
     margin-top: 0px;
     margin-bottom: 10px;
 }
-.footertop li {
+.footertop li, a {
     font-size: 12pt;
     font-weight: 200;
     letter-spacing: 1px;
