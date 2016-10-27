@@ -8,7 +8,11 @@ body {
     margin: auto;
 }
 /* CONTAINERS */
-
+/* PADDING + MARGINS ETC */
+.nopadding {
+    padding: 0px!important;
+}
+/* PADDING + MARGINS ETC */
 /* NAVBAR */
 .nav {
     z-index: 1000;
