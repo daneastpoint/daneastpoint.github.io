@@ -9,7 +9,7 @@ body {
 }
 /* CONTAINERS */
 /* LISTS */
-ul {
+.footertop ul {
     margin: 0px;
     padding: 0px;
     list-style-type: none;
@@ -34,7 +34,7 @@ ul {
 /* NAVBAR */
 
 /* PAGE HEADERS */
-.header {
+header {
     margin-bottom: 114px;
 } 
 .skewed-bg {
