@@ -76,6 +76,7 @@ header, .skewed-gb {
     background-color: #f6f9fc;
     padding-top: 60px;
     padding-bottom: 60px;
+    border-bottom: 2px solid rgba(207,215,223,.25);
 }
 .footertop h3 {
     color: #8898aa!important;
