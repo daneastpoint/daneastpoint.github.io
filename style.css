@@ -8,6 +8,13 @@ body {
     margin: auto;
 }
 /* CONTAINERS */
+/* LISTS */
+.ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+/* LISTS */
 /* PADDING + MARGINS ETC */
 .nopadding {
     padding: 0px!important;
