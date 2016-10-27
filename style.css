@@ -78,7 +78,13 @@ header, .skewed-gb {
     padding-top: 60px;
     padding-bottom: 60px;
 }
-.footertop h3, li, a {
+.footertop h3 {
+    color: #8898aa!important;
+}
+.footertop li {
+    color: #8898aa!important;
+}
+.footertop a {
     color: #8898aa!important;
 }
 .footertop a:hover {
