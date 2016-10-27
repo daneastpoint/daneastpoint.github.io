@@ -68,9 +68,15 @@ header, .skewed-gb {
 /* PAGE HEADERS */
 
 /* FOOTER */
-#top {
+/*#top {
     height: 200px;
     background-color: #f6f9fc;
+}*/
+.footer-top {
+    height: inherit;
+    background-color: #f6f9fc;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .footertop h3, li, a {
     color: #8898aa!important;
@@ -80,10 +86,10 @@ header, .skewed-gb {
 }
 .footertop h3 {
     font-size: 12pt;
-    font-weight: 200;
+    font-weight: 400;
     letter-spacing: 1px;
     margin-top: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .footertop li, a {
     font-size: 10pt;
