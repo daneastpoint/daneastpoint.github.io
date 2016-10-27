@@ -4,7 +4,6 @@ body {
 /* CONTAINERS */
 .container-global {
     max-width: 1040px;
-    display: flex;
     margin: auto;
 }
 /* CONTAINERS */
