@@ -70,11 +70,28 @@ header, .skewed-gb {
 /* FOOTER */
 #top {
     height: 200px;
-    background-color: #f5f5f5;
+    background-color: #f6f9fc;
+}
+.footertop h3, li {
+    color: #8898aa;
+}
+.footertop h3 {
+    font-size: 12pt;
+    font-weight: 200;
+    letter-spacing: 1px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.footertop li {
+    font-size: 12pt;
+    font-weight: 200;
+    letter-spacing: 1px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 .footerbtm {
     height: auto;
-    background-color: #f8f8f8;
+    background-color: #f6f9fc;
     padding: 10px 0px 10px 0px;
 }
 .footerbtm span {
