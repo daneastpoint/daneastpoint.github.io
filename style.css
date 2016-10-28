@@ -22,6 +22,11 @@ body {
     text-align: right;
 }
 /* PADDING + MARGINS ETC */
+/* SECTION BACKGROUND */
+.greybg {
+    background-color: #f6f9fc;
+}
+/* SECTION BACKGROUND */
 /* NAVBAR */
 .nav {
     z-index: 1000;
