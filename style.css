@@ -30,6 +30,22 @@ body {
     background-color: #f6f9fc;
 }
 /* SECTION BACKGROUND */
+/* TYPOGRAPHY */
+.greybg h3 {
+    color: #8898aa;
+    font-size: 20pt;
+    font-weight: 200;
+    line-height: 24pt;
+    margin: 0px;
+}
+.greybg h4 {
+    color: #8898aa;
+    font-size: 14pt;
+    font-weight: 100;
+    line-height: 16pt;
+    margin: 0px;
+}
+/* TYPOGRAPHY */
 /* NAVBAR */
 .nav {
     z-index: 1000;
