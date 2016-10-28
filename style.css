@@ -21,7 +21,7 @@ body {
 .align-right {
     text-align: right;
 }
-.fluid-height {
+.fluidheight {
     height: inherit;
     padding-top: 80px;
     padding-bottom: 80px;
