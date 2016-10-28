@@ -38,13 +38,15 @@ body {
     font-size: 20pt;
     font-weight: 200;
     line-height: 24pt;
+    letter-spacing: 1px;
     margin: 0px;
 }
 .greybg h4 {
     color: #8898aa;
-    font-size: 14pt;
+    font-size: 12pt;
     font-weight: 100;
     line-height: 16pt;
+    letter-spacing: 1px;
     margin: 0px;
 }
 /* TYPOGRAPHY */
