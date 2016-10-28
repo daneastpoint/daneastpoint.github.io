@@ -1,12 +1,12 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
-/* CONTAINERS */
+/* CONTAINERS + SECTIONS */
 .container-global {
     max-width: 1040px;
     margin: auto;
 }
-/* CONTAINERS */
+/* CONTAINERS + SECTIONS */
 /* LISTS */
 .footertop ul {
     margin: 0px;
@@ -20,6 +20,9 @@ body {
 }
 .align-right {
     text-align: right;
+}
+.fluid-height {
+    height: inherit;
 }
 /* PADDING + MARGINS ETC */
 /* SECTION BACKGROUND */
