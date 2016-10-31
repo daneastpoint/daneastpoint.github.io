@@ -67,6 +67,14 @@ body {
     letter-spacing: 1px;
     margin: 0px;
 }
+.whitebg h2 {
+    color: #8898aa;
+    font-size: 20pt;
+    font-weight: 200;
+    line-height: 24pt;
+    letter-spacing: 1px;
+    margin: 0px;
+}
 .whitebg h3 {
     color: #8898aa;
     font-size: 20pt;
@@ -81,6 +89,14 @@ body {
     font-weight: 100;
     line-height: 16pt;
     letter-spacing: 1px;
+    margin: 0px;
+}
+.whitebg p {
+    color: #6b7c93;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 20px;
+    letter-spacing: 0.05em;
     margin: 0px;
 }
 /* TYPOGRAPHY */
