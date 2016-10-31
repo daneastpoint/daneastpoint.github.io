@@ -131,7 +131,7 @@ header, .skewed-gb {
 }
 .epnewstext {
     background-color: #fff;
-    height: 100px;
+    height: initial;
     width: 100%;
     padding: 15px;
     position: absolute;
@@ -145,14 +145,14 @@ header, .skewed-gb {
     font-weight: 500;
     line-height: 12pt;
     letter-spacing: 0.05em;
-    margin: 0px 0px 10px 0px;
+    margin: 0px 0px 15px 0px;
     text-transform: capitalize;
 }
 .epnewstext p {
     color: #6b7c93;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 200;
-    line-height: 16px;
+    line-height: 20px;
     letter-spacing: 0.05em;
     margin: 0px;
 }
