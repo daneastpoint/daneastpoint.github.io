@@ -27,6 +27,12 @@ body {
 .nopadding {
     padding: 0px!important;
 }
+@media screen and (max-width: 640px) {
+    .nopaddingmobile {
+        padding: 0px!important;
+    }
+}
+
 .align-right {
     text-align: right;
 }
