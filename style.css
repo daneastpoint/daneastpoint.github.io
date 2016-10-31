@@ -126,6 +126,12 @@ header, .skewed-gb {
     position: absolute;
     top: 0px;
 }
+.epnewstext {
+    background-color: #fff;
+    height: 100px;
+    position: absolute;
+    bottom: 0px;
+}
 @media screen and (max-width: 640px) {
     .epnewscontent {
         margin-bottom: 30px!important;
