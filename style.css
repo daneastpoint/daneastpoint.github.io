@@ -109,7 +109,7 @@ header, .skewed-gb {
     padding-bottom: 60px;
     border-bottom: 2px solid rgba(207,215,223,.25);
 }
-@media screen and max-width(640px) {
+@media screen and (max-width:640px) {
     .footercol {
         margin-top: 30px!important;
     }
