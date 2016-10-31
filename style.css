@@ -46,6 +46,9 @@ body {
 .greybg {
     background-color: #f6f9fc;
 }
+.whitebg {
+    background-color: #ffffff;
+}
 /* SECTION BACKGROUND */
 /* TYPOGRAPHY */
 .greybg h3 {
@@ -133,7 +136,7 @@ header, .skewed-gb {
     background-color: #fff;
     height: initial;
     width: 100%;
-    padding: 15px;
+    padding: 25px;
     position: absolute;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
