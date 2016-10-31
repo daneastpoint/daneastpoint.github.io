@@ -146,7 +146,7 @@ header, .skewed-gb {
     line-height: 12pt;
     letter-spacing: 0.05em;
     margin: 0px 0px 10px 0px;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 .epnewstext p {
     color: #6b7c93;
