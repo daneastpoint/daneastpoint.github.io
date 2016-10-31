@@ -100,7 +100,7 @@ header, .skewed-gb {
 .epnewscontent {
     background-color: #ffffff;
     height: 240px;
-    border-radius: 8px;
+    border-radius: 4px;
     box-sizing: border-box;
     box-shadow: 0px 10px 20px rgba(0,0,0,0.1);
 }
