@@ -123,12 +123,14 @@ header, .skewed-gb {
 .epnewsimage {
     background-color: #1fa2ff;
     height: 120px;
+    width: 100%;
     position: absolute;
     top: 0px;
 }
 .epnewstext {
     background-color: #fff;
     height: 100px;
+    width: 100%;
     position: absolute;
     bottom: 0px;
 }
