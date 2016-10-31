@@ -6,6 +6,10 @@ body {
     max-width: 1040px;
     margin: auto;
 }
+.container-extend {
+    max-width: 90vw;
+    margin: auto;
+}
 /* CONTAINERS + SECTIONS */
 /* LISTS */
 .footertop ul {
