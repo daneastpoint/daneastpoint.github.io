@@ -144,16 +144,16 @@ header, .skewed-gb {
     font-size: 12pt;
     font-weight: 500;
     line-height: 12pt;
-    letter-spacing: 1px;
+    letter-spacing: 0.05em;
     margin: 0px 0px 10px 0px;
     text-transform: uppercase;
 }
 .epnewstext p {
-    color: #8898aa;
+    color: #6b7c93;
     font-size: 12px;
     font-weight: 200;
     line-height: 16px;
-    letter-spacing: 1px;
+    letter-spacing: 0.05em;
     margin: 0px;
 }
 @media screen and (max-width: 640px) {
