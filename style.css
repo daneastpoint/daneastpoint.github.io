@@ -282,7 +282,7 @@ li.dropdown:hover > ul.dropdown-menu {
     text-transform: uppercase;
 }
 .dropdown-section>li>a.dropdowncontact {
-    padding: 10px 25px;
+    padding: 10px 25px 10px 10px!important;
     font-size: 20px;
     color: #3ecf8e!important;
     font-weight: 400!important;
