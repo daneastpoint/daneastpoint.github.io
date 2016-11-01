@@ -17,17 +17,8 @@ body {
 }
 .section-content-has-diagonal-left-to-right {
     height: 195px;
-    position: relative;
-    -webkit-transform-origin: 0% 0%;
-    -ms-transform-origin: 0% 0%;
-    transform-origin: 0% 0%;
-    width: 100vw;
-    margin: 0 auto;
-    display: block;
-    margin-bottom: -195px;
-    top: -350px;
-    -webkit-transform: rotateY(6deg);
-    transform: rotateY(6deg);
+    -webkit-transform: skew(0deg, -10deg);
+    transform: skew(0deg, -10deg);
 }
 /* CONTAINERS + SECTIONS */
 /* LISTS */
