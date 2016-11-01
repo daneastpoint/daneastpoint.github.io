@@ -264,8 +264,15 @@ li.dropdown:hover > ul.dropdown-menu {
     padding: 15px;
     background-color: #f6f9fc;
 }
-.epdropdown>li>a, .dropdown-section>li>a {
+.epdropdown>li>a {
     padding: 10px 25px!important;
+    font-size: 18px;
+    font-weight: 200!important;
+    color: #6b7c93!important;
+    text-decoration: none!important;
+}
+.dropdown-section>li>a {
+    padding: 10px 25px 10px 0px!important;
     font-size: 18px;
     font-weight: 200!important;
     color: #6b7c93!important;
