@@ -20,11 +20,14 @@ body {
     }
 }
 .section-content-has-diagonal-left-to-right {
+    position: absolute;
     height: 150px;
     -webkit-transform: skew(0deg, -10deg);
     transform: skew(0deg, -6deg);
-    position: relative;
-    top: 330px;
+    top: -70px!important;
+    width: 100vw;
+    left: 0px;
+}
 }
 /* CONTAINERS + SECTIONS */
 /* BUTTONS */
