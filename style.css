@@ -248,7 +248,7 @@ body {
 
 /* PAGE HEADERS */
 .epheaderhomebg {
-    background: rgba(5,213,255,0.9);
+    background: linear-gradient(rgba(71,80,255,1), rgba(71,80,255,0));
 }
 header, .skewed-gb {
     margin-bottom: 114px;
