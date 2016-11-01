@@ -31,7 +31,7 @@ body {
 .header-diagonal-three {
     position: absolute;
     height: 330px;
-    -webkit-transform: skew(0deg, 6deg);
+    -webkit-transform: skew(0deg, -6deg);
     transform: skew(0deg, -6deg);
     bottom: 0px;
     width: 100vw;
@@ -42,7 +42,7 @@ body {
 .header-diagonal-three {
     position: absolute;
     height: 100px;
-    -webkit-transform: skew(0deg, -10deg);
+    -webkit-transform: skew(0deg, 1deg);
     transform: skew(0deg, 1deg);
     bottom: 0px;
     width: 100vw;
