@@ -281,6 +281,14 @@ li.dropdown:hover > ul.dropdown-menu {
     letter-spacing: 0.08em!important;
     text-transform: uppercase;
 }
+.epdropdown>li>a.dropdowncontact {
+    padding: 10px 25px;
+    font-size: 20px;
+    color: #3ecf8e!important;
+    font-weight: 400!important;
+    letter-spacing: 0.08em!important;
+    text-transform: uppercase;
+}
 .dropdown-section>p {
     padding: 10px 25px 10px 10px!important;
     font-size: 18px;
