@@ -252,6 +252,9 @@ body {
 .nav>li>a {
     padding: 10px 20px;
 }
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;    
+}
 .service {
     margin-right: 50px;
 }
