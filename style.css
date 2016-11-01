@@ -289,8 +289,17 @@ li.dropdown:hover > ul.dropdown-menu {
     letter-spacing: 0.08em!important;
     margin-bottom: 20px;
 }
-.dropdown-section>p, .dropdown-section>li>a.dropdownsimple {
+.dropdown-section>p {
     padding: 10px 25px 10px 10px!important;
+    font-size: 18px;
+    font-weight: 200!important;
+    color: #6b7c93!important;
+    letter-spacing: 0.05em;
+    text-decoration: none!important;
+    margin: 0px;
+}
+.dropdown-section>li>a.dropdownsimple {
+    padding: 10px 25px 10px 0px!important;
     font-size: 18px;
     font-weight: 200!important;
     color: #6b7c93!important;
@@ -300,6 +309,7 @@ li.dropdown:hover > ul.dropdown-menu {
 }
 .dropdown-section>li {
     list-style: none;
+    padding: 10px 25px 10px 10px!important;
 }
 .dropdown-section {
     margin-top: 30px;
