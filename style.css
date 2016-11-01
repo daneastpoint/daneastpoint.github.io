@@ -28,6 +28,14 @@ body {
     width: 100vw;
     left: 0px;
 }
+.section-content-has-diagonal-right-to-left {
+    position: absolute;
+    height: 150px;
+    -webkit-transform: skew(0deg, -10deg);
+    transform: skew(0deg, -6deg);
+    top: -70px;
+    width: 100vw;
+    left: 0px;
 }
 /* CONTAINERS + SECTIONS */
 /* BUTTONS */
@@ -143,6 +151,9 @@ body {
 }
 .whitebg {
     background-color: #ffffff;
+}
+.bluebg {
+    background-color: #05d5ff;
 }
 /* SECTION BACKGROUND */
 /* TYPOGRAPHY */
