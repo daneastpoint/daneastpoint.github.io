@@ -31,16 +31,7 @@
                 <li><a href="#">Mobile</a></li>
                 <li><a href="#">technologies</a></li>
                 <li><a href="#">Web Apps</a></li>
-                <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">test <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">Separated link</a></li>
-            </ul>
-            </li>
+                <li class="dropdown open"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Test <span class="caret"></span></a> <ul class="dropdown-menu"> <li><a href="#">Action</a></li> <li><a href="#">Another action</a></li> <li><a href="#">Something else here</a></li> <li role="separator" class="divider"></li> <li><a href="#">Separated link</a></li> </ul> </li>
             </ul>
             <ul class="nav navbar-nav company" style="margin-left: 10vw;">
                 <!--<li><a href="#">Blog</a></li>
@@ -229,4 +220,15 @@
 <!-- FOOTER BOTTOM END -->
 </body>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script>
+$(document).ready(function() {
+    $("a.dropdown-toggle").hover(
+    function() {
+        $(this).css('background-color', '#5cb85c')
+    }, function() {
+        $(this).css('background-color', 'rgba(0,0,0,0.2)')
+    });
+});
+</script>
 </html>
