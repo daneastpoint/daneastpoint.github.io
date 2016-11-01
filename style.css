@@ -256,8 +256,12 @@ li.dropdown:hover > ul.dropdown-menu {
     display: block;    
 }
 .dropdown-menu {
-    padding: 15px 0px!important;
+    padding: 15px 0px 0px 0px!important;
     border-radius: 6px!important;
+}
+.dropdown-section {
+    padding: 15px;
+    background-color: #f6f9fc;
 }
 .epdropdown>li>a {
     padding: 10px 25px!important;
