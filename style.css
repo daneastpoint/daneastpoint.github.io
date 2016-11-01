@@ -281,7 +281,7 @@ li.dropdown:hover > ul.dropdown-menu {
     letter-spacing: 0.08em!important;
     text-transform: uppercase;
 }
-.dropdown-section>li>a {
+.dropdown-section>p {
     padding: 10px 25px 10px 10px!important;
     font-size: 18px;
     font-weight: 200!important;
