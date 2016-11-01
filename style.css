@@ -274,9 +274,9 @@ li.dropdown:hover > ul.dropdown-menu {
     text-decoration: none!important;
 }
 a.dropdownpop {
-    color: #3ecf8e;
-    font-weight: 400;
-    letter-spacing: 0.05em;
+    color: #3ecf8e!important;
+    font-weight: 400!important;
+    letter-spacing: 0.05em!important;
     text-transform: uppercase;
 }
 .dropdown-section>li>a {
