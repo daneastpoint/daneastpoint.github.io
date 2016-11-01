@@ -282,7 +282,7 @@ li.dropdown:hover > ul.dropdown-menu {
     text-transform: uppercase;
 }
 .dropdown-section>li>a.dropdowncontact {
-    padding: 10px 25px 10px 10px!important;
+    padding: 10px 25px 10px 0px!important;
     font-size: 20px;
     color: #3ecf8e!important;
     font-weight: 400!important;
@@ -298,7 +298,7 @@ li.dropdown:hover > ul.dropdown-menu {
     text-decoration: none!important;
     margin: 0px;
 }
-.dropdown-section>li>a.dropdownsimple, .dropdown-section>li>a.dropdowncontact {
+.dropdown-section>li>a.dropdownsimple {
     padding: 10px 25px 10px 0px!important;
     font-size: 18px;
     font-weight: 200!important;
