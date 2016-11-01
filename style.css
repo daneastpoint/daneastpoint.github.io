@@ -16,7 +16,7 @@ body {
     }
     .section-content-has-diagonal-left-to-right {
         height: 50px!important;
-        bottom: -20px!important;
+        top: 30px!important;
     }
 }
 .section-content-has-diagonal-left-to-right {
@@ -24,7 +24,7 @@ body {
     -webkit-transform: skew(0deg, -10deg);
     transform: skew(0deg, -6deg);
     position: relative;
-    bottom: -245px;
+    top: -330px;
 }
 /* CONTAINERS + SECTIONS */
 /* BUTTONS */
