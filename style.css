@@ -28,20 +28,23 @@ body {
 }
 /* CONTAINERS + SECTIONS */
 /* BUTTONS */
+.standard-button-group {
+    margin-top: 40px;
+}
 .button-standard-action {
     white-space: nowrap;
     display: inline-block;
     height: 40px;
     line-height: 40px;
     padding: 0 14px;
-    box-shadow: 0 1px 3px rgba(0,0,0,.08);
+    box-shadow: 0 4px 10px rgba(0,0,0,.08);
     background: #fff;
     border-radius: 4px;
     font-size: 14px;
-    font-weight: 200;
+    font-weight: 400;
     text-transform: uppercase;
     letter-spacing: .05em;
-    color: #6772e5;
+    color: #1fa2ff;
     text-decoration: none;
     -webkit-transition: all .15s ease;
     transition: all .15s ease;
@@ -52,11 +55,11 @@ body {
     height: 40px;
     line-height: 40px;
     padding: 0 14px;
-    box-shadow: 0 1px 3px rgba(0,0,0,.08);
-    background: #6772e5;
+    box-shadow: 0 4px 10px rgba(0,0,0,.08);
+    background: #1fa2ff;
     border-radius: 4px;
     font-size: 14px;
-    font-weight: 200;
+    font-weight: 400;
     text-transform: uppercase;
     letter-spacing: .05em;
     color: #fff;
