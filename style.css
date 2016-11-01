@@ -272,7 +272,7 @@ li.dropdown:hover > ul.dropdown-menu {
     text-decoration: none!important;
 }
 .dropdown-section>li>a {
-    padding: 10px 25px!important;
+    padding: 10px 25px 10px 10px!important;
     font-size: 18px;
     font-weight: 200!important;
     color: #6b7c93!important;
