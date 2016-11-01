@@ -41,14 +41,15 @@ body {
 }
 .header-diagonal-one {
     position: absolute;
-    height: 100px;
+    background: rgba(71,80,255,0.9);
+    height: 150px;
     -webkit-transform: skew(0deg, -6deg);
     transform: skew(0deg, -6deg);
-    bottom: 0px;
-    width: 100vw;
+    top: 70px;
+    width: 20vw;
     left: 0px;
-    z-index: -100;
-    box-shadow: 10px 3px 30px rgba(0,0,0,0.1), 0 -20px 30px rgba(0,0,0,0.3);
+    z-index: 100;
+    box-shadow: 0 3px 20px rgba(0,0,0,0.1);
 }
 /* CONTAINERS + SECTIONS */
 /* BUTTONS */
