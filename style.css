@@ -91,6 +91,11 @@ body {
     transition: all .15s ease;
 }
 /* BUTTONS */
+/* ICONS */
+.medium-service-icon {
+    margin-bottom: 40px;
+}
+/* ICONS */
 /* LISTS */
 .footertop ul {
     margin: 0px;
