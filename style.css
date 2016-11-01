@@ -28,15 +28,27 @@ body {
     width: 100vw;
     left: 0px;
 }
-.section-content-has-diagonal-right-to-left {
+.header-diagonal-three {
     position: absolute;
-    height: 150px;
+    height: 330px;
+    -webkit-transform: skew(0deg, 6deg);
+    transform: skew(0deg, -6deg);
+    bottom: 0px;
+    width: 100vw;
+    left: 0px;
+    z-index: -100;
+    box-shadow: 10px 3px 30px rgba(0,0,0,0.1), 0 -20px 30px rgba(0,0,0,0.3);
+}
+.header-diagonal-three {
+    position: absolute;
+    height: 100px;
     -webkit-transform: skew(0deg, -10deg);
     transform: skew(0deg, 1deg);
     bottom: 0px;
     width: 100vw;
     left: 0px;
     z-index: -100;
+    box-shadow: 10px 3px 30px rgba(0,0,0,0.1), 0 -20px 30px rgba(0,0,0,0.3);
 }
 /* CONTAINERS + SECTIONS */
 /* BUTTONS */
