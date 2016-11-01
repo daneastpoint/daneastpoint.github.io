@@ -27,9 +27,21 @@ body {
 .nopadding {
     padding: 0px!important;
 }
+.nopaddingleft {
+    padding-left: 0px;
+}
+.nopaddingright {
+    padding-right: 0px;
+}
 @media screen and (max-width: 640px) {
     .nopaddingmobile {
         padding: 0px!important;
+    }
+    .nopaddingleft {
+        padding-left: initial!important;
+    }
+    .nopaddingright {
+        padding-right: initial!important;
     }
 }
 
@@ -93,9 +105,9 @@ body {
 }
 .whitebg p {
     color: #6b7c93;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 200;
-    line-height: 20px;
+    line-height: 24px;
     letter-spacing: 0.05em;
     margin: 0px;
 }
