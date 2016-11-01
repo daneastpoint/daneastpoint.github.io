@@ -245,8 +245,8 @@ body {
     letter-spacing: 0.08em;
 }
 .nav>li>a:focus, .nav>li>a:hover {
-    text-decoration: none;
-    background-color: none;
+    text-decoration: none!important;
+    background-color: none!important;
     color: rgba(255,255,255,0.6);
 }
 .nav>li>a {
