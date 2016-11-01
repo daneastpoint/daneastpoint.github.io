@@ -259,7 +259,7 @@ li.dropdown:hover > ul.dropdown-menu {
     padding: 15px 0px!important;
     border-radius: 6px!important;
 }
-.dropdown-menu>li>a {
+.epdropdown>li>a {
     padding: 10px 25px;
     font-size: 18px;
     font-weight: 200;
