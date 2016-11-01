@@ -269,6 +269,7 @@ li.dropdown:hover > ul.dropdown-menu {
     font-size: 18px;
     font-weight: 200!important;
     color: #6b7c93!important;
+    text-decoration: none!important;
 }
 .service {
     margin-right: 50px;
