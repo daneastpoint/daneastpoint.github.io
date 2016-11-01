@@ -247,11 +247,13 @@ body {
 /* NAVBAR */
 
 /* PAGE HEADERS */
+.epheaderhomebg {
+    background: rgba(5,213,255,0.9);
+}
 header, .skewed-gb {
     margin-bottom: 114px;
 } 
-.skewed-bg {
-    background: rgba(166,255,203,0.9);   
+.skewed-bg { 
     padding: 200px 0;
     transform: skew(0deg, -6deg);
     margin-top: -200px;
