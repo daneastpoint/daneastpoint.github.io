@@ -37,7 +37,7 @@ body {
     display: block;
 }
 .button {
-    margin: 15px;
+    margin: 15px 15px 15px 0px;
 }
 .button-standard-action {
     white-space: nowrap;
