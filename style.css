@@ -33,6 +33,9 @@ body {
     width: 100%;
     display: block;
 }
+.button {
+    margin-bottom: 10px;
+}
 .button-standard-action {
     white-space: nowrap;
     display: inline-block;
