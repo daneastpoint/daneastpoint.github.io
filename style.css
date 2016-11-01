@@ -37,11 +37,11 @@ body {
     .nopaddingmobile {
         padding: 0px!important;
     }
-    .nopaddingleft {
-        padding-left: initial!important;
+    .paddingleft {
+        padding-left: 15px!important;
     }
-    .nopaddingright {
-        padding-right: initial!important;
+    .paddingright {
+        padding-right: 15px!important;
     }
 }
 
