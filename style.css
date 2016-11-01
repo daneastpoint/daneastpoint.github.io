@@ -255,6 +255,17 @@ body {
 li.dropdown:hover > ul.dropdown-menu {
     display: block;    
 }
+.dropdown-menu {
+    padding: 15px 0px!important;
+    border-radius: 6px!important;
+}
+.dropdown-menu>li>a {
+    padding: 10px 25px;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 26;
+    color: #8898aa;
+}
 .service {
     margin-right: 50px;
 }
