@@ -260,11 +260,10 @@ li.dropdown:hover > ul.dropdown-menu {
     border-radius: 6px!important;
 }
 .epdropdown>li>a {
-    padding: 10px 25px;
+    padding: 10px 25px!important;
     font-size: 18px;
-    font-weight: 200;
-    line-height: 26;
-    color: #8898aa;
+    font-weight: 200!important;
+    color: #6b7c93!important;
 }
 .service {
     margin-right: 50px;
