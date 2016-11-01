@@ -16,7 +16,7 @@ body {
     }
     .section-content-has-diagonal-left-to-right {
         height: 50px!important;
-        top: 30px!important;
+        top: -20px!important;
     }
 }
 .section-content-has-diagonal-left-to-right {
@@ -24,7 +24,7 @@ body {
     height: 150px;
     -webkit-transform: skew(0deg, -10deg);
     transform: skew(0deg, -6deg);
-    top: -70px!important;
+    top: -70px;
     width: 100vw;
     left: 0px;
 }
