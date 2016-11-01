@@ -18,7 +18,9 @@ body {
 .section-content-has-diagonal-left-to-right {
     height: 195px;
     -webkit-transform: skew(0deg, -10deg);
-    transform: skew(0deg, -10deg);
+    transform: skew(0deg, -6deg);
+    position: relative;
+    bottom: -245px;
 }
 /* CONTAINERS + SECTIONS */
 /* LISTS */
