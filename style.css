@@ -246,7 +246,7 @@ body {
 }
 .nav>li>a:focus, .nav>li>a:hover {
     text-decoration: none!important;
-    background-color: none!important;
+    background-color: transparent!important;
     color: rgba(255,255,255,0.6);
 }
 .nav>li>a {
