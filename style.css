@@ -258,6 +258,7 @@ li.dropdown:hover > ul.dropdown-menu {
 .dropdown-menu {
     padding: 15px 0px 0px 0px!important;
     border-radius: 6px!important;
+    overflow: hidden;
 }
 .dropdown-section {
     padding: 15px;
