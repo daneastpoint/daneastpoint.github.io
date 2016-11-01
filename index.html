@@ -221,13 +221,8 @@
 <!-- FOOTER BOTTOM END -->
 </body>
 <script>
-$(document).ready(function() {
-    $("a.dropdown-toggle").hover(
-    function() {
-        $(this).css('background-color', '#5cb85c')
-    }, function() {
-        $(this).css('background-color', 'rgba(0,0,0,0.2)')
-    });
+$(document).ready(function(){
+    $(".dropdown-toggle").dropdown();
 });
 </script>
 </html>
