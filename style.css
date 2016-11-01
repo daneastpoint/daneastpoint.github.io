@@ -30,6 +30,8 @@ body {
 /* BUTTONS */
 .standard-button-group {
     margin-top: 40px;
+    width: 100%;
+    display: block;
 }
 .button-standard-action {
     white-space: nowrap;
@@ -50,6 +52,24 @@ body {
     transition: all .15s ease;
 }
 .button-important-action {
+    white-space: nowrap;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 14px;
+    box-shadow: 0 4px 10px rgba(0,0,0,.08);
+    background: #1fa2ff;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    color: #fff;
+    text-decoration: none;
+    -webkit-transition: all .15s ease;
+    transition: all .15s ease;
+}
+.button-vimportant-action {
     white-space: nowrap;
     display: inline-block;
     height: 40px;
