@@ -276,10 +276,10 @@ $(document).ready(function(){
 $(window).scroll(function() {    
     var scroll = $(window).scrollTop();
 
-    if(scroll >= 1) {
+    if(scroll >= 100) {
         $(".navbar").addClass("navbar-fixed-top fixed-bg").fadeIn();
         /*$(".navbar").addClass("fixed-bg").fadeIn();*/
-    } else {
+    } else(scroll <= 100) {
         $(".navbar").removeClass("navbar-fixed-top fixed-bg").fadeOut();
         /*$(".fixed-bg").fadeOut();*/
     }
