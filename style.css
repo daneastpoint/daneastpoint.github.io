@@ -369,12 +369,11 @@ li.dropdown:hover > ul.dropdown-menu {
 }
 .skewed-bg { 
     padding: 10px 0;
-    transform: skew(0deg, -6deg);
     position: relative;
     z-index: 100;
 }  
 #intro {
-    transform: skew(0deg, 6deg);
+    padding-top: 30vh;
     text-align: left;
 }
 
