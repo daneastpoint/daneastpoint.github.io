@@ -179,7 +179,7 @@
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 nopaddingmobile">
-                <div class="epnewscontent">
+                <div id="bounce" class="epnewscontent">
                     <div class="epnewsimage">
                     </div>
                     <div class="epnewstext">
@@ -272,6 +272,10 @@
 <script>
 $(document).ready(function(){
     $(".dropdown-toggle").dropdown();
+    $('#bounce').hover(
+       function(){ $(this).addClass('hover-bounce') },
+       function(){ $(this).removeClass('hover-bounce') }
+)
 });
 $(window).scroll(function() {    
     var scroll = $(window).scrollTop();
@@ -279,21 +283,9 @@ $(window).scroll(function() {
     if(scroll >= 300) {
         $(".navbar").addClass("navbar-fixed-top").fadeIn();
         $(".navbar").addClass("fixed-bg").fadeIn();
-        /*$(".navbar").addClass("fixed-bg").fadeIn();*/
     } else {
         $(".navbar").removeClass("fixed-bg").fadeOut();
         $(".navbar").removeClass("navbar-fixed-top").fadeOut();
-        /*$(".fixed-bg").fadeOut();*/
     }
-});
-/*$(window).scroll(function() {    
-    var scroll = $(window).scrollTop();
-
-    if(scroll >= 400) {
-        $(".navbar").addClass("fixed-bg").fadeIn();
-    } else {
-        $(".navbar").removeClass("fixed-bg").fadeOut();
-    }
-});*/
 </script>
 </html>
