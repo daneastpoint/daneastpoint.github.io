@@ -291,11 +291,13 @@ $(window).scroll(function() {
     if(scroll >= 300) {
         $(".navbar").addClass("navbar-fixed-top").fadeIn();
         $(".contact").addClass("contact-appear");
+        $(".company").css("margin-left: 0px;");
         $(".navbar").addClass("fixed-bg").fadeIn();
     } else {
         $(".navbar").removeClass("fixed-bg").fadeOut();
         $(".navbar").removeClass("navbar-fixed-top").fadeOut();
         $(".contact").removeClass("contact-appear");
+        $(".company").css("margin-left: initial;")
     }
 });
 $(document).ready(function(){
