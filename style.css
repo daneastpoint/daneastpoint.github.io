@@ -356,9 +356,6 @@ li.dropdown:hover > ul.dropdown-menu {
 .epheaderhomebg {
     background: linear-gradient(rgba(71,80,255,1)60%, rgba(71,80,255,0));
 }
-header, .skewed-gb {
-    margin-bottom: 114px;
-} 
 .skewed-bg { 
     padding: 200px 0;
     transform: skew(0deg, -6deg);
