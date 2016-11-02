@@ -236,6 +236,9 @@ body {
 .fixed-bg {
     background-color: rgba(31,162,255,0.7)!important;
 }
+.navbar {
+    display: block;
+}
 .nav {
     z-index: 1000;
     background-color: transparent;
