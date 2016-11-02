@@ -74,7 +74,7 @@ body {
     margin: 15px 15px 15px 0px;
 
 }
-.button a:hover {
+.button>a:hover {
     text-decoration: none;
 }
 .button-standard-action, .button-important-action, .button-vimportant-action {
