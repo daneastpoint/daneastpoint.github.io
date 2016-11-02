@@ -30,25 +30,25 @@ body {
 }
 .header-diagonal-four {
     position: absolute;
-    background-color: rgba(5,213,255,0.2);
+    background-color: rgba(5,213,255,0.3);
     height: 330px;
     -webkit-transform: skew(0deg, 1deg);
     transform: skew(0deg, 1deg);
     top: 145px;
-    width: 50vw;
+    width: 45vw;
     right: 0px;
-    box-shadow: 0 0px 20px rgba(0,0,0,0.1);
+    box-shadow: 10px -6px 20px rgba(0,0,0,0.03);
 }
 .header-diagonal-three {
     position: absolute;
     height: 330px;
     -webkit-transform: skew(0deg, 1deg);
-    transform: skew(0deg, 1deg);
-    top: 140px;
-    width: 100vw;
-    left: 0px;
-    z-index: -100;
-    box-shadow: 10px 3px 30px rgba(0,0,0,0.1), 0 -20px 30px rgba(0,0,0,0.3);
+    transform: skew(0deg, 4deg);
+    top: -7px;
+    width: 23vw;
+    right: 0px;
+    /* z-index: -100; */
+    box-shadow: 0px -10px 20px rgba(0,0,0,0.08);
 }
 .header-diagonal-two {
     position: absolute;
@@ -60,19 +60,19 @@ body {
     top: 50px;
     width: 100vw;
     left: 0px;
-    /* box-shadow: 10px 3px 30px rgba(0,0,0,0.1), 0 -20px 30px rgba(0,0,0,0.3); */
+    box-shadow: 0px -1px 30px rgba(0,0,0,0.1);
 }
 .header-diagonal-one {
     position: absolute;
-    background: rgb(71,80,255);
-    height: 150px;
+    background: rgba(71,80,255,0.8);
+    height: 200px;
     -webkit-transform: skew(0deg, -6deg);
     transform: skew(0deg, -6deg);
-    top: 70px;
-    width: 20vw;
+    top: -12px;
+    width: 25vw;
     left: 0px;
     z-index: 100;
-    box-shadow: -8px 3px 20px rgba(0,0,0,0.1);
+    box-shadow: 2px -5px 30px rgba(0,0,0,0.08);
 }
 /* CONTAINERS + SECTIONS */
 /* BUTTONS */
@@ -370,6 +370,8 @@ li.dropdown:hover > ul.dropdown-menu {
 .skewed-bg { 
     padding: 10px 0;
     transform: skew(0deg, -6deg);
+    position: relative;
+    z-index: 100;
 }  
 #intro {
     transform: skew(0deg, 6deg);
