@@ -505,3 +505,15 @@ li.dropdown:hover > ul.dropdown-menu {
     margin: 0px;
 }
 /* FOOTER */
+/* INTERCOM */
+.epintercom {
+    display: none;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+}
+.epintercom-appear {
+    display: block;
+}
+/* INTERCOM */

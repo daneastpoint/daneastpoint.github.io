@@ -130,7 +130,7 @@
 <!-- HEADER TEST END -->
 <!-- INTERCOM CHAT -->
 <div role="chat pop up" style="height: inherit; width: 100vw; position: relative; top: 0px;">
-    <div style="width: inherit; position: fixed; bottom: 0px; z-index: 1000;">
+    <div class="epintercom" style="width: inherit; position: fixed; bottom: 0px; z-index: 1000;">
         <a href="#" title="button title" class="button button-important-action bounce" style="float: right;"><i class="fa fa-commenting-o" aria-hidden="true"></i> Chat</a>   
     </div>
 </div>
@@ -298,6 +298,15 @@ $(document).ready(function(){
        function(){ $(this).addClass('hover-bounce') },
        function(){ $(this).removeClass('hover-bounce') }
     )
+});
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+
+    if(scroll >= 500) {
+        $(".epintercom").addClass("epintercom-appear");
+    } else {
+        $(".epintercom").removeClass("epintercom-appear");
+    }
 });
 </script>
 </html>
