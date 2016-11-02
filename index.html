@@ -159,7 +159,7 @@
         <!-- SECTION HAS DIAGONAL END -->
         <div class="greybg container-extend">
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 nopaddingmobile">
-                <div class="epnewscontent">
+                <div class="epnewscontent bounce">
                     <div class="epnewsimage">
                     </div>
                     <div class="epnewstext">
@@ -169,7 +169,7 @@
                 </div>
             </div>
             <div class="greybg col-lg-4 col-md-4 col-sm-12 col-xs-12 nopaddingmobile">
-                <div class="epnewscontent">
+                <div class="epnewscontent bounce">
                     <div class="epnewsimage">
                     </div>
                     <div class="epnewstext">
@@ -179,7 +179,7 @@
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 nopaddingmobile">
-                <div id="bounce" class="epnewscontent">
+                <div class="epnewscontent bounce">
                     <div class="epnewsimage">
                     </div>
                     <div class="epnewstext">
@@ -285,7 +285,7 @@ $(window).scroll(function() {
     }
 });
 $(document).ready(function(){
-    $('#bounce').hover(
+    $('.bounce').hover(
        function(){ $(this).addClass('hover-bounce') },
        function(){ $(this).removeClass('hover-bounce') }
     )
