@@ -131,10 +131,10 @@ body {
 /* ANIMATIONS */
 .hover-bounce {
     bottom: 5px;
-    -webkit-transition: all 1s ease-in-out;
-    -moz-transition: all 1s ease-in-out;
-    -o-transition: all 1s ease-in-out;
-    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
 }
 /* ANIMATIONS */
 /* ICONS */
@@ -376,10 +376,11 @@ header, .skewed-gb {
     box-sizing: border-box;
     box-shadow: 0px 8px 20px rgba(0,0,0,0.1);
     position: relative;
-    -webkit-transition: all 1s ease-in-out;
-    -moz-transition: all 1s ease-in-out;
-    -o-transition: all 1s ease-in-out;
-    transition: all 1s ease-in-out;
+    bottom: 0px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
 }
 .epnewsimage {
     background-color: rgba(0,0,0,0.2);
