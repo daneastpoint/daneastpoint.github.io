@@ -234,7 +234,7 @@ body {
 /* TYPOGRAPHY */
 /* NAVBAR */
 .navbar-fixed-top {
-    background-color: rgba(166,255,203,0.9);
+    background-color: rgba(166,255,203,0.9)!important;
 }
 .nav {
     z-index: 1000;
