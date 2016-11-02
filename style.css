@@ -517,5 +517,9 @@ li.dropdown:hover > ul.dropdown-menu {
 .epintercom-appear {
     display: block;
     margin-bottom: 0px;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
 }
 /* INTERCOM */
