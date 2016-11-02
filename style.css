@@ -74,9 +74,6 @@ body {
     margin: 15px 15px 15px 0px;
 
 }
-.button>a:hover {
-    text-decoration: none;
-}
 .button-standard-action, .button-important-action, .button-vimportant-action {
     position: relative;
     bottom: 0px;
@@ -200,6 +197,9 @@ body {
 }
 /* SECTION BACKGROUND */
 /* TYPOGRAPHY */
+a:hover {
+    text-decoration: none;
+}
 .greybg h3 {
     color: #8898aa;
     font-size: 20pt;
