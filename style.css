@@ -340,6 +340,17 @@ li.dropdown:hover > ul.dropdown-menu {
 .service {
     margin-right: 50px;
 }
+/* MOBILE NAV */
+.navbar-toggle {
+    padding: 5px 0px;
+}
+.navbar-toggle .icon-bar {
+    width: 28px;
+    height: 4px;
+    border-radius: 6px;
+    background: #fff;
+}
+/* MOBILE NAV */
 /* NAVBAR */
 
 /* PAGE HEADERS */
