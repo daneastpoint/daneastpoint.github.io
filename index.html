@@ -278,11 +278,13 @@ $(window).scroll(function() {
 
     if(scroll >= 500) {
         $(".navbar").addClass("navbar-fixed-top");
+        $(".navbar").addClass("fixed-bg").fadeIn();
     } else {
         $(".navbar").removeClass("navbar-fixed-top");
+        $(".navbar").removeClass("fixed-bg").fadeOut();
     }
 });
-$(window).scroll(function() {    
+/*$(window).scroll(function() {    
     var scroll = $(window).scrollTop();
 
     if(scroll >= 400) {
@@ -290,6 +292,6 @@ $(window).scroll(function() {
     } else {
         $(".navbar").removeClass("fixed-bg").fadeOut();
     }
-});
+});*/
 </script>
 </html>
