@@ -234,6 +234,7 @@ body {
 /* TYPOGRAPHY */
 /* NAVBAR */
 .navbar-fixed-top {
+    opacity: 1;
     background-color: rgba(31,162,255,0.7)!important;
     transition: opacity .25s ease-in-out;
    -moz-transition: opacity .25s ease-in-out;
