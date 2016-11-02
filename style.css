@@ -233,6 +233,9 @@ body {
 }
 /* TYPOGRAPHY */
 /* NAVBAR */
+.navbar-fixed-top {
+    background-color: rgba(166,255,203,0.9);
+}
 .nav {
     z-index: 1000;
     background-color: transparent;
