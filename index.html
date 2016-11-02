@@ -281,6 +281,9 @@ $(window).scroll(function() {
     } else {
         $(".navbar").removeClass("navbar-fixed-top");
     }
+});
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
 
     if(scroll >= 500) {
         $(".navbar").css("background-color: #333;");
