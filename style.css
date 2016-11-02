@@ -262,7 +262,7 @@ a:hover {
     border: 0px;
 }
 .nav a {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 200;
     color: rgba(255,255,255,1);
     letter-spacing: 0.08em;
@@ -290,15 +290,15 @@ li.dropdown:hover > ul.dropdown-menu {
     background-color: #f6f9fc;
 }
 .epdropdown>li>a.dropdownsimple, .epdropdown>li>a {
-    padding: 10px 25px!important;
-    font-size: 18px;
+    padding: 5px 25px!important;
+    font-size: 14px;
     font-weight: 200!important;
     color: #6b7c93!important;
     text-decoration: none!important;
 }
 .epdropdown>li>a.dropdownpop {
     padding: 10px 25px;
-    font-size: 18px;
+    font-size: 14px;
     color: #1fa2ff!important;
     font-weight: 400!important;
     letter-spacing: 0.08em!important;
@@ -314,7 +314,7 @@ li.dropdown:hover > ul.dropdown-menu {
 }
 .dropdown-section>p {
     padding: 10px 25px 10px 10px!important;
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 200!important;
     color: #6b7c93!important;
     letter-spacing: 0.05em;
