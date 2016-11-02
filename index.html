@@ -272,10 +272,6 @@
 <script>
 $(document).ready(function(){
     $(".dropdown-toggle").dropdown();
-    $('#bounce').hover(
-       function(){ $(this).addClass('hover-bounce') },
-       function(){ $(this).removeClass('hover-bounce') }
-)
 });
 $(window).scroll(function() {    
     var scroll = $(window).scrollTop();
@@ -287,5 +283,6 @@ $(window).scroll(function() {
         $(".navbar").removeClass("fixed-bg").fadeOut();
         $(".navbar").removeClass("navbar-fixed-top").fadeOut();
     }
+});
 </script>
 </html>
