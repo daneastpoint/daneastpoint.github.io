@@ -28,6 +28,18 @@ body {
     width: 100vw;
     left: 0px;
 }
+.header-diagonal-four {
+    position: absolute;
+    background-color: rgba(166,255,203,0.9);
+    height: 330px;
+    -webkit-transform: skew(0deg, 1deg);
+    transform: skew(0deg, 1deg);
+    top: 140px;
+    width: 100vw;
+    left: 0px;
+    z-index: -100;
+    box-shadow: 10px 3px 30px rgba(0,0,0,0.1), 0 -20px 30px rgba(0,0,0,0.3);
+}
 .header-diagonal-three {
     position: absolute;
     height: 330px;
