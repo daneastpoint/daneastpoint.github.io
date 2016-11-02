@@ -88,6 +88,9 @@
                     </ul>
                 </li>
             </ul>
+            <ul class="nav navbar-nav contact" style="margin-left: 5vw;">
+                <li><a href="#" class="">01234 567 890</a></li>
+            </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>
@@ -287,10 +290,12 @@ $(window).scroll(function() {
 
     if(scroll >= 300) {
         $(".navbar").addClass("navbar-fixed-top").fadeIn();
+        $(".contact").addClass("contact-appear");
         $(".navbar").addClass("fixed-bg").fadeIn();
     } else {
         $(".navbar").removeClass("fixed-bg").fadeOut();
         $(".navbar").removeClass("navbar-fixed-top").fadeOut();
+        $(".contact").removeClass("contact-appear");
     }
 });
 $(document).ready(function(){
