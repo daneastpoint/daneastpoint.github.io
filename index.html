@@ -276,11 +276,11 @@ $(document).ready(function(){
 $(window).scroll(function() {    
     var scroll = $(window).scrollTop();
 
-    if(scroll >= 100) {
+    if(scroll >= 1) {
         $(".navbar").addClass("navbar-fixed-top fixed-bg").fadeIn();
         /*$(".navbar").addClass("fixed-bg").fadeIn();*/
     } else {
-        $(".navbar").removeClass("navbar-fixed-top");
+        $(".navbar").removeClass("navbar-fixed-top fixed-bg").fadeOut();
         /*$(".fixed-bg").fadeOut();*/
     }
 });
