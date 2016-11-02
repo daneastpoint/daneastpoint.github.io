@@ -357,7 +357,7 @@ header, .skewed-gb {
 #intro {
     transform: skew(0deg, 6deg);
     text-align: left;
-    margin-top: 20vh;
+    margin-top: 15vh;
 }
 
 #intro h2 {
