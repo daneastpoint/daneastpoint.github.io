@@ -130,7 +130,7 @@ body {
 /* BUTTONS */
 /* ANIMATIONS */
 .hover-bounce {
-    bottom: 5px;
+    bottom: 5px!important;
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
