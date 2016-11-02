@@ -130,7 +130,9 @@ body {
 /* BUTTONS */
 /* ANIMATIONS */
 .hover-bounce {
-    bottom: 10px;
+    bottom: 5px;
+    -webkit-transition: all .15s ease;
+    transition: all .15s ease;
 }
 /* ANIMATIONS */
 /* ICONS */
