@@ -235,6 +235,9 @@ body {
 /* NAVBAR */
 .navbar-fixed-top {
     background-color: rgba(31,162,255,0.7)!important;
+    transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
 }
 .nav {
     z-index: 1000;
