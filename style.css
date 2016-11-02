@@ -366,6 +366,10 @@ li.dropdown:hover > ul.dropdown-menu {
 .contact-appear {
     display: block;
 }
+a.navcontact {
+    font-weight: 600;
+    padding-right: 0px;
+}
 /* MOBILE NAV */
 /* NAVBAR */
 
