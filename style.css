@@ -237,7 +237,7 @@ body {
     background-color: rgba(31,162,255,0.7)!important;
 }
 .navbar {
-    display: block;
+    display: block!important;
 }
 .nav {
     z-index: 1000;
