@@ -72,6 +72,12 @@ body {
 }
 .button {
     margin: 15px 15px 15px 0px;
+    bottom: 0px;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+
 }
 .button-standard-action {
     white-space: nowrap;
