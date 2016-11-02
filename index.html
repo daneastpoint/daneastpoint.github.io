@@ -284,5 +284,11 @@ $(window).scroll(function() {
         $(".navbar").removeClass("navbar-fixed-top").fadeOut();
     }
 });
+$(document).ready(function(){
+    $('#bounce').hover(
+       function(){ $(this).addClass('hover-bounce') },
+       function(){ $(this).removeClass('hover-bounce') }
+    )
+});
 </script>
 </html>
