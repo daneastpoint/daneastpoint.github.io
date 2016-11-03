@@ -295,11 +295,13 @@ li.dropdown:hover > ul.dropdown-menu {
     overflow: hidden;
     border: 0px!important;
     box-shadow: 0 4px 10px rgba(0,0,0,.08)!important;
-    top: 70px;
 }
 .dropdown-section {
     padding: 15px;
     background-color: #f6f9fc;
+}
+.epdropdown {
+    top: 70px;
 }
 .epdropdown>li>a.dropdownsimple, .epdropdown>li>a {
     padding: 5px 25px!important;
