@@ -262,7 +262,7 @@ a:hover {
 /* TYPOGRAPHY */
 /* NAVBAR */
 .fixed-bg {
-    background-color: rgba(64,176,255,0.8)!important;
+    background-color: rgba(64,176,255,0.99)!important;
 }
 .navbar {
     display: block!important;
