@@ -269,7 +269,7 @@ a:hover {
     letter-spacing: 1px;
     margin: 0px;
 }
-.whitebg>h4.tip {
+h4.tip {
     background: #333;
     display: -webkit-inline-box;
     border-radius: 4px;
