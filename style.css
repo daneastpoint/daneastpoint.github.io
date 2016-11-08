@@ -249,7 +249,7 @@ a:hover {
     letter-spacing: 1px;
     margin: 0px;
 }
-.whitebg h2 {
+.whitebg h2, .greybg h2 {
     color: #8898aa;
     font-size: 20pt;
     font-weight: 200;
@@ -292,7 +292,7 @@ h3.call {
     font-weight: 600;
     color: #fff;
 }
-.whitebg p {
+.whitebg p, .whitebg p {
     color: #6b7c93;
     font-size: 16px;
     font-weight: 200;
