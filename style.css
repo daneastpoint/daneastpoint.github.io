@@ -479,18 +479,18 @@ a.navcontact {
     position: absolute;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    top: 0px;
+    bottom: 0px;
     padding: 15px;
 }
 .epnewstext {
     background-color: #fff;
-    height: initial;
+    height: inherit;
     width: 100%;
     padding: 15px;
     position: absolute;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    bottom: 0px;
+    top: 0px;
 }
 .epnewstext h2 {
     color: #1fa2ff;
