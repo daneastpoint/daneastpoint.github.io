@@ -487,6 +487,8 @@ a.navcontact {
     height: auto;
     width: 100%;
     padding: 15px;
+    position: absolute;
+    top: 55px;
 }
 .epnewsposttype {
     background-color: #fff;
