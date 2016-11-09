@@ -492,6 +492,16 @@ a.navcontact {
     border-bottom-right-radius: 5px;
     top: 0px;
 }
+.epnewsposttype {
+    background-color: #fff;
+    height: inherit;
+    width: 100%;
+    padding: 15px;
+    position: absolute;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    top: 0px;
+}
 .epnewstext h2 {
     color: #1fa2ff;
     font-size: 12pt;
