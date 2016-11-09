@@ -474,19 +474,19 @@ a.navcontact {
     transition: all .25s ease;
 }
 .epnewsimage {
-    background-color: rgba(0,0,0,0.2);
-    height: 120px;
+    height: inherit;
     width: 100%;
     position: absolute;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     top: 0px;
+    padding: 15px;
 }
 .epnewstext {
     background-color: #fff;
     height: initial;
     width: 100%;
-    padding: 25px;
+    padding: 15px;
     position: absolute;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
