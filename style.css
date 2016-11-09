@@ -494,12 +494,13 @@ a.navcontact {
 }
 .epnewsposttype {
     background-color: #fff;
-    height: inherit;
+    height: auto;
     width: 100%;
     padding: 15px;
     position: absolute;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-bottom: 2px solid #f6f9fc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     top: 0px;
 }
 .epnewstext h2 {
