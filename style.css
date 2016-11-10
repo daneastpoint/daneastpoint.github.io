@@ -485,6 +485,7 @@ a.navcontact {
 .callus {
     position: absolute;
     bottom: 0px;
+    background: rgba(0,0,0,0.2);
 }
 /* PAGE HEADERS */
 /* RECENT POSTS */
