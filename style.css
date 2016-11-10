@@ -461,6 +461,22 @@ a.navcontact {
     background: -webkit-linear-gradient(300deg,rgba(87,111,230,0.95) 15%,rgba(152,68,183,0.9) 70%,rgba(255,53,127,0.9) 94%);
     background: linear-gradient(150deg,rgba(87,111,230,0.95) 15%,rgba(152,68,183,0.9) 70%,rgba(255,53,127,0.95) 94%);
 }
+.gradient-bg h2 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0.03em;
+    margin: 0px;
+}
+.gradient-bg p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    margin: 0px;
+}
 /* PAGE HEADERS */
 /* RECENT POSTS */
 .epnewscontent {
