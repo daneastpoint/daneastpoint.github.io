@@ -457,7 +457,10 @@ a.navcontact {
     margin: 20px 0px 0px 0px;
     letter-spacing: 0.01em;
 }
-
+.gradient-bg {
+    background: -webkit-linear-gradient(300deg,#53f 15%,#05d5ff 70%,#a6ffcb 94%);
+    background: linear-gradient(150deg,#53f 15%,rgba(5,213,255,0.9) 70%,rgba(166,255,203,0.9) 94%);
+}
 /* PAGE HEADERS */
 /* RECENT POSTS */
 .epnewscontent {
