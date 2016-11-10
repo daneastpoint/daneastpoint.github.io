@@ -486,9 +486,9 @@ a.navcontact {
     background-color: #fff;
     height: auto;
     width: 100%;
-    padding: 15px;
+    padding: 10px 15px;
     position: absolute;
-    top: 55px;
+    top: 42px;
 }
 .epnewsposttype {
     background-color: #fff;
@@ -511,11 +511,10 @@ a.navcontact {
     text-transform: capitalize;
 }
 .epnewstext p {
-    color: #6b7c93;
-    font-size: 14px;
-    font-weight: 200;
-    line-height: 20px;
-    letter-spacing: 0.05em;
+    color: rgba(66,71,112,0.7);
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.03em;
     margin: 0px;
 }
 @media screen and (max-width: 640px) {
