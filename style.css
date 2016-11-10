@@ -482,6 +482,10 @@ a.navcontact {
     padding-right: 12vw;
     padding-left: 12vw;
 }
+.callus {
+    position: absolute;
+    bottom: 0px;
+}
 /* PAGE HEADERS */
 /* RECENT POSTS */
 .epnewscontent {
