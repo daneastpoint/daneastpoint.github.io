@@ -294,6 +294,13 @@ a:hover {
 }
 /* TYPOGRAPHY */
 /* NAVBAR */
+.navbar-gradient {
+    width: 100vw;
+    height: 80px;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0));
+    position: fixed;
+    z-index: -1;
+}
 .fixed-bg {
     background-color: rgba(64,176,255,0.99)!important;
 }
