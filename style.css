@@ -502,11 +502,11 @@ a.navcontact {
     top: 0px;
 }
 .epnewstext h2 {
-    color: #1fa2ff;
+    color: #ff3366;
     font-size: 12pt;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 12pt;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.03em;
     margin: 0px 0px 15px 0px;
     text-transform: capitalize;
 }
