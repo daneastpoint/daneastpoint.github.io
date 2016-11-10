@@ -503,11 +503,11 @@ a.navcontact {
 }
 .epnewstext h2 {
     color: #ff3366;
-    font-size: 12pt;
+    font-size: 14pt;
     font-weight: 600;
-    line-height: 12pt;
+    line-height: 18pt;
     letter-spacing: 0.03em;
-    margin: 0px 0px 15px 0px;
+    margin: 0px 0px 10px 0px;
     text-transform: capitalize;
 }
 .epnewstext p {
