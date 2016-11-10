@@ -483,7 +483,7 @@ a.navcontact {
     padding-left: 12vw;
 }
 .callus {
-    position: absolute!important;
+    position: absolute;
     bottom: 0px;
 }
 /* PAGE HEADERS */
