@@ -313,9 +313,9 @@ a:hover {
 }
 .nav a {
     font-size: 18px;
-    font-weight: 200;
+    font-weight: 400;
     color: rgba(255,255,255,1);
-    letter-spacing: 0.05em;
+    letter-spacing: 0em;
 }
 .nav a:hover {
     color: rgba(255,255,255,0.8);
