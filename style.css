@@ -322,9 +322,7 @@ a:hover {
     letter-spacing: 0.05em;
 }
 .nav a:hover {
-    font-weight: 200;
-    color: rgba(255,255,255,0.7);
-    letter-spacing: 0.03em;
+    color: rgba(255,255,255,0.8);
 }
 .nav>li>a:focus, .nav>li>a:hover {
     text-decoration: none!important;
