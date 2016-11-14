@@ -355,21 +355,19 @@ li.dropdown:hover > ul.dropdown-menu {
     text-decoration: none!important;
 }
 .epdropdown>li>a>p {
-    padding: 10px 0px 0px 0px;
+    padding: 0px;
     font-size: 12px;
-    font-weight: 200;
+    font-weight: 400;
     color: #8898aa;
     margin: 0px;
     text-decoration: none;
     text-transform: initial;
-} 
+}
 .epdropdown>li>a.dropdownpop {
-    padding: 10px 25px;
     font-size: 14px;
-    color: #1fa2ff!important;
-    font-weight: 400!important;
-    letter-spacing: 0.08em!important;
-    text-transform: uppercase;
+    color: #6b7c93!important;
+    font-weight: 600!important;
+    letter-spacing: 0.03em!important;
 }
 .dropdown-section>li>a.dropdowncontact {
     font-size: 16px;
