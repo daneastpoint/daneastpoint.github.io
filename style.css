@@ -256,10 +256,10 @@ a:hover {
     line-height: 24pt;
     letter-spacing: 1px;
     margin: 0px 0px 30px 0px;*/
-    color: #8898aa;
-    font-size: 30px;
+    color: #333c4e;
+    font-size: 26px;
     font-weight: 600;
-    line-height: 36px;
+    line-height: 34px;
     letter-spacing: 0.03em;
     margin: 0px 0px 15px 0px;
 }
@@ -290,7 +290,7 @@ a:hover {
     font-weight: 600;
     color: #fff;
 }
-.whitebg p, .whitebg p {
+.whitebg p, .greybg p {
     color: #6b7c93;
     font-size: 16px;
     font-weight: 200;
