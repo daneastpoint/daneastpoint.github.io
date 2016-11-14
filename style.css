@@ -609,17 +609,17 @@ a.navcontact {
     text-decoration: none;
 }
 .footertop h3 {
-    font-size: 12pt;
-    font-weight: 400;
-    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
     margin-top: 0px;
     margin-bottom: 20px;
 }
 .footertop li, a {
-    font-size: 10pt;
-    line-height: 12pt;
-    font-weight: 200;
-    letter-spacing: 1px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
     margin-top: 0px;
     margin-bottom: 5px;
 }
