@@ -265,10 +265,10 @@ a:hover {
 }
 .whitebg h3, .greybg h3 {
     color: #8898aa;
-    font-size: 20pt;
+    font-size: 20px;
     font-weight: 200;
-    line-height: 24pt;
-    letter-spacing: 1px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
     margin: 0px;
 }
 .whitebg h4 {
