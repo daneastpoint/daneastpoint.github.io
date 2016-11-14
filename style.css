@@ -455,11 +455,11 @@ a.navcontact {
 }
 .gradient-bg {
     background: -webkit-linear-gradient(300deg,rgba(87,111,230,0.95) 15%,rgba(152,68,183,0.9) 70%,rgba(255,53,127,0.9) 94%);
-    background: linear-gradient(150deg,rgba(255,53,127,0.94) 15%,rgba(152,68,183,0.6) 70%,rgba(87,111,230,0.97) 94%);
+    background: linear-gradient(150deg,rgba(87,111,230,0.94) 15%,rgba(152,68,183,0.6) 70%,rgba(255,53,127,0.97) 94%);
 }
 .gradient-bg-2 {
     background: -webkit-linear-gradient(300deg,rgba(87,111,230,0.95) 15%,rgba(152,68,183,0.9) 70%,rgba(255,53,127,0.9) 94%);
-    background: linear-gradient(150deg,rgba(255,53,127,0.94) 15%,rgba(152,68,183,0.6) 70%,rgba(87,111,230,0.97) 94%);
+    background: linear-gradient(150deg,rgba(87,111,230,0.94) 15%,rgba(152,68,183,0.6) 70%,rgba(255,53,127,0.97) 94%);
 }
 .gradient-bg-content {
     margin-top: 28vh;
