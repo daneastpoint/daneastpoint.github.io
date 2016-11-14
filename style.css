@@ -232,14 +232,6 @@ body {
 a:hover {
     text-decoration: none!important;
 }
-.greybg h3 {
-    color: #8898aa;
-    font-size: 20pt;
-    font-weight: 200;
-    line-height: 24pt;
-    letter-spacing: 1px;
-    margin: 0px 0px 15px 0px;
-}
 .greybg h4 {
     color: #8898aa;
     font-size: 12pt;
@@ -268,7 +260,7 @@ a:hover {
     font-weight: 200;
     line-height: 26px;
     letter-spacing: 0.03em;
-    margin: 0px;
+    margin: 0px 0px 15px 0px;
 }
 .whitebg h4 {
     color: #8898aa;
