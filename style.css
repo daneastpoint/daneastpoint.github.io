@@ -263,7 +263,7 @@ a:hover {
     letter-spacing: 0.03em;
     margin: 0px 0px 15px 0px;
 }
-.whitebg h3 {
+.whitebg h3, .greybg h3 {
     color: #8898aa;
     font-size: 20pt;
     font-weight: 200;
