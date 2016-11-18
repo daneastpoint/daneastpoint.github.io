@@ -3,7 +3,17 @@ body {
     -webkit-font-smoothing: antialiased;
     font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
+    background: #F6F9FC;
 }
+
+hr {
+    margin: 0px;
+    border-top: 1px solid #CFD7DF;
+    max-width: 1040px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* CONTAINERS + SECTIONS */
 .container-global {
     max-width: 1040px;
@@ -587,8 +597,8 @@ a.navcontact {
 .footertop {
     height: inherit;
     background-color: #f6f9fc;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     border-bottom: 2px solid rgba(207,215,223,.25);
 }
 @media screen and (max-width:640px) {
