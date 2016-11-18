@@ -7,7 +7,7 @@ body {
 }
 
 hr {
-    border: 1px solid #CFD7DF!important;
+    border: 1px solid rgba(207,215,223,0.2)!important;
     max-width: 1040px!important;
     /*margin-left: auto!important;
     margin-right: auto!important;*/
