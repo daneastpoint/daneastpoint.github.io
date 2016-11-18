@@ -7,13 +7,13 @@ body {
 }
 
 hr {
-    border-top: 1px solid #CFD7DF!important;
+    border: 1px solid #CFD7DF!important;
     max-width: 1040px!important;
-    margin-left: auto!important;
-    margin-right: auto!important;
+    /*margin-left: auto!important;
+    margin-right: auto!important;*/
     margin-top: 0px!important;
     margin-bottom: 0px!important;
-    border: 0!important;
+    /*border: 0!important;*/
 }
 
 /* CONTAINERS + SECTIONS */
