@@ -352,9 +352,9 @@ $(window).scroll(function() {
     var scroll = $(window).scrollTop();
 
     if(scroll >= 800) {
-        $(".epservicepanel").addClass("movein");
+        $(".epservicepanel").addClass("movein").fadeIn();
     } else {
-        $(".epservicepanel").removeClass("movein");
+        $(".epservicepanel").removeClass("movein").fadeOut();
     }
 });
 $(window).scroll(function() {    
