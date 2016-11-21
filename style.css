@@ -468,7 +468,7 @@ a.navcontact {
     content: "/";
 }
 .epbreadcrumb>.active {
-    color: #CFD7DF;
+    color: #CFD7DF!important;
 }
 /* BREADCRUMB */
 /* PAGE HEADERS */
