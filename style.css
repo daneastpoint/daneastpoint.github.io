@@ -669,6 +669,10 @@ a.navcontact {
     color: #3ECF8E;
     font-weight: 800;
 }
+
+.epservicepanel>.list-group .list-group-item i {
+    color: #CFD7DF;
+}
 /* PANELS */
 /* FOOTER */
 /*#top {
