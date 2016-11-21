@@ -639,24 +639,21 @@ a.navcontact {
     border-radius: 0px;
     box-shadow: none;
     border: 0px;
+    width: 100%;
 }
 .epservicepanel {
-    /*-webkit-transition: all .1s ease;
+    -webkit-transition: all .1s ease;
     -moz-transition: all .1s ease;
     -o-transition: all .1s ease;
-    transition: all .1s ease;*/
-    /*margin-left: 0px;
-    width: 100%;*/
-    display: none;
+    transition: all .1s ease;
+    margin-left: 150px;
 }
 .movein {
-    -webkit-transition: all .50s ease;
+    /*-webkit-transition: all .50s ease;
     -moz-transition: all .50s ease;
     -o-transition: all .50s ease;
-    transition: all .50s ease;
-    /*margin-left: 150px;
-    width: 100%;*/
-    display: block;
+    transition: all .50s ease;*/
+    margin-left: 0px;
 }
 .epservicepanel-heading, .epcontactpanel-heading {
     color: inherit;
