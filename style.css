@@ -664,6 +664,11 @@ a.navcontact {
     font-weight: 400;
     margin: 0px 0px 10px 0px;
 }
+
+.epservicepanel>.list-group .list-group-item a {
+    color: #3ECF8E;
+    font-weight: 800;
+}
 /* PANELS */
 /* FOOTER */
 /*#top {
