@@ -457,14 +457,17 @@ a.navcontact {
     border-radius: 0px;
 }
 .epbreadcrumb a {
-    color: #CFD7DF;
+    color: #8898aa;
 }
 .breadcrumb-item+.breadcrumb-item::before {
     display: inline-block;
     padding-right: .5rem;
     padding-left: .5rem;
-    color: #CFD7DF;
+    color: #8898aa;
     content: "/";
+}
+.epbreadcrumb>active {
+    color: #CFD7DF;
 }
 /* BREADCRUMB */
 /* PAGE HEADERS */
