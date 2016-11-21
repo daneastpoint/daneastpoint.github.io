@@ -301,6 +301,14 @@ a:hover {
     letter-spacing: 0.03em;
     margin: 0px;
 }
+p.large {
+    color: #424770;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 200;
+    text-overflow: ellipsis;
+    margin-bottom: 30px;
+}
 /* TYPOGRAPHY */
 /* NAVBAR */
 .navbar-gradient {
