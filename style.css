@@ -309,6 +309,12 @@ p.large {
     text-overflow: ellipsis;
     margin-bottom: 30px;
 }
+p.large a{
+    color: #E32072;
+    border-bottom: 1px dashed #CFD7DF;
+    padding-bottom: 2px;
+    font-weight: 600;
+}
 /* TYPOGRAPHY */
 /* NAVBAR */
 .navbar-gradient {
