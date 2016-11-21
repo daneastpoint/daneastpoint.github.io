@@ -643,6 +643,9 @@ a.navcontact {
 .epcontactpanel-heading {
     color: #4B6BC6;
 }
+.eppanel-body {
+    padding: 0px;
+}
 .epservicepanel>.list-group .list-group-item {
     color: rgba(66, 71, 112,0.7);
     font-size: 14px;
@@ -652,6 +655,13 @@ a.navcontact {
     padding: 6px 0px;
     letter-spacing: 0.03em;
     border: none;
+}
+.epservicepanel {
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(66,71,112,0.7);
+    font-weight: 400;
+    margin: 0px 0px 10px 0px;
 }
 /* PANELS */
 /* FOOTER */
