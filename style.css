@@ -605,17 +605,19 @@ a.navcontact {
     font-weight: 600;
     line-height: 24px;
     letter-spacing: 0.03em;
-    margin: 0px;
+    margin: 0px 0px 15px 0px;
+    padding: 10px 0px;
+    border-bottom: 1px solid #CFD7DF;
 }
-
 .epservicepanel>.list-group .list-group-item {
     color: #4B6BC6;
     font-size: 14px;
     font-weight: 400;
     line-height: 22px;
     margin: 0px;
-    padding: 0px 10px;
+    padding: 6px 0px;
     letter-spacing: 0.03em;
+    border: none;
 }
 /* PANELS */
 /* FOOTER */
