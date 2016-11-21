@@ -357,13 +357,13 @@ $(window).scroll(function() {
         $(".contact").addClass("contact-appear");
         $(".company").css("margin-left","0px");
         $(".navbar").addClass("fixed-bg").fadeIn();
-        $("span").removeClass("navbar-gradient").fadeOut();
+        $("span.navbar-gradient").removeClass("navbar-gradient").fadeOut();
     } else {
         $(".navbar").removeClass("fixed-bg").fadeOut();
         $(".navbar").removeClass("navbar-fixed-top").fadeOut();
         $(".contact").removeClass("contact-appear");
         $(".company").css("margin-left","10vh");
-        $("span").addClass("navbar-gradient").fadeIn();
+        $("span.navbar-gradient").addClass("navbar-gradient").fadeIn();
     }
 });
 $(document).ready(function(){
