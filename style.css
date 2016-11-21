@@ -458,6 +458,7 @@ a.navcontact {
 }
 .epbreadcrumb a {
     color: #8898aa;
+    font-weight: 600;
 }
 .breadcrumb-item+.breadcrumb-item::before {
     display: inline-block;
@@ -466,7 +467,7 @@ a.navcontact {
     color: #8898aa;
     content: "/";
 }
-.epbreadcrumb>active {
+.epbreadcrumb>.active {
     color: #CFD7DF;
 }
 /* BREADCRUMB */
