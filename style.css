@@ -645,6 +645,7 @@ a.navcontact {
 }
 .eppanel-body {
     padding: 0px;
+    margin-bottom: 10px;
 }
 .epservicepanel>.list-group .list-group-item {
     color: rgba(66, 71, 112,0.7);
