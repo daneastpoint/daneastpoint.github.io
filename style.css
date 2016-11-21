@@ -451,9 +451,9 @@ a.navcontact {
 /* NAVBAR */
 /* BREADCRUMB */
 .epbreadcrumb {
-    padding: 10px 0px;
+    padding: 10px 0px!important;
     margin-bottom: 0px;
-    background-color: transparent;
+    background-color: transparent!important;
     border-radius: 0px;
 }
 .epbreadcrumb a {
