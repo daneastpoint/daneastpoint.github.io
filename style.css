@@ -626,8 +626,8 @@ a.navcontact {
     box-shadow: none;
     border: 0px;
 }
-.epservicepanel-heading {
-    color: #2AB27B;
+.epservicepanel-heading, .epcontactpanel-heading {
+    color: inherit;
     font-size: 14px;
     font-weight: 600;
     line-height: 22px;
@@ -636,6 +636,12 @@ a.navcontact {
     padding: 0px 0px 10px 0px;
     border-bottom: 1px solid #F6F9FC;
     text-transform: uppercase;
+}
+.epservicepanel-heading {
+    color: #2AB27B;
+}
+.epcontactpanel-heading {
+    color: #4B6BC6;
 }
 .epservicepanel>.list-group .list-group-item {
     color: rgba(66, 71, 112,0.7);
