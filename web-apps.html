@@ -351,6 +351,15 @@ $(document).ready(function(){
 $(window).scroll(function() {    
     var scroll = $(window).scrollTop();
 
+    if(scroll >= 600) {
+        $(".epservicepanel").addClass("movein").fadeIn();
+    } else {
+        $(".epservicepanel").removeClass("movein").fadeOut();
+    }
+});
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+
     if(scroll >= 300) {
         $(".navbar").addClass("navbar-fixed-top").fadeIn();
         $(".contact").addClass("contact-appear");
