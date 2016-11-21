@@ -452,13 +452,19 @@ a.navcontact {
 /* BREADCRUMB */
 .epbreadcrumb {
     padding: 10px 0px!important;
-    margin-bottom: 0px;
+    margin-bottom: 0px!important;
     background-color: transparent!important;
     border-radius: 0px;
 }
 .epbreadcrumb a {
     color: #8898aa;
     font-weight: 600;
+}
+.epbreadcrumb a:hover {
+    color: #E32072;
+    text-decoration: underline;
+    border-bottom: 1px dashed #CFD7DF;
+    padding-bottom: 2px;
 }
 .breadcrumb-item+.breadcrumb-item::before {
     display: inline-block;
