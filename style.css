@@ -641,18 +641,18 @@ a.navcontact {
     border: 0px;
 }
 .epservicepanel {
-    -webkit-transition: all .25s ease;
-    -moz-transition: all .25s ease;
-    -o-transition: all .25s ease;
-    transition: all .25s ease;
+    -webkit-transition: all .50s ease;
+    -moz-transition: all .50s ease;
+    -o-transition: all .50s ease;
+    transition: all .50s ease;
     margin-left: 150px;
     width: 100%;
 }
 .movein {
-    -webkit-transition: all .25s ease;
-    -moz-transition: all .25s ease;
-    -o-transition: all .25s ease;
-    transition: all .25s ease;
+    -webkit-transition: all .50s ease;
+    -moz-transition: all .50s ease;
+    -o-transition: all .50s ease;
+    transition: all .50s ease;
     margin-left: 0px;
     width: 100%;
 }
