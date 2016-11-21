@@ -449,7 +449,17 @@ a.navcontact {
 }
 /* MOBILE NAV */
 /* NAVBAR */
-
+/* BREADCRUMB */
+.epbreadcrumb {
+    padding: 10px 0px;
+    margin-bottom: 0px;
+    background-color: transparent;
+    border-radius: 0px;
+}
+.epbreadcrumb a {
+    color: #CFD7DF;
+}
+/* BREADCRUMB */
 /* PAGE HEADERS */
 .epheaderhomebg {
     background: linear-gradient(rgba(71,80,255,1)40%, rgba(71,80,255,0)50%, rgba(71,80,255,0)10%);
