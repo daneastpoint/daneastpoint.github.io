@@ -15,7 +15,7 @@
 <body>
 <!-- NAV START -->
 <nav class="navbar nav" style="margin-bottom: -60px;">
-    <span class="navbar-gradient"></span>
+    <span id="navgrad" class="navbar-gradient"></span>
     <div class="container-fluid container-global paddingleft paddingright" style="padding-left: 0px; padding-right: 0px;">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
@@ -357,13 +357,13 @@ $(window).scroll(function() {
         $(".contact").addClass("contact-appear");
         $(".company").css("margin-left","0px");
         $(".navbar").addClass("fixed-bg").fadeIn();
-        $("span.navbar-gradient").removeClass("navbar-gradient").fadeOut();
+        $("#navgrad").removeClass("navbar-gradient").fadeOut();
     } else {
         $(".navbar").removeClass("fixed-bg").fadeOut();
         $(".navbar").removeClass("navbar-fixed-top").fadeOut();
         $(".contact").removeClass("contact-appear");
         $(".company").css("margin-left","10vh");
-        $("span.navbar-gradient").addClass("navbar-gradient").fadeIn();
+        $("#navgrad").addClass("navbar-gradient").fadeIn();
     }
 });
 $(document).ready(function(){
