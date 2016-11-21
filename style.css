@@ -592,6 +592,33 @@ a.navcontact {
     transition: all .25s ease;
 }
 /* SERVICES */
+/* TEAM CLIENT QUOTES */
+.epteamclientquote h4 {
+    color: #424770;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-style: italic;
+    font-weight: 600;
+}
+.epteamclientquote img {
+    width: 30px;
+    height: 30px;
+}
+.epteamclientquote p {
+    color: rgba(66,71,112,0.7);
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    margin: 0px;
+    font-weight: 400;
+}
+.epteamclientquote b {
+    color: #40B0FF;
+}
+/* TEAM CLIENT QUOTES */
 /* PANELS */
 .epservicepanel {
     text-align: left;
