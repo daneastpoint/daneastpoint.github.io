@@ -592,6 +592,32 @@ a.navcontact {
     transition: all .25s ease;
 }
 /* SERVICES */
+/* PANELS */
+.epservicepanel {
+    text-align: left;
+    border-radius: 0px;
+    box-shadow: none;
+    border: 0px;
+}
+.epservicepanel-heading {
+    color: #424770;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    margin: 0px;
+}
+
+.epservicepanel>.list-group .list-group-item {
+    color: #4B6BC6;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 0px;
+    padding: 0px 10px;
+    letter-spacing: 0.03em;
+}
+/* PANELS */
 /* FOOTER */
 /*#top {
     height: 200px;
