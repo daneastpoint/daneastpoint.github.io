@@ -600,17 +600,18 @@ a.navcontact {
     border: 0px;
 }
 .epservicepanel-heading {
-    color: #424770;
-    font-size: 16px;
+    color: #2AB27B;
+    font-size: 14px;
     font-weight: 600;
-    line-height: 24px;
+    line-height: 22px;
     letter-spacing: 0.03em;
     margin: 0px 0px 15px 0px;
-    padding: 10px 0px;
-    border-bottom: 1px solid #CFD7DF;
+    padding: 0px 0px 10px 0px;
+    border-bottom: 1px solid #F6F9FC;
+    text-transform: uppercase;
 }
 .epservicepanel>.list-group .list-group-item {
-    color: #4B6BC6;
+    color: rgba(66, 71, 112,0.7);
     font-size: 14px;
     font-weight: 400;
     line-height: 22px;
