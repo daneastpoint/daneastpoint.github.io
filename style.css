@@ -668,6 +668,8 @@ a.navcontact {
 .epservicepanel>.list-group .list-group-item a {
     color: #3ECF8E;
     font-weight: 800;
+    border-bottom: 1px dashed #CFD7DF;
+    padding-bottom: 2px;
 }
 
 .epservicepanel>.list-group .list-group-item i {
