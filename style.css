@@ -211,7 +211,7 @@ hr {
 .logoblur {
     -webkit-filter: blur(4px);
 }
-.logobutton {
+#logobutton {
     margin-bottom: -42px;
     z-index: 100;
     position: relative;

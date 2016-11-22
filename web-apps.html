@@ -245,7 +245,7 @@
             <div>
                 <p>Our team has worked on an enormous number of projects for a diverse range of companies including <!--Bosch, Philips, BAE systems, Disney, NBC Universal, Major League Baseball, Mr Shoes, University of Cambridge, University of East Anglia, Norfolk County Council, Norwich Theatre Royal and Norwich Cathedral, among many other large and small organisations.--></p>
             </div>
-            <div class="logobutton">
+            <div id="logobutton">
                 <a href="#" title="button title" class="button button-logos-action">Let's work together</a>
             </div>
         </div>
@@ -407,12 +407,10 @@ $(document).ready(function(){
     )
 });
 $(document).ready(function(){
-    $('#logos').hover(
-       function(){ $(this).addClass('logoblur') },
-       function(){ $(this).removeClass('logoblur') },
-       function(){ $('.logobutton').addClass('logobuttonappear') },
-       function(){ $('.logobutton').removeClass('logobuttonappear') }
-    )
+    $('#logos').hover(function(){
+        $('#logos').addClass('logoblur'); },
+        function(){
+        $('#logobutton').addClass('logobuttonappear'); 
 });
 $(window).scroll(function() {    
     var scroll = $(window).scrollTop();
