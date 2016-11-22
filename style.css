@@ -221,12 +221,12 @@ hr {
     margin-bottom: -42px;
     z-index: 100;
     position: relative;
-    display: none;
+    visibility: hidden;
     -webkit-transition: all .50s ease;
     transition: all .50s ease;
 }
 .logobuttonappear {
-    display: block!important;
+    visibility: visible!important;
 }
 /* ANIMATIONS */
 /* ICONS */
