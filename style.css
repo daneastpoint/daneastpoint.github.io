@@ -377,9 +377,11 @@ p.large a{
     background-color: transparent;
     border: 0px;
 }
-.navbar-brand {
-    padding: 0px 15px!important;
+.navbar-brand .navbar-brand {
+    padding: 15px!important;
+    margin-bottom: 0px;
 }
+
 .nav a {
     font-size: 18px;
     font-weight: 400;
