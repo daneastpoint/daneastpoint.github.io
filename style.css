@@ -216,6 +216,8 @@ hr {
     -webkit-filter: blur(4px);
     max-width: 940px;
     margin: auto;
+    z-index: -100;
+    position: relative;
 }
 #logobutton {
     margin-bottom: -42px;
