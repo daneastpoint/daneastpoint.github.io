@@ -221,8 +221,8 @@ hr {
     margin: auto;
 }
 #nextservice {
-    -webkit-transition: all .15s ease;
-    transition: all .15s ease;
+    -webkit-transition: all .30s ease;
+    transition: all .30s ease;
 }
 .moveup {
     bottom: 0px!important;
