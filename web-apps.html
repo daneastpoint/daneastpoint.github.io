@@ -263,9 +263,7 @@
                     <img src="disney-logo-1.png" width="150px" height="auto" style="margin-top: 2px;" />
                 </div>
             </div>
-            <div id="logobutton" class="">
                 <a href="#" title="button title" class="button button-logos-action">Let's work together</a>
-            </div>
         </div>
     </div>
 </div>
@@ -406,9 +404,9 @@ $(document).ready(function(){
     )
 });
 $(document).ready(function(){
-    $('#logos').hover(
-        function(){ $(this).addClass('shrinkblur') },
-        function(){ $(this).removeClass('shrinkblur') }
+    $('#button-logos-action').hover(
+        function(){ $('#logos').addClass('shrinkblur') },
+        function(){ $('#logos').removeClass('shrinkblur') }
         /*function(){ $('#logobutton').addClass('logobuttonappear') },*/
         /*function(){ $(this).removeClass('logoblur') }*/
         /*function(){ $('#logobutton').removeClass('logobuttonappear') }*/
