@@ -249,7 +249,7 @@
                 <a href="#" title="button title" class="button button-logos-action">Let's work together</a>
             </div>
         </div>
-        <div id="logos" class="whitebg fluidheight container-global" style="text-align: center; padding-top: 0px;">
+        <div id="logos" class="whitebg fluidheight container-global" style="text-align: center;">
             <div class="col-lg-2 col-md-2">
                 <img src="nbc-logo-1.png" width="160px" height="auto" />
             </div>
@@ -410,7 +410,8 @@ $(document).ready(function(){
     $('#logos').hover(
        function(){ $(this).addClass('logoblur') },
        function(){ $(this).removeClass('logoblur') },
-       function(){ $(.logobutton).addClass('logobuttonappear') }
+       function(){ $('.logobutton').addClass('logobuttonappear') },
+       function(){ $('.logobutton').removeClass('logobuttonappear') }
     )
 });
 $(window).scroll(function() {    
