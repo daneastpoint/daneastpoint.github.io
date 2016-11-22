@@ -217,7 +217,6 @@ hr {
     max-width: 940px;
     margin: auto;
     z-index: -100;
-    position: relative;
 }
 #logobutton {
     margin-bottom: -42px;
@@ -226,9 +225,6 @@ hr {
     visibility: hidden;
     -webkit-transition: all .50s ease;
     transition: all .50s ease;
-}
-.logobuttonappear {
-    visibility: visible!important;
 }
 /* ANIMATIONS */
 /* ICONS */
