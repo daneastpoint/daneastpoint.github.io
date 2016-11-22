@@ -217,14 +217,6 @@ hr {
     max-width: 940px;
     margin: auto;
 }
-#logobutton {
-    margin-bottom: -42px;
-    z-index: 100;
-    position: relative;
-    visibility: hidden;
-    -webkit-transition: all .50s ease;
-    transition: all .50s ease;
-}
 /* ANIMATIONS */
 /* ICONS */
 .medium-service-icon {
