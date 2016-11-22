@@ -201,9 +201,7 @@ hr {
     text-decoration: none;
     -webkit-transition: all .15s ease;
     transition: all .15s ease;
-    margin: 0px;
-    top: -40px;
-    position: relative;
+    margin: 40px 0px 0px 0px;
 }
 /* BUTTONS */
 /* ANIMATIONS */
