@@ -405,8 +405,8 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
     $('#logos').hover(function(){
-        $('#logos').addClass('shrinkblur');
-        $('#buttonaction').addClass('logobuttonappear'); },
+        $(this).addClass('shrinkblur');
+        $('#buttonaction',this).addClass('logobuttonappear'); },
         function(){
         $('#logos').removeClass('shrinkblur'); }
         /*function(){ $('#buttonaction').addClass('logobuttonappear') }*/
