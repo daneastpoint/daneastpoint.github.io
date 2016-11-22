@@ -589,8 +589,11 @@ a.navcontact {
     letter-spacing: 0.03em;
     margin: 0px;
 }
-.callus a {
-    font-weight: 600!important;
+.callus a, .callus a:hover {
+    font-weight: 800!important;
+    border-bottom: 1px dashed rgba(255,255,255,0.3);
+    padding-bottom: 2px;
+    text-decoration: none;
 }
 /* PAGE HEADERS */
 /* RECENT POSTS */
