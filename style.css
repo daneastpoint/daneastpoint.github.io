@@ -184,7 +184,7 @@ hr {
     -webkit-transition: all .15s ease;
     transition: all .15s ease;
 }
-.button-logos-action {
+.button-logos-action, .button-logos-action:hover {
     white-space: nowrap;
     display: inline-block;
     height: 40px;
