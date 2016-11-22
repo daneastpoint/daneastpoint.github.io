@@ -190,7 +190,7 @@ hr {
     transition: all .50s ease;
 }
 .logoblur {
-    -webkit-filter: blur(3px);
+    -webkit-filter: blur(4px);
 }
 /* ANIMATIONS */
 /* ICONS */
