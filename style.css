@@ -212,8 +212,10 @@ hr {
     -webkit-transition: all .50s ease;
     transition: all .50s ease;
 }
-.logoblur {
+.shrinkblur {
     -webkit-filter: blur(4px);
+    max-width: 940px;
+    margin: auto;
 }
 #logobutton {
     margin-bottom: -42px;
