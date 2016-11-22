@@ -598,7 +598,8 @@ a.navcontact {
     text-decoration: none;
 }
 .callus a:hover {
-    border-bottom: 1px solid rgba(255,255,255,0.7);
+    color: #fff;
+    border-bottom: 1px dashed rgba(255,255,255,0.5);
 }
 /* PAGE HEADERS */
 /* RECENT POSTS */
