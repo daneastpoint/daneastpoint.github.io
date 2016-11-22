@@ -220,7 +220,7 @@ hr {
     max-width: 940px;
     margin: auto;
 }
-#nextservice {
+#nextservice, #prevservice {
     -webkit-transition: all .30s ease;
     transition: all .30s ease;
 }
