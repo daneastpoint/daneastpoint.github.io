@@ -407,10 +407,11 @@ $(document).ready(function(){
     )
 });
 $(document).ready(function(){
-    $('#logos').hover(function(){
-        $('#logos').addClass('logoblur'); },
-        function(){
-        $('#logobutton').addClass('logobuttonappear'); }
+    $('#logos').hover(
+        function(){ $(this).addClass('logoblur'); },
+        function(){ $('#logobutton').addClass('logobuttonappear'); },
+        function(){ $(this).removeClass('logoblur') },
+        function(){ $('#logobutton').removeClass('logobuttonappear') }
     )
 });
 $(window).scroll(function() {    
