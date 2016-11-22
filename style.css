@@ -185,6 +185,13 @@ hr {
 .hover-bounce {
     bottom: 2px!important;
 }
+#logos {
+    -webkit-transition: all .50s ease;
+    transition: all .50s ease;
+}
+.logoblur {
+    -webkit-filter: blur(5px);
+}
 /* ANIMATIONS */
 /* ICONS */
 .medium-service-icon {
