@@ -597,6 +597,9 @@ a.navcontact {
     padding-bottom: 2px;
     text-decoration: none;
 }
+.callus a:hover {
+    border-bottom: 1px solid rgba(255,255,255,0.7);
+}
 /* PAGE HEADERS */
 /* RECENT POSTS */
 .epnewscontent {
