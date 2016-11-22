@@ -202,6 +202,8 @@ hr {
     -webkit-transition: all .15s ease;
     transition: all .15s ease;
     margin: 0px;
+    top: -40px;
+    position: relative;
 }
 /* BUTTONS */
 /* ANIMATIONS */
