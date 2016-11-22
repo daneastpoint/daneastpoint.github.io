@@ -220,6 +220,13 @@ hr {
     max-width: 940px;
     margin: auto;
 }
+#nextservice {
+    -webkit-transition: all .15s ease;
+    transition: all .15s ease;
+}
+.moveup {
+    bottom: 0px!important;
+}
 /* ANIMATIONS */
 /* ICONS */
 .medium-service-icon {
