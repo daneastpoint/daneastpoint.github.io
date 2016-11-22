@@ -180,6 +180,25 @@ hr {
     -webkit-transition: all .15s ease;
     transition: all .15s ease;
 }
+.button-logos-action {
+    white-space: nowrap;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 14px;
+    box-shadow: 0 4px 10px rgba(0,0,0,.08);
+    background: #E32072;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    color: #fff;
+    text-decoration: none;
+    -webkit-transition: all .15s ease;
+    transition: all .15s ease;
+    margin: 0px;
+}
 /* BUTTONS */
 /* ANIMATIONS */
 .hover-bounce {
@@ -191,6 +210,17 @@ hr {
 }
 .logoblur {
     -webkit-filter: blur(4px);
+}
+.logobutton {
+    margin-bottom: -42px;
+    z-index: 100;
+    position: relative;
+    visibility: hidden;
+    -webkit-transition: all .50s ease;
+    transition: all .50s ease;
+}
+.logobuttonappear {
+    visibility: visible;
 }
 /* ANIMATIONS */
 /* ICONS */
