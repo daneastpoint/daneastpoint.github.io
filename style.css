@@ -184,7 +184,7 @@ hr {
     -webkit-transition: all .15s ease;
     transition: all .15s ease;
 }
-.button-logos-action, .button-logos-action:hover {
+.button-logos-action {
     white-space: nowrap;
     display: inline-block;
     height: 40px;
@@ -202,6 +202,9 @@ hr {
     -webkit-transition: all .15s ease;
     transition: all .15s ease;
     margin: 40px 0px 0px 0px;
+}
+.button-logos-action:hover {
+    text-decoration: none;
 }
 /* BUTTONS */
 /* ANIMATIONS */
