@@ -419,10 +419,9 @@ $(document).ready(function(){
     )
 });
 $(document).ready(function(){
-    $('#nextservice').hover(function(){
-        $(this).addClass('moveup'); },
-        function(){
-        $(this).removeClass('moveup'); }
+    $('#nextservice').hover(
+        function(){ $(this).addClass('moveup') },
+        function(){ $(this).removeClass('moveup') }
     )
 });
 $(window).scroll(function() {    
