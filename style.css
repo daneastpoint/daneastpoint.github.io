@@ -206,6 +206,9 @@ hr {
 .button-logos-action:hover {
     text-decoration: none!important;
 }
+.pink {
+    color: #E32072!important;
+}
 /* BUTTONS */
 /* ANIMATIONS */
 .hover-bounce {
