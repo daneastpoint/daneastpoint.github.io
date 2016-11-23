@@ -810,10 +810,10 @@ a.navcontact {
     color: initial;
     font-size: 20px;
 }
-.epteamcontent>i.fa.fa-twitter {
+i.fa.fa-twitter {
     color: #40B0FF;
 }
-.epteamcontent>i.fa.fa-isntagram {
+i.fa.fa-isntagram {
     color: #E32072;
 }
 /* TEAM PROFILES */
