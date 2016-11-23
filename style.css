@@ -813,8 +813,17 @@ a.navcontact {
 i.fa.fa-twitter {
     color: #40B0FF;
 }
-i.fa.fa-isntagram {
+i.fa.fa-instagram {
     color: #E32072;
+}
+i.fa.fa-facebook {
+    color: #4B6BC6;
+}
+i.fa.fa-github {
+    color: #444;
+}
+i.fa.fa-google-plus {
+    color: #2AB27B;
 }
 /* TEAM PROFILES */
 /* FOOTER */
