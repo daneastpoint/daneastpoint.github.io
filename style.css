@@ -212,8 +212,8 @@ hr {
     bottom: 2px!important;
 }
 #logos {
-    -webkit-transition: all .50s ease;
-    transition: all .50s ease;
+    -webkit-transition: all .30s ease;
+    transition: all .30s ease;
 }
 .shrinkblur {
     -webkit-filter: blur(4px);
@@ -381,7 +381,6 @@ p.large a{
     padding: 15px!important;
     margin-bottom: 0px;
 }
-
 .nav a {
     font-size: 18px;
     font-weight: 400;
