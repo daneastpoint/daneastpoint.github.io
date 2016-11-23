@@ -783,6 +783,9 @@ a.navcontact {
     background-size: cover;
     position: relative;
 }
+.zoom {
+    background-size: 200%!important;
+}
 .epteamcontent {
     width: initial;
     height: auto;

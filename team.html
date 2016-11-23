@@ -553,6 +553,12 @@ $(document).ready(function(){
         function(){ $(this).removeClass('moveup') }
     )
 });
+$(document).ready(function(){
+    $('.epteamprofile').hover(
+        function(){ $(this).addClass('zoom') },
+        function(){ $(this).removeClass('zoom') }
+    )
+});
 $(window).scroll(function() {    
     var scroll = $(window).scrollTop();
 
