@@ -755,6 +755,14 @@ a.navcontact {
     font-weight: 400;
     margin: 0px 0px 10px 0px;
 }
+.eppanel-body h4 {
+    color: #424770;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 10px;
+    letter-spacing: 0.03em;
+}
 
 .epservicepanel>.list-group .list-group-item a {
     color: #3ECF8E;
