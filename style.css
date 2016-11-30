@@ -364,7 +364,7 @@ p.small {
     color: #424770;
     font-size: 12px;
     line-height: 18px;
-    font-weight: 200;
+    font-weight: 400;
     text-overflow: ellipsis;
     margin-bottom: 0px;
 }
@@ -848,11 +848,11 @@ i.fa.fa-google-plus {
 }
 .epportfoliopreview h3 {
     color: #424770;
-    font-size: 24px;
-    line-height: 32px;
+    font-size: 22px;
+    line-height: 28px;
     font-weight: 200;
     text-overflow: ellipsis;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 .epportfoliopreview h5 {
     color: rgba(66,71,112,0.3);
@@ -860,16 +860,16 @@ i.fa.fa-google-plus {
     font-weight: 600;
     line-height: 12px;
     letter-spacing: 0.03em;
-    margin: 0px;
+    margin-bottom: 5px;
     text-transform: uppercase;
 }
 .epportfoliooreview p {
-    color: #424770;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 14px;
+    color: rgba(66,71,112,0.7);
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 22px;
     letter-spacing: 0.03em;
-    margin: 0px 0px 10px 0px;
+    margin: 0px;
 }
 /* FOOTER */
 /*#top {
