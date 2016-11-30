@@ -360,6 +360,14 @@ p.large a{
     padding-bottom: 2px;
     font-weight: 600;
 }
+p.small {
+    color: #424770;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 200;
+    text-overflow: ellipsis;
+    margin-bottom: 0px;
+}
 /* TYPOGRAPHY */
 /* NAVBAR */
 .navbar-gradient {
