@@ -832,6 +832,20 @@ i.fa.fa-google-plus {
     color: #2AB27B;
 }
 /* TEAM PROFILES */
+/* OUR WORK & CASE STUDIES */
+.epportfoliopreview {
+    width: initial;
+    height: auto;
+    padding: 15px;
+}
+.epportfoliopreview h5 {
+    color: #424770;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    margin: 0px;
+}
 /* FOOTER */
 /*#top {
     height: 200px;
