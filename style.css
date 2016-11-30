@@ -361,7 +361,7 @@ p.large a{
     font-weight: 600;
 }
 p.small {
-    color: #424770;
+    color: rgba(66,71,112,0.3);
     font-size: 12px;
     line-height: 18px;
     font-weight: 400;
