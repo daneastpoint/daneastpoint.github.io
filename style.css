@@ -235,6 +235,13 @@ hr {
 .medium-service-icon {
     margin-bottom: 40px;
 }
+span.smallline {
+    height: 2px;
+    background-color: #40B0FF;
+    width: 40px;
+    margin: 6px 0px 8px 0px;
+    display: block;
+}
 /* ICONS */
 /* LISTS */
 .footertop ul {
