@@ -848,12 +848,13 @@ i.fa.fa-google-plus {
     text-transform: uppercase;
 }
 .epportfoliopreview h5 {
-    color: #424770;
-    font-size: 16px;
+    color: rgba(66,71,112,0.3);
+    font-size: 14px;
     font-weight: 600;
-    line-height: 20px;
-    letter-spacing: 0.01em;
+    line-height: 22px;
+    letter-spacing: 0.03em;
     margin: 0px;
+    text-transform: uppercase;
 }
 .epportfoliooreview p {
     color: #424770;
