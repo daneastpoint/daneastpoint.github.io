@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+        <title>Eastpoint Software - App Development Case Studies</title>
+    </head>
+<body>
+<!-- NAV START -->
+<nav class="navbar nav" style="margin-bottom: -60px;">
+    <span id="navgrad" class="navbar-gradient"></span>
+    <div class="container-fluid container-global paddingleft paddingright" style="padding-left: 0px; padding-right: 0px;">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="navbar-left">
+                <a class="navbar-brand" href="index.html"><img src="eastpoint-brand-white@2x.png" width="130px" /></a>
+            </div>
+        </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+        <div id="navbar" class="collapse navbar-collapse navbar-right">
+            <ul class="nav navbar-nav nav-options service">
+                <li><a href="#">Home</a></li>
+                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
+                    <ul class="dropdown-menu epdropdown" style="width: 300px;">
+                        <!--<li><a href="#" class="dropdownsimple">Mobile Apps</a></li>-->
+                        <li><a href="android-app-development.html" class="dropdownpop"><i class="fa fa-apple" aria-hidden="true"></i> Mobile Apps<br><p>Optional sub-title offering info about<br>Web Apps.</p></a></li>
+                        <li><a href="android-app-development.html" class="dropdownpop"><i class="fa fa-html5" aria-hidden="true"></i> Web Apps<br><p>Optional sub-title offering info about<br>Web Apps.</p></a></li>
+                        <li><a href="ios-app-development.html" class="dropdownpop">Design Sprints<br><p>Optional sub-title offering info about<br>Design Sprints.</p></a></li>
+                        <li><a href="#" class="dropdownpop">User Experience<br><p>Optional sub-title offering info about<br>User experience.</p></a></li>
+                        <li><a href="ios-app-development.html" class="dropdownpop">Support & Consultation<br><p>Optional sub-title offering info about<br>Support and Consultation.</p></a></li>
+                        <li><a href="ios-app-development.html" class="dropdownpop">technologies<br><p>Optional sub-title offering info about<br>Technologies.</p></a></li>
+                        <ul class="dropdown-section">
+                        <p>Here's a link to more information about mobile development.</p>
+                        </ul>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Our Work</a>
+                    <!--<ul class="dropdown-menu epdropdown" style="width: 350px;">
+                        <li><a href="#" class="dropdownsimple">Overview</a></li>
+                        <li><a href="#" class="dropdownpop"><i class="fa fa-html5" aria-hidden="true"></i> MongoDB</a></li>
+                        <li><a href="#" class="dropdownpop"><i class="fa fa-html5" aria-hidden="true"></i> NodeJS</a></li>
+                        <li><a href="#" class="dropdownpop"><i class="fa fa-html5" aria-hidden="true"></i> AngularJS</a></li>
+                        <ul class="dropdown-section">
+                        <p>Here's a link to more information about mobile development.</p>
+                        </ul>
+                    </ul>-->
+                </li>
+                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About</a>
+                        <ul class="dropdown-menu epdropdown" style="width: 350px;">
+                        <li><a href="#" class="dropdownsimple">History and Team</a></li>
+                        <li><a href="#" class="dropdownsimple">Careers</a></li>
+                        <!--<li><a href="#" class="dropdownpop"><i class="fa fa-html5" aria-hidden="true"></i> History & Team</a></li>
+                        <li><a href="#" class="dropdownpop"><i class="fa fa-html5" aria-hidden="true"></i> Careers</a></li>
+                        <li><a href="#" class="dropdownpop"><i class="fa fa-html5" aria-hidden="true"></i> NodeJS</a></li>
+                        <li><a href="#" class="dropdownpop"><i class="fa fa-html5" aria-hidden="true"></i> AngularJS</a></li>-->
+                        <ul class="dropdown-section">
+                        <p>Here's a link to more information about mobile development.</p>
+                        </ul>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav company" style="margin-left: 10vw;">
+                <li><a href="#">Blog</a></li>
+                <!--<li><a href="#">About</a></li>-->
+                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="padding-right: 0px!important;">Contact</a>
+                    <ul class="dropdown-menu epdropdown" style="width: 400px;">
+                        <li><a href="#" class="dropdownsimple">Culture</a></li>
+                        <li><a href="#" class="dropdownsimple">Team</a></li>
+                        <li><a href="#" class="dropdownsimple">Careers</a></li>
+                        <li><a href="#" class="dropdownsimple">Contact</a></li>
+                        <li><a href="#" class="dropdownsimple">Blog</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#" class="dropdownsimple">Agile Projects</a></li>
+                        <li><a href="#" class="dropdownsimple">Development Outsourcing</a></li>
+                        <li><a href="#" class="dropdownsimple">Support and Consultation</a></li>
+                        <ul class="dropdown-section">
+                        <li><a href="#" class="dropdownsimple">Contact Information</a></li>
+                        <li><a href="#" class="dropdowncontact">01234 567 890</a></li>
+                        <li><a href="#" class="dropdowncontact">email@account.co.uk</a></li>
+                        </ul>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav contact" style="margin-left: 5vw;">
+                <li><a href="#" class="navcontact"><i class="fa fa-phone" aria-hidden="true"></i> 01234 567 890</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+<!-- NAV END -->
+
+<!-- HEADER TEST -->
+<header>
+<div class="epheaderhomebg" style="width: 100%; height: 70vh; background-image: url('placeholder-app-image.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; position: relative;">
+    <div class="gradient-bg gradient-bg-2" style="padding-top: 0px; height: 100%;">
+        <div class="col-md-12 col-sm-12">
+            <div class="container-global">
+                <div class="gradient-bg-content col-lg-12 col-md-12 col-sm-12 col-xs-12" style="text-align: center; margin-top: 18vh;">
+                    <h2>History & Team</h2>
+                    <p>Our team is comprised of talented and ambitious strategists, designers and developers allowing to us approach challenges from many perspectives. In our work we always strive for clarity of purpose, impact and a positive user experience.</p>
+                    <!--<div id="button-group" role="action-button-group" class="standard-button-group">
+                        <a href="#" title="button title" class="button button-vimportant-action bounce"><i class="fa fa-code" aria-hidden="true"></i> Really Important Action</a>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+        <!-- CALL US -->
+        <div class="callus col-lg-12 col-md-12 col-sm-12 col-xs-12 nopadding" style="position: absolute; bottom: 0px;">
+            <div class="container-global">
+                <div class="" style="padding: 25px 0px;">
+                    <h3>We've been <b>Developing</b> interactive websites <b>since 1997</b>. Call us: <a href="#">01223 690164</a> or use our <a href="#">enquiry form.</a></h3>
+                </div>
+            </div>
+        </div>
+        <!-- CALL US END -->
+    </div>
+</div>
+</header>
+<!-- HEADER TEST END -->
+
+<!-- INTERCOM CHAT -->
+<div role="chat pop up" style="height: inherit; width: 100vw; position: relative; top: 0px;">
+    <div class="epintercom" style="width: inherit; position: fixed; bottom: 0px; z-index: 1000;">
+        <a href="#" title="button title" class="button button-epintercom-start bounce intercom-start" style="float: right;"><i class="fa fa-commenting-o" aria-hidden="true"></i> Ask a Question</a>   
+    </div>
+</div>
+<!-- INTERCOM CHAT -->
+
+<!-- BREADCRUMB -->
+<div class="whitebg col-lg-12 col-md-12 col-sm-12">
+    <div class="row">
+        <div class="container-global">
+            <nav class="breadcrumb epbreadcrumb">
+                <a class="breadcrumb-item" href="index.html">Home</a>
+                <span class="breadcrumb-item active">Our Work</span>
+            </nav>
+        </div>
+    </div>
+</div>
+<!-- BREADCRUMB END -->
+
+<!-- NEW SIDE MENU LAYOUT SECTION -->
+<section>
+    <div class="whitebg fluidheight container-fluid col-md-12 col-lg-12 col-sm-12">
+        <div class="container-global">
+            <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 paddingleft" style="padding-left: 0px;">
+                <p class="large">When we work for you, we like to think of ourselves as part of your team. We aim to make your experience of working with us as enjoyable as possible. <a href="#">Our Work</a></p>
+                <br>
+                <h2>Learning, innovating and improving</h2>
+                <p>We look for creative new solutions to overcome challenges in more efficient and effective ways. We learn fast, adapt and improve.
+                Learning about new technologies and keeping up-to-date with the industry enables us to always offer our clients the best solution.
+                Our desire to learn and grow also gives us the right outlook when taking on something new or helping troubleshoot a tricky project – we welcome a challenge and are proven problem solvers.</p>
+                <br>
+                <h2>Outsourcing to Eastpoint</h2>
+                <p>As well as working directly with clients, we have extensive experience collaborating with agencies on projects and systems.
+                We take as much care with these projects as we do with our direct clients, ensuring clear and accurate communication and management of requirements.
+                This includes all testing and QA to ensure that the requirements have been delivered.</p>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 paddingright" style="padding-right: 0px; z-index: 1">
+                <div class="epservicepanel">
+                <!-- Default panel contents -->
+                    <div class="epservicepanel-heading">Careers</div>
+                        <div class="eppanel-body">
+                            <p>Even if we are not actively recruiting for specific roles, we're always willing to make an exception for someone exceptional.</p>
+                        </div>
+                    </div>
+                    <div class="epservicepanel">
+                        <div class="epcontactpanel-heading">Vacancies</div>
+                            <div class="eppanel-body">
+                                <h4>Graduate Developer</h4>
+                                <p>Are you looking for an opportunity to build upon your passion for technology and create an exciting career in web and mobile development?
+                                <br>
+                                We'll help you harness the skills and knowledge that you have developed through your education and personal projects in order to excel in commercial software development...</p>
+                            </div>
+                            <!-- List group -->
+                            <ul class="list-group">
+                                <li class="list-group-item"><a class="pink" href="#">View in Careers</a></li>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+    </div>
+</section>
+<!-- NEW SIDE MENU LAYOUT SECTION END -->
+
+<!-- TEAM MASONRY PROFILES SECTION -->
+<section>
+    <div class="greybg container-fluid col-md-12 col-lg-12 col-sm-12 nopaddingleft nopaddingright">
+        <!-- SPAN BG -->
+        <span class="fullwhiteskew" style="background: #fff;width: 100vw;height: 180px;position: absolute;transform: skewY(-6deg);top: -75px;"></span>
+        <!-- SPAN BG -->
+        <div class="whitebg container-extend">
+            <!-- TOP ROW -->
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 nopadding">
+                <div class="epteamprofile" style="background-image: url('team-photo-placeholder.jpg');">
+                    <div class="epteamcontent">
+                        <h5>User Name</h5>
+                        <p>Company Role</p>
+                        <a><i class="fa fa-twitter" aria-hidden="true"></i> <i class="fa fa-facebook" aria-hidden="true"></i> <i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 nopadding">
+                <div class="epteamprofile" style="background-image: url('team-photo-placeholder.jpg');">
+                    <div class="epteamcontent">
+                        <h5>User Name</h5>
+                        <p>Company Role</p>
+                        <a><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 nopadding">
+                <div class="epteamprofile" style="background-image: url('team-photo-placeholder.jpg');">
+                    <div class="epteamcontent">
+                        <h5>User Name</h5>
+                        <p>Company Role</p>
+                        <a><i class="fa fa-twitter" aria-hidden="true"></i> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- TOP ROW END -->
+            <!-- SECOND ROW -->
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 nopadding">
+                <div class="epteamprofile" style="background-image: url('team-photo-placeholder.jpg');">
+                    <div class="epteamcontent">
+                        <h5>User Name</h5>
+                        <p>Company Role</p>
+                        <a><i class="fa fa-instagram" aria-hidden="true"></i> <i class="fa fa-github" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 nopadding">
+                <div class="epteamprofile" style="background-image: url('team-photo-placeholder.jpg');">
+                    <div class="epteamcontent">
+                        <h5>User Name</h5>
+                        <p>Company Role</p>
+                        <a><i class="fa fa-twitter" aria-hidden="true"></i> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 nopadding">
+                <div class="epteamprofile" style="background-image: url('team-photo-placeholder.jpg');">
+                    <div class="epteamcontent">
+                        <h5>User Name</h5>
+                        <p>Company Role</p>
+                        <a><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- SECOND ROW END -->
+            <!-- THIRD ROW -->
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 nopadding">
+                <div class="epteamprofile" style="background-image: url('team-photo-placeholder.jpg');">
+                    <div class="epteamcontent">
+                        <h5>User Name</h5>
+                        <p>Company Role</p>
+                        <a><i class="fa fa-twitter" aria-hidden="true"></i> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 nopadding">
+                <div class="epteamprofile" style="background-image: url('team-photo-placeholder.jpg');">
+                    <div class="epteamcontent">
+                        <h5>User Name</h5>
+                        <p>Company Role</p>
+                        <a><i class="fa fa-twitter" aria-hidden="true"></i> <i class="fa fa-instagram" aria-hidden="true"></i> <i class="fa fa-github" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 nopadding">
+                <div class="epteamprofile" style="background-image: url('team-photo-placeholder.jpg');">
+                    <div class="epteamcontent">
+                        <h5>User Name</h5>
+                        <p>Company Role</p>
+                        <a><i class="fa fa-github" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 nopadding">
+                <div class="epteamprofile" style="background-image: url('team-photo-placeholder.jpg');">
+                    <div class="epteamcontent">
+                        <h5>User Name</h5>
+                        <p>Company Role</p>
+                        <a><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- THIRD ROW END -->
+            <!-- FOURTH ROW -->
+            <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6 nopadding" style="z-index: 1;">
+                <div class="epteamprofile" style="height: 200px; background-image: url('team-photo-placeholder.jpg');">
+                    <div class="epteamcontent">
+                        <h5>User Name</h5>
+                        <p>Company Role</p>
+                        <a><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6 nopadding" style="z-index: 1;">
+                <div class="epteamprofile" style="height: 200px; background-image: url('team-photo-placeholder.jpg');">
+                    <div class="epteamcontent">
+                        <h5>User Name</h5>
+                        <p>Company Role</p>
+                        <a><i class="fa fa-twitter" aria-hidden="true"></i> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6 nopadding" style="z-index: 1;">
+                <div class="epteamprofile" style="height: 200px; background-image: url('team-photo-placeholder.jpg');">
+                    <div class="epteamcontent">
+                        <h5>User Name</h5>
+                        <p>Company Role</p>
+                        <a><i class="fa fa-github" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- FOURTH ROW END -->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- TEAM MASONRY PROFILES SECTION END -->
+
+<!-- SKEW BG SECTION -->
+<section>
+    <div class="whitebg container-fluid col-md-12 col-lg-12 col-sm-12 nopaddingleft nopaddingright">
+        <!-- SPAN BG -->
+        <span class="fullwhiteskew" style="background: #fff;width: 100vw;height: 200px;position: absolute;transform: skewY(-6deg);top: -115px;"></span>
+        <!-- SPAN BG -->
+    </div>
+</section>
+<!-- SKEW BG SECTION END -->
+
+<!-- WE WORK WITH SECTION -->
+<section>
+    <div class="whitebg fluidheight container-fluid col-md-12 col-lg-12 col-sm-12 nopaddingleft nopaddingright">
+        <div class="whitebg container-global" style="text-align: center;">
+            <p style="font-size: 20px; color: ##424770;">We work with a diverse range of large and small companies. <!--Bosch, Philips, BAE systems, Disney, NBC Universal, Major League Baseball, Mr Shoes, University of Cambridge, University of East Anglia, Norfolk County Council, Norwich Theatre Royal and Norwich Cathedral, among many other large and small organisations.--></p>
+            <div id="logos" class="container-global" style="margin-top: 30px;">
+                <div class="col-lg-2 col-md-2">
+                    <img src="nbc-logo-1.png" width="160px" height="auto" />
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <img src="phillips-logo-1.png" width="160px" height="auto" />
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <img src="bosch-logo-1.png" width="120px" height="auto" style="margin-top: 4px;" />
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <img src="cambridge-logo-1.png" width="130px" height="auto" style="margin-top: 3px;" />
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <img src="bae-logo-1.png" width="130px" height="auto" style="margin-top: 3px;" />
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <img src="disney-logo-1.png" width="150px" height="auto" style="margin-top: 2px;" />
+                </div>
+            </div>
+                <a href="#" title="button title" class="button button-logos-action bounce">Let's work together</a>
+        </div>
+    </div>
+</div>
+</section>
+<!-- WE WORK WITH SECTION END -->
+
+<!-- GENERATE ENQUIRY SECTION -->
+<section>
+    <div class="greybg fluidheight container-fluid col-md-12 col-lg-12 col-sm-12">
+        <div class="greybg container-global">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 paddingleft" style="padding-left: 0px;">
+                <h3 style="color: #4B6BC6; font-size: 26px; font-weight: 400;">Ready to make some software magic?</h3>
+                <p style="color: #424770; font-size: 20px; font-weight: 200;">Your vision is about to be realised.</p>
+            </div>
+            <div class="greybg col-lg-6 col-md-6 col-sm-12 col-xs-12 paddingright" style="padding-right: 0px;">
+                <!--<h3>Call us <a href="" style="color: #2AB27B; font-size: 18px; font-weight: 600;">01234 567 890</a>, send us an email <a href="" style="color: #2AB27B; font-size: 18px; font-weight: 600;">info@website.com</a> or start a project below</h3>-->
+                <div id="button-group" role="action-button-group" class="standard-button-group" style="margin-top: 0px;">
+                    <a href="#" title="button title" class="button button-standard-action bounce" style="float: right; margin-right: 0px;">See our process</a> <a href="#" title="button title" class="button button-vimportant-action bounce" style="float: right;"><i class="fa fa-code" aria-hidden="true"></i> Start your project</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- GENERATE ENQUIRY SECTION END -->
+<hr>
+<!-- FOOTER TOP -->
+<footer id="top">
+    <div class="footertop container-fluid col-md-12 col-lg-12 col-sm-12">
+        <div class="container-global ">
+            <div class="footercol col-md-3 col-sm-6 col-xs-6 nopadding">
+                <h3 style="color: #4B6BC6;">Services</h3>
+                <ul>
+                    <li><a href="" style="font-weight: 600;">Mobile Apps</a></li>
+                    <li><a href="" style="font-weight: 600;">Web Apps</a></li>
+                    <li><a href="" style="font-weight: 600;">Design Sprints</a></li>
+                    <li><a href="" style="font-weight: 600;">User Experience</a></li>
+                </ul>
+            </div>
+            <div class="footercol col-md-3 col-sm-6 col-xs-6 nopadding">
+                <h3 style="color: #2AB27B;">Company</h3>
+                <ul>
+                    <li><a href="">Support & Consulation</a></li>
+                    <li><a href="">History & Team</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Careers</a></li>
+                </ul>
+            </div>
+            <div class="footercol col-md-3 col-sm-6 col-xs-6 nopadding">
+                <h3 style="color: #EDB431;">Resources</h3>
+                <ul>
+                    <li><a href="">Twitter</a></li>
+                    <li><a href="">Facebook</a></li>
+                    <li><i class="fa fa-paper-plane-o" aria-hidden="true"></i> <a href="">user@example.com</a></li>
+                    <li><i class="fa fa-phone" aria-hidden="true"></i> <a href="">01234 567890</a></li>
+                </ul>
+            </div>
+            <div class="footercol col-md-3 col-sm-6 col-xs-6 nopadding">
+                <ul>
+                    <li style="margin-bottom: 17px!important;"><a href="" style="color: #E32072!important;"><i class="fa fa-location-arrow" aria-hidden="true"></i> Slough</a></li>
+                    <li><a href="">The Office<br>Wernham Hog, Slough, DB1 4OR</a></li>
+                    <li style="line-height: 24px;">Free parking is available for clients within the main car park.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- FOOTER TOP END -->
+<hr>
+<!-- FOOTER BOTTOM -->
+<footer id="bottom">
+    <div class="footerbtm container-fluid col-md-12">
+        <div class="container-global">
+            <div class="col-md-4 col-sm-12 col-xs-12 nopadding">
+                <!--p>©2016 rights information</p>-->
+                <img src="eastpoint-brand@2x.png" width="90px" height="auto" />
+            </div>
+            <div class="col-md-8 col-md-12 col-xs-12 nopadding align-right">
+                <p>General company information</p>
+            </div>
+        </div> 
+    </div>    
+</footer>
+<!-- FOOTER BOTTOM END -->
+</body>
+<script>
+$(document).ready(function(){
+    $(".dropdown-toggle").dropdown();
+});
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+
+    if(scroll >= 300) {
+        $(".navbar").addClass("navbar-fixed-top").fadeIn();
+        $(".contact").addClass("contact-appear");
+        $(".company").css("margin-left","0px");
+        $(".navbar").addClass("fixed-bg").fadeIn();
+        $("#navgrad").removeClass("navbar-gradient").fadeOut();
+    } else {
+        $(".navbar").removeClass("fixed-bg").fadeOut();
+        $(".navbar").removeClass("navbar-fixed-top").fadeOut();
+        $(".contact").removeClass("contact-appear");
+        $(".company").css("margin-left","10vh");
+        $("#navgrad").addClass("navbar-gradient").fadeIn();
+    }
+});
+$(document).ready(function(){
+    $('.bounce').hover(
+       function(){ $(this).addClass('hover-bounce') },
+       function(){ $(this).removeClass('hover-bounce') }
+    )
+});
+$(document).ready(function(){
+    $('.button-logos-action').hover(function(){
+        $('#logos').addClass('shrinkblur');
+        /*$("#buttonaction").addClass('logobuttonappear');*/ },
+        function(){
+        $('#logos').removeClass('shrinkblur'); }
+        /*function(){ $('#buttonaction').addClass('logobuttonappear') }*/
+        /*function(){ $(this).removeClass('logoblur') }*/
+        /*function(){ $('#logobutton').removeClass('logobuttonappear') }*/
+    )
+});
+$(document).ready(function(){
+    $('#prevservice').hover(
+        function(){ $(this).addClass('moveup') },
+        function(){ $(this).removeClass('moveup') }
+    )
+});
+$(document).ready(function(){
+    $('#nextservice').hover(
+        function(){ $(this).addClass('moveup') },
+        function(){ $(this).removeClass('moveup') }
+    )
+});
+$(document).ready(function(){
+    $('.epteamprofile').hover(
+        function(){ $(this).addClass('zoom') },
+        function(){ $(this).removeClass('zoom') }
+    )
+});
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+
+    if(scroll >= 1000) {
+        $(".epintercom").addClass("epintercom-appear");
+    } else {
+        /*$(".epintercom").removeClass("epintercom-appear");*/
+    }
+});
+</script>
+</html>
