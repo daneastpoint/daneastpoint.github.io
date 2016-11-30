@@ -839,13 +839,12 @@ i.fa.fa-google-plus {
     padding: 15px;
 }
 .epportfoliopreview h3 {
-    color: rgba(66,71,112,0.3);
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 22px;
-    letter-spacing: 0.03em;
-    margin: 0px;
-    text-transform: uppercase;
+    color: #424770;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 200;
+    text-overflow: ellipsis;
+    margin-bottom: 30px;
 }
 .epportfoliopreview h5 {
     color: rgba(66,71,112,0.3);
