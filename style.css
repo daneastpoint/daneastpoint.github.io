@@ -838,6 +838,14 @@ i.fa.fa-google-plus {
     height: auto;
     padding: 15px;
 }
+.epportfoliopreview h3 {
+    color: #424770;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    margin: 0px;
+}
 .epportfoliopreview h5 {
     color: #424770;
     font-size: 16px;
@@ -845,6 +853,14 @@ i.fa.fa-google-plus {
     line-height: 20px;
     letter-spacing: 0.01em;
     margin: 0px;
+}
+.epportfoliooreview p {
+    color: #424770;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.03em;
+    margin: 0px 0px 10px 0px;
 }
 /* FOOTER */
 /*#top {
