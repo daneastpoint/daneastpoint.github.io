@@ -282,71 +282,73 @@
     <div class="greybg fluidheight container-fluid col-md-12 col-lg-12 col-sm-12">
         <div class="greybg container-global">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 paddingleft" style="padding-left: 0px;">
-                <h3>Section for directly encouraging enquiries</h3>
+                <h3 style="color: #4B6BC6; font-size: 26px; font-weight: 400;">Ready to make some software magic?</h3>
+                <p style="color: #424770; font-size: 20px; font-weight: 200;">Your vision is about to be realised.</p>
             </div>
             <div class="greybg col-lg-6 col-md-6 col-sm-12 col-xs-12 paddingright" style="padding-right: 0px;">
-                <h4>A couple of buttons should help</h4>
-                <div id="button-group" role="action-button-group" class="standard-button-group">
-                    <a href="#" title="button title" class="button button-vimportant-action bounce"><i class="fa fa-code" aria-hidden="true"></i> Really Important Action</a>
-                    <a href="#" title="button title" class="button button-standard-action bounce">Standard Action</a>
+                <!--<h3>Call us <a href="" style="color: #2AB27B; font-size: 18px; font-weight: 600;">01234 567 890</a>, send us an email <a href="" style="color: #2AB27B; font-size: 18px; font-weight: 600;">info@website.com</a> or start a project below</h3>-->
+                <div id="button-group" role="action-button-group" class="standard-button-group" style="margin-top: 0px;">
+                    <a href="#" title="button title" class="button button-standard-action bounce" style="float: right; margin-right: 0px;">See our process</a> <a href="#" title="button title" class="button button-vimportant-action bounce" style="float: right;"><i class="fa fa-code" aria-hidden="true"></i> Start your project</a>
                 </div>
             </div>
         </div>
     </div>
 </section>
 <!-- GENERATE ENQUIRY SECTION END -->
-
+<hr>
 <!-- FOOTER TOP -->
 <footer id="top">
     <div class="footertop container-fluid col-md-12 col-lg-12 col-sm-12">
         <div class="container-global ">
             <div class="footercol col-md-3 col-sm-6 col-xs-6 nopadding">
-                <h3>Services</h3>
+                <h3 style="color: #4B6BC6;">Services</h3>
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Mobile</a></li>
-                    <li><a href="">Web Apps</a></li>
-                    <li><a href="">Technologies</a></li>
+                    <li><a href="" style="font-weight: 600;">Mobile Apps</a></li>
+                    <li><a href="" style="font-weight: 600;">Web Apps</a></li>
+                    <li><a href="" style="font-weight: 600;">Design Sprints</a></li>
+                    <li><a href="" style="font-weight: 600;">User Experience</a></li>
                 </ul>
             </div>
             <div class="footercol col-md-3 col-sm-6 col-xs-6 nopadding">
-                <h3>Company</h3>
+                <h3 style="color: #2AB27B;">Company</h3>
                 <ul>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Our Team</a></li>
+                    <li><a href="">Support & Consulation</a></li>
+                    <li><a href="">History & Team</a></li>
                     <li><a href="">Blog</a></li>
                     <li><a href="">Careers</a></li>
                 </ul>
             </div>
             <div class="footercol col-md-3 col-sm-6 col-xs-6 nopadding">
-                <h3>Resources</h3>
+                <h3 style="color: #EDB431;">Resources</h3>
                 <ul>
-                    <li><a href="">Contact</a></li>
-                    <li><a href="">Support</a></li>
-                    <li><i class="fa fa-envelope" aria-hidden="true"></i> <a href="">user@example.com</a></li>
+                    <li><a href="">Twitter</a></li>
+                    <li><a href="">Facebook</a></li>
+                    <li><i class="fa fa-paper-plane-o" aria-hidden="true"></i> <a href="">user@example.com</a></li>
                     <li><i class="fa fa-phone" aria-hidden="true"></i> <a href="">01234 567890</a></li>
                 </ul>
             </div>
             <div class="footercol col-md-3 col-sm-6 col-xs-6 nopadding">
                 <ul>
-                    <li><i class="fa fa-location-arrow" aria-hidden="true"></i> <a href="">Location</a></li>
-                    <li><a href="">Address</a></li>
-                    <li>Parking info</li>
+                    <li style="margin-bottom: 17px!important;"><a href="" style="color: #E32072!important;"><i class="fa fa-location-arrow" aria-hidden="true"></i> Slough</a></li>
+                    <li><a href="">The Office<br>Wernham Hog, Slough, DB1 4OR</a></li>
+                    <li style="line-height: 24px;">Free parking is available for clients within the main car park.</li>
                 </ul>
             </div>
         </div>
     </div>
 </footer>
 <!-- FOOTER TOP END -->
+<hr>
 <!-- FOOTER BOTTOM -->
 <footer id="bottom">
     <div class="footerbtm container-fluid col-md-12">
         <div class="container-global">
             <div class="col-md-4 col-sm-12 col-xs-12 nopadding">
-                <span>© Eastpoint Software Limited</span>
+                <!--p>©2016 rights information</p>-->
+                <img src="eastpoint-brand@2x.png" width="90px" height="auto" />
             </div>
             <div class="col-md-8 col-md-12 col-xs-12 nopadding align-right">
-                <span>All Rights Reserved 2016. Eastpoint Software Limited is registered in Cambridge, England. Company number 07814575</span>
+                <p>General company information</p>
             </div>
         </div> 
     </div>    
@@ -365,17 +367,48 @@ $(window).scroll(function() {
         $(".contact").addClass("contact-appear");
         $(".company").css("margin-left","0px");
         $(".navbar").addClass("fixed-bg").fadeIn();
+        $("#navgrad").removeClass("navbar-gradient").fadeOut();
     } else {
         $(".navbar").removeClass("fixed-bg").fadeOut();
         $(".navbar").removeClass("navbar-fixed-top").fadeOut();
         $(".contact").removeClass("contact-appear");
         $(".company").css("margin-left","10vh");
+        $("#navgrad").addClass("navbar-gradient").fadeIn();
     }
 });
 $(document).ready(function(){
     $('.bounce').hover(
        function(){ $(this).addClass('hover-bounce') },
        function(){ $(this).removeClass('hover-bounce') }
+    )
+});
+$(document).ready(function(){
+    $('.button-logos-action').hover(function(){
+        $('#logos').addClass('shrinkblur');
+        /*$("#buttonaction").addClass('logobuttonappear');*/ },
+        function(){
+        $('#logos').removeClass('shrinkblur'); }
+        /*function(){ $('#buttonaction').addClass('logobuttonappear') }*/
+        /*function(){ $(this).removeClass('logoblur') }*/
+        /*function(){ $('#logobutton').removeClass('logobuttonappear') }*/
+    )
+});
+$(document).ready(function(){
+    $('#prevservice').hover(
+        function(){ $(this).addClass('moveup') },
+        function(){ $(this).removeClass('moveup') }
+    )
+});
+$(document).ready(function(){
+    $('#nextservice').hover(
+        function(){ $(this).addClass('moveup') },
+        function(){ $(this).removeClass('moveup') }
+    )
+});
+$(document).ready(function(){
+    $('.epteamprofile').hover(
+        function(){ $(this).addClass('zoom') },
+        function(){ $(this).removeClass('zoom') }
     )
 });
 $(window).scroll(function() {    
