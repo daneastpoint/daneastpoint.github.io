@@ -950,7 +950,8 @@ i.fa.fa-google-plus {
     transition: all .25s ease;
 }
 /* INTERCOM */
-.background {
+/* ANIMATED GRADIENT BG */
+/*.background {
   position: absolute;
   top: 0px;
   right: 0px;
@@ -1101,4 +1102,5 @@ i.fa.fa-google-plus {
   to {
     opacity: 0;
   }
-}
+}*/
+/* ANIMATED GRADIENT BG */
