@@ -950,6 +950,13 @@ i.fa.fa-google-plus {
     transition: all .25s ease;
 }
 /* INTERCOM */
+.background {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
 
 .blue-purple {
   background-color: #1D2B64;
