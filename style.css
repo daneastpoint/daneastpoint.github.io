@@ -951,14 +951,14 @@ i.fa.fa-google-plus {
 }
 /* INTERCOM */
 /* ANIMATED GRADIENT BG */
-/*.background {
+.background {
   position: absolute;
   top: 0px;
   right: 0px;
   bottom: 0px;
   left: 0px;
 }
-
+/*
 .blue-purple {
   background-color: #1D2B64;
   background: -webkit-linear-gradient(300deg,rgba(87,111,230,0.95) 15%,rgba(152,68,183,0.9) 70%,rgba(255,53,127,0.9) 94%);
