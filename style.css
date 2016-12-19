@@ -1102,11 +1102,3 @@ i.fa.fa-google-plus {
     opacity: 0;
   }
 }
-.svg-wrapper {
-  display: block;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  margin-top: -36px;
-  margin-left: -136px;
-}
