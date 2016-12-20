@@ -387,7 +387,7 @@ p.small {
 .fixed-bg {
     background-color: #fff!important;
 }
-.fuxed-bg.nav a {
+.fuxed-bg > .nav a {
     color: #424770;
 }
 .navbar {
