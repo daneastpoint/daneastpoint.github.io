@@ -385,7 +385,10 @@ p.small {
     z-index: -1;
 }
 .fixed-bg {
-    background-color: rgba(64,176,255,0.99)!important;
+    background-color: #fff!important;
+}
+.fuxed-bg.nav a {
+    color: #424770;
 }
 .navbar {
     display: block!important;
