@@ -395,6 +395,15 @@ p.small {
 .nav a.navcontact {
     color: #fff!important;
 }
+.contact {
+    display: none;
+}
+.contact-appear {
+    display: block;
+}
+a.navcontact {
+    font-weight: 400;
+}
 /* FIXED NAV ON SCROLL */
 .navbar {
     display: block!important;
@@ -506,16 +515,6 @@ li.dropdown:hover > ul.dropdown-menu {
     height: 4px!important;
     border-radius: 6px!important;
     background: #fff!important;
-}
-.contact {
-    display: none;
-}
-.contact-appear {
-    display: block;
-}
-a.navcontact {
-    font-weight: 400;
-    padding-right: 0px!important;
 }
 /* MOBILE NAV */
 /* NAVBAR */
