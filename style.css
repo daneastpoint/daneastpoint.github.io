@@ -396,6 +396,7 @@ p.small {
 .nav a.navcontact {
     color: #fff!important;
     padding-top: 10px;
+    top: 0px!important;
 }
 .contact {
     display: none;
