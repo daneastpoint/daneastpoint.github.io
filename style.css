@@ -396,6 +396,9 @@ p.small {
     color: #fff!important;
     padding-top: 10px;
 }
+.fixed-bg.nav li {
+    top: 14px!important;
+}
 .contact {
     display: none;
 }
