@@ -385,7 +385,7 @@ p.small {
     z-index: -1;
 }
 .fixed-bg {
-    background-color: rgba(64,176,255,0.99)!important;
+    background-color: rgba(255,255,255,0.99)!important;
 }
 .navbar {
     display: block!important;
