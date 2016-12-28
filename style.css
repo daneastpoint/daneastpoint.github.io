@@ -397,6 +397,7 @@ p.small {
     color: #fff!important;
     padding-top: 10px;
     top: 0px!important;
+    margin-right: 0px!important;
 }
 .contact {
     display: none;
