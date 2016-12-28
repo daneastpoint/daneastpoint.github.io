@@ -391,13 +391,11 @@ p.small {
 }
 .fixed-bg.nav a {
     color: #424770!important;
+    top: 10px!important;
 }
 .nav a.navcontact {
     color: #fff!important;
     padding-top: 10px;
-}
-.fixed-bg.nav li {
-    top: 14px!important;
 }
 .contact {
     display: none;
