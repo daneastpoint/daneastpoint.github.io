@@ -435,9 +435,6 @@ a.navcontact {
     background-color: transparent!important;
     color: rgba(255,255,255,0.6);
 }
-.nav>li>a {
-    padding: 10px 20px;
-}
 li.dropdown:hover > ul.dropdown-menu {
     display: block;    
 }
