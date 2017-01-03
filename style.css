@@ -1222,7 +1222,7 @@ i.fa.fa-google-plus {
     width: 8px;
     height: 8px;
     margin: -4px 0 0 -4px;
-    background: white;
+    background: #333333;
     border-radius: 50%;
     -webkit-animation: ani-mouse 2.5s linear infinite;
     -moz-animation: ani-mouse 2.5s linear infinite;
