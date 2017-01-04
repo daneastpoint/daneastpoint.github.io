@@ -25,7 +25,8 @@
                 <span class="icon-bar"></span>
             </button>
             <div class="navbar-left">
-                <a class="navbar-brand" href="index.html"><img src="eastpoint-brand-white@2x.png" width="130px" /></a>
+                <a class="navbar-brand hide-scroll" href="index.html"><img src="eastpoint-brand-white@2x.png" width="130px" /></a>
+                <a class="navbar-brand show-scroll" href="index.html"><img src="eastpoint-brand@2x.png" width="130px" /></a>
             </div>
         </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -442,12 +443,14 @@ $(window).scroll(function() {
         $(".company").css("margin-left","0px");
         $(".navbar").addClass("fixed-bg").fadeIn();
         $("#navgrad").removeClass("navbar-gradient").fadeOut();
+        $(".show-scroll").addClass("display-block");
     } else {
         $(".navbar").removeClass("fixed-bg").fadeOut();
         $(".navbar").removeClass("navbar-fixed-top").fadeOut();
         $(".contact").removeClass("contact-appear");
         $(".company").css("margin-left","10vh");
         $("#navgrad").addClass("navbar-gradient").fadeIn();
+        $(".show-scroll").addClass("display-none");
     }
 });
 $(document).ready(function(){
