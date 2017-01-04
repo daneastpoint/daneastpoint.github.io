@@ -444,6 +444,7 @@ $(window).scroll(function() {
         $(".navbar").addClass("fixed-bg").fadeIn();
         $("#navgrad").removeClass("navbar-gradient").fadeOut();
         $(".show-scroll").addClass("display-block");
+        $(".hide-scroll").addClass("display-none");
     } else {
         $(".navbar").removeClass("fixed-bg").fadeOut();
         $(".navbar").removeClass("navbar-fixed-top").fadeOut();
@@ -451,6 +452,7 @@ $(window).scroll(function() {
         $(".company").css("margin-left","10vh");
         $("#navgrad").addClass("navbar-gradient").fadeIn();
         $(".show-scroll").addClass("display-none");
+        $(".hide-scroll").addClass("display-block");
     }
 });
 $(document).ready(function(){
