@@ -421,6 +421,9 @@ a.navcontact {
     padding: 15px!important;
     margin-bottom: 0px;
 }
+a.navbar-brand.show-scroll {
+    position: relative;
+}
 .nav a {
     font-size: 18px;
     font-weight: 400;
