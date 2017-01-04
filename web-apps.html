@@ -443,16 +443,16 @@ $(window).scroll(function() {
         $(".company").css("margin-left","0px");
         $(".navbar").addClass("fixed-bg").fadeIn();
         $("#navgrad").removeClass("navbar-gradient").fadeOut();
-        $(".show-scroll").addClass("display-block");
-        $(".hide-scroll").addClass("display-none");
+        $(".show-scroll").show();
+        $(".hide-scroll").hide();
     } else {
         $(".navbar").removeClass("fixed-bg").fadeOut();
         $(".navbar").removeClass("navbar-fixed-top").fadeOut();
         $(".contact").removeClass("contact-appear");
         $(".company").css("margin-left","10vh");
         $("#navgrad").addClass("navbar-gradient").fadeIn();
-        $(".show-scroll").addClass("display-none");
-        $(".hide-scroll").addClass("display-block");
+        $(".show-scroll").hide();
+        $(".hide-scroll").show();
     }
 });
 $(document).ready(function(){
