@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+        <title>Eastpoint Software</title>
+    </head>
+<body>
+<!-- NAV START -->
+<nav class="navbar nav" style="margin-bottom: -60px;">
+    <span id="navgrad" class="navbar-gradient"></span>
+    <div class="container-fluid container-global paddingleft paddingright" style="padding-left: 0px; padding-right: 0px;">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="navbar-left">
+                <a class="navbar-brand" href="index.html"><img src="eastpoint-brand-white@2x.png" width="130px" /></a>
+            </div>
+        </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+        <div id="navbar" class="collapse navbar-collapse navbar-right">
+            <ul class="nav navbar-nav nav-options service">
+                <li><a href="#">Home</a></li>
+                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
+                    <ul class="dropdown-menu epdropdown" style="width: 300px;">
+                        <!--<li><a href="#" class="dropdownsimple">Mobile Apps</a></li>-->
+                        <li><a href="android-app-development.html" class="dropdownpop"><i class="fa fa-apple" aria-hidden="true"></i> Mobile Apps<br><p>Optional sub-title offering info about<br>Web Apps.</p></a></li>
+                        <li><a href="android-app-development.html" class="dropdownpop"><i class="fa fa-html5" aria-hidden="true"></i> Web Apps<br><p>Optional sub-title offering info about<br>Web Apps.</p></a></li>
+                        <li><a href="ios-app-development.html" class="dropdownpop">Design Sprints<br><p>Optional sub-title offering info about<br>Design Sprints.</p></a></li>
+                        <li><a href="#" class="dropdownpop">User Experience<br><p>Optional sub-title offering info about<br>User experience.</p></a></li>
+                        <li><a href="ios-app-development.html" class="dropdownpop">Support & Consultation<br><p>Optional sub-title offering info about<br>Support and Consultation.</p></a></li>
+                        <li><a href="ios-app-development.html" class="dropdownpop">technologies<br><p>Optional sub-title offering info about<br>Technologies.</p></a></li>
+                        <ul class="dropdown-section">
+                        <p>Here's a link to more information about mobile development.</p>
+                        </ul>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Our Work</a>
+                    <!--<ul class="dropdown-menu epdropdown" style="width: 350px;">
+                        <li><a href="#" class="dropdownsimple">Overview</a></li>
+                        <li><a href="#" class="dropdownpop"><i class="fa fa-html5" aria-hidden="true"></i> MongoDB</a></li>
+                        <li><a href="#" class="dropdownpop"><i class="fa fa-html5" aria-hidden="true"></i> NodeJS</a></li>
+                        <li><a href="#" class="dropdownpop"><i class="fa fa-html5" aria-hidden="true"></i> AngularJS</a></li>
+                        <ul class="dropdown-section">
+                        <p>Here's a link to more information about mobile development.</p>
+                        </ul>
+                    </ul>-->
+                </li>
+                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About</a>
+                        <ul class="dropdown-menu epdropdown" style="width: 350px;">
+                        <li><a href="#" class="dropdownsimple">History and Team</a></li>
+                        <li><a href="#" class="dropdownsimple">Careers</a></li>
+                        <!--<li><a href="#" class="dropdownpop"><i class="fa fa-html5" aria-hidden="true"></i> History & Team</a></li>
+                        <li><a href="#" class="dropdownpop"><i class="fa fa-html5" aria-hidden="true"></i> Careers</a></li>
+                        <li><a href="#" class="dropdownpop"><i class="fa fa-html5" aria-hidden="true"></i> NodeJS</a></li>
+                        <li><a href="#" class="dropdownpop"><i class="fa fa-html5" aria-hidden="true"></i> AngularJS</a></li>-->
+                        <ul class="dropdown-section">
+                        <p>Here's a link to more information about mobile development.</p>
+                        </ul>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav company" style="margin-left: 10vw;">
+                <li><a href="#">Blog</a></li>
+                <!--<li><a href="#">About</a></li>-->
+                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="padding-right: 0px!important;">Contact</a>
+                    <ul class="dropdown-menu epdropdown" style="width: 400px;">
+                        <li><a href="#" class="dropdownsimple">Culture</a></li>
+                        <li><a href="#" class="dropdownsimple">Team</a></li>
+                        <li><a href="#" class="dropdownsimple">Careers</a></li>
+                        <li><a href="#" class="dropdownsimple">Contact</a></li>
+                        <li><a href="#" class="dropdownsimple">Blog</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#" class="dropdownsimple">Agile Projects</a></li>
+                        <li><a href="#" class="dropdownsimple">Development Outsourcing</a></li>
+                        <li><a href="#" class="dropdownsimple">Support and Consultation</a></li>
+                        <ul class="dropdown-section">
+                        <li><a href="#" class="dropdownsimple">Contact Information</a></li>
+                        <li><a href="#" class="dropdowncontact">01234 567 890</a></li>
+                        <li><a href="#" class="dropdowncontact">email@account.co.uk</a></li>
+                        </ul>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav contact" style="margin-left: 5vw;">
+                <li><a href="#" class="navcontact button button-vimportant-action bounce">01234 567 890</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+<!-- NAV END -->
+
+<!-- HEADER TEST -->   
+<header>
+<div class="epheaderhomebg" style="position: relative; width: 100%; height: 94vh;">
+    <!-- SECTION HAS DIAGONAL -->
+    <div class="background " style="background-image: url('team-photo-1.jpg'); background-size: cover; background-position: center;">
+    </div>
+    <div class="background" style="background: linear-gradient(120deg,rgba(85,51,255,0.9) 15%,rgba(5,213,255,0.9) 70%,rgba(166,255,203,0.9) 94%)">
+    </div>
+    <div class="color-blocks">
+        <span class="header-diagonal-one">
+        </span>
+        <span class="header-diagonal-two">
+        </span>
+        <span class="header-diagonal-two" style="transform: skew(0deg, 6deg);top: 500px;background: linear-gradient(90deg, rgba(5,213,255,0), rgba(5,213,255,0.3));">
+        </span>
+        <span class="bluebg header-diagonal-three">
+        </span>
+        <span class="header-diagonal-four">
+        </span>
+    </div>
+    <!-- SECTION HAS DIAGONAL END -->
+    <div class="skewed-bg">
+        <section id="intro">
+            <div class="col-md-12 col-sm-12">
+                <div class="container-global">
+                <div class="col-md-6 nopadding">
+                    <h2>We are a <b>human-centered design</b> agency with <b>ideas.</b></h2>
+                    <p>We combine design, UX and branding expertise to help clients think beyond the expected and innovate their businesses.</p>
+                    <div id="button-group" role="action-button-group" class="standard-button-group">
+                    <a href="#" title="button title" class="button button-vimportant-action bounce"><i class="fa fa-code" aria-hidden="true"></i> Really Important Action</a><a href="#" title="button title" class="button button-standard-action bounce">Standard Action</a>
+                </div>
+                </div>
+                <div class="col-md-6 nopadding">
+                </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+</header>
+<!-- HEADER TEST END -->
+<!-- INTERCOM CHAT -->
+<div role="chat pop up" style="height: inherit; width: 100vw; position: relative; top: 0px;">
+    <div class="epintercom" style="width: inherit; position: fixed; bottom: 0px; z-index: 1000;">
+        <a href="#" title="button title" class="button button-epintercom-start bounce intercom-start" style="float: right;"><i class="fa fa-commenting-o" aria-hidden="true"></i> Ask a Question</a>   
+    </div>
+</div>
+<!-- INTERCOM CHAT -->
+<!-- USER CENTERED DESIGN -->
+<!--<section>
+    <div class="whitebg fluidheight container-fluid col-md-12 col-lg-12 col-sm-12" style="padding-top: 30px; padding-bottom: 30px;">
+        <div class="whitebg container-global">
+            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 paddingleft" style="z-index: 1000; padding-left: 0px;">
+                <img src="circles-icon.png" width="120px" height="auto" />
+            </div>
+            <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 paddingright" style="z-index: 1000; padding-right: 0px;">
+                <h2>Capture your audiences attention with a dedicated mobile application.</h2>
+            </div>
+        </div>
+    </div>
+</section>-->
+<!-- USER CENTERED DESIGN END -->
+
+<!-- NEW INTRO SECTION -->
+<section>
+    <div class="whitebg fluidheight container-fluid col-md-12 col-lg-12 col-sm-12">
+        <div class="container-global">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 paddingleft" style="padding-left: 0px; z-index: 1000; text-align: center;">
+                <p class="large">"We've worked with eastpoint software for a long time and their ability to take on new challenge and advance solutions beyond our expectations makes them the perfect team to collaborate with." <a href="#">Start a project</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- NEW INTRO SECTION END -->
+
+<!-- SERVICE CARD SECTION -->
+<section>
+    <div class="whitebg fluidheight container-fluid col-md-12 col-lg-12 col-sm-12" style="padding-top: 0px;">
+        <div class="container-global">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 nopadding">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <div style="display: inline-flex; height: 130px; border-radius: 5px; overflow: hidden; box-shadow: 8px 10px 20px 0px rgba(46,61,73,0.15);">
+                    <div style="width: 40%; height: 100%; background: #3ECF8E;">
+                    </div>
+                    <div style="width: 60%; padding: 10px;">
+                        <p style="font-size: 12px; line-height: 16px; color: #333;">SERVICES</p>
+                        <h3>Another service</h3>
+                        <p style="font-size: 12px; line-height: 16px; ">"We've worked with eastpoint software for a long time."</p>
+                    </div>
+                </div> 
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <div style="display: inline-flex; height: 130px; border-radius: 5px; overflow: hidden; box-shadow: 8px 10px 20px 0px rgba(46,61,73,0.15);">
+                    <div style="width: 40%; height: 100%; background: #3ECF8E;">
+                    </div>
+                    <div style="width: 60%; padding: 10px;">
+                        <p style="font-size: 12px; line-height: 16px; color: #333;">SERVICES</p>
+                        <h3>Another service</h3>
+                        <p style="font-size: 12px; line-height: 16px; ">"We've worked with eastpoint software for a long time."</p>
+                    </div>
+                </div> 
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <div style="display: inline-flex; height: 130px; border-radius: 5px; overflow: hidden; box-shadow: 8px 10px 20px 0px rgba(46,61,73,0.15);">
+                    <div style="width: 40%; height: 100%; background-image: url('team-photo-1.jpg'); background-size: cover;">
+                        <div style="height: 100%; background: rgba(62,207,142,0.8);">
+                        </div>
+                    </div>
+                    <div style="width: 60%; padding: 10px; background: #FFF;">
+                        <p style="font-size: 12px; line-height: 16px; color: #333;">SERVICES</p>
+                        <h3>Another service</h3>
+                        <p style="font-size: 12px; line-height: 16px; ">"We've worked with eastpoint software for a long time."</p>
+                    </div>
+                </div> 
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+            <!-- -->
+<section>
+            <div class="greybg fluidheight container-fluid col-md-12 col-lg-12 col-sm-12">
+                <div class="container-global">
+            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 nopadding">
+            <h2>Here is the service title</h2>
+            <p class="large">Here is the service text that introduces the selected service and picks out key phrases or words that users might be looking for without needing to read lots of content.</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 nopadding" style="border-left: 1px solid #ccc; z-index: 1;">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding-right: 0px;">
+                <div style="display: inline-flex; height: 130px; border-radius: 5px; overflow: hidden; box-shadow: 8px 10px 20px 0px rgba(46,61,73,0.15); margin-bottom: 15px;">
+                    <div style="width: 40%; height: 100%; background: #3ECF8E;">
+                    </div>
+                    <div style="width: 60%; padding: 10px; background: #FFF;">
+                        <p style="font-size: 12px; line-height: 16px; color: #333;">SERVICES</p>
+                        <h3>Another service</h3>
+                        <p style="font-size: 12px; line-height: 16px; ">"We've worked with eastpoint software for a long time."</p>
+                    </div>
+                </div> 
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding-right: 0px;">
+                <div style="display: inline-flex; height: 130px; border-radius: 5px; overflow: hidden; box-shadow: 8px 10px 20px 0px rgba(46,61,73,0.15); margin-bottom: 15px;">
+                    <div style="width: 40%; height: 100%; background: #3ECF8E;">
+                    </div>
+                    <div style="width: 60%; padding: 10px; background: #FFF;">
+                        <p style="font-size: 12px; line-height: 16px; color: #333;">SERVICES</p>
+                        <h3>Another service</h3>
+                        <p style="font-size: 12px; line-height: 16px; ">"We've worked with eastpoint software for a long time."</p>
+                    </div>
+                </div> 
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding-right: 0px;">
+                <div style="display: inline-flex; height: 130px; border-radius: 5px; overflow: hidden; box-shadow: 8px 10px 20px 0px rgba(46,61,73,0.15);">
+                    <div style="width: 40%; height: 100%; background-image: url('team-photo-1.jpg'); background-size: cover;">
+                        <div style="height: 100%; background: rgba(62,207,142,0.8);">
+                        </div>
+                    </div>
+                    <div style="width: 60%; padding: 10px; background: #FFF;">
+                        <p style="font-size: 12px; line-height: 16px; color: #333;">SERVICES</p>
+                        <h3>Another service</h3>
+                        <p style="font-size: 12px; line-height: 16px; ">"We've worked with eastpoint software for a long time."</p>
+                    </div>
+                </div> 
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- SKEW BG SECTION -->
+<section>
+    <div class="whitebg container-fluid col-md-12 col-lg-12 col-sm-12 nopaddingleft nopaddingright">
+        <!-- SPAN BG -->
+        <span class="fullwhiteskew" style="background: #fff;width: 100vw;height: 200px;position: absolute;transform: skewY(-6deg);top: -115px;"></span>
+        <!-- SPAN BG -->
+    </div>
+</section>
+<!-- SKEW BG SECTION END -->
+
+<section>
+    <div class="whitebg fluidheight container-fluid col-md-12 col-lg-12 col-sm-12">
+        <div class="container-global">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="text-align: center;">
+                <h2 style="font-size: 30px; font-weight: 800; line-height: 36px; letter-spacing: 0em; margin: 0px 0px 15px 0px;">Web App Development</h2>
+                <p>Webs apps are pieces of online software that fulfil a purpose. A web app can be part of a website or a separate software tool.</p>
+                <div id="button-group" role="action-button-group" class="standard-button-group" style="margin-top: 10px;">
+                    <a href="#" title="button title" class="button button-vimportant-action bounce">Learn more</a>
+                </div>
+            </div>
+            <div class="col-lg-12 col-md-12" style="text-align: center;">
+                <span class="smallline" style="background: #CFD7DF; margin-bottom: 20px; display: inline-block;l"></span>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 nopadding">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <div style="display: inline-flex; height: 130px; border-radius: 5px; overflow: hidden; box-shadow: 8px 10px 20px 0px rgba(46,61,73,0.15);">
+                    <div style="width: 40%; height: 100%; background-image: url('team-photo-placeholder.jpg'); background-size: cover;">
+                        <div style="height: 100%; background: rgba(62,207,142,0.8);">
+                        </div>
+                    </div>
+                    <div style="width: 60%; padding: 10px; background: #FFF;">
+                        <p style="font-size: 12px; line-height: 16px; color: #333;">SERVICES</p>
+                        <h3>Another service</h3>
+                        <p style="font-size: 12px; line-height: 16px; ">"We've worked with eastpoint software for a long time."</p>
+                    </div>
+                </div> 
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <div style="display: inline-flex; height: 130px; border-radius: 5px; overflow: hidden; box-shadow: 8px 10px 20px 0px rgba(46,61,73,0.15);">
+                    <div style="width: 40%; height: 100%; background-image: url('team-photo-2.jpg'); background-size: cover;">
+                        <div style="height: 100%; background: rgba(62,207,142,0.8);">
+                        </div>
+                    </div>
+                    <div style="width: 60%; padding: 10px; background: #FFF;">
+                        <p style="font-size: 12px; line-height: 16px; color: #333;">SERVICES</p>
+                        <h3>Another service</h3>
+                        <p style="font-size: 12px; line-height: 16px; ">"We've worked with eastpoint software for a long time."</p>
+                    </div>
+                </div> 
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <div style="display: inline-flex; height: 130px; border-radius: 5px; overflow: hidden; box-shadow: 8px 10px 20px 0px rgba(46,61,73,0.15);">
+                    <div style="width: 40%; height: 100%; background-image: url('team-photo-1.jpg'); background-size: cover;">
+                        <div style="height: 100%; background: rgba(62,207,142,0.8);">
+                        </div>
+                    </div>
+                    <div style="width: 60%; padding: 10px; background: #FFF;">
+                        <p style="font-size: 12px; line-height: 16px; color: #333;">SERVICES</p>
+                        <h3>Another service</h3>
+                        <p style="font-size: 12px; line-height: 16px; ">"We've worked with eastpoint software for a long time."</p>
+                    </div>
+                </div> 
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>   <div style="background-image: url('team-photo-1.jpg');width: 100%;height: 100%;" class="greybg nopadding col-md-12 col-lg-12 col-sm-12">
+            <div class="greybg fluidheight container-fluid col-md-12 col-lg-12 col-sm-12" style="background: linear-gradient(150deg,rgba(87,111,230,0.94) 15%,rgba(152,68,183,0.6) 70%,rgba(255,53,127,0.97) 94%);">
+                <div class="container-global">
+            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12" style="padding-left: 0px;">
+            <h2 style="font-size: 30px;font-weight: 800;line-height: 36px;letter-spacing: 0em;margin: 110px 0px 15px 0px;color: #fff;">Web App Development</h2>
+            <p style="color: #fff;">Here is the service text that introduces the selected service and picks out key phrases or words that users might be looking for without needing to read lots of content.</p>
+            <div id="button-group" role="action-button-group" class="standard-button-group" style="margin-top: 10px;">
+                <a href="#" title="button title" class="button button-vimportant-action bounce">Learn more</a>
+            </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 nopadding" style="border-left: 1px solid #CFD7DF;z-index: 1;">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding-right: 0px;">
+                <div style="display: inline-flex; height: 130px; border-radius: 5px; overflow: hidden; box-shadow: 8px 10px 20px 0px rgba(46,61,73,0.15); margin-bottom: 15px;">
+                    <div style="width: 40%; height: 100%; background-image: url('team-photo-placeholder.jpg'); background-size: cover;">
+                        <div style="height: 100%;background: rgba(152,68,183,0.6);">
+                        </div>
+                    </div>
+                    <div style="width: 60%; padding: 10px; background: #FFF;">
+                        <p style="font-size: 12px; line-height: 16px; color: #333;">SERVICES</p>
+                        <h3>Another service</h3>
+                        <p style="font-size: 12px; line-height: 16px; ">"We've worked with eastpoint software for a long time."</p>
+                    </div>
+                </div> 
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding-right: 0px;">
+                <div style="display: inline-flex; height: 130px; border-radius: 5px; overflow: hidden; box-shadow: 8px 10px 20px 0px rgba(46,61,73,0.15); margin-bottom: 15px;">
+                    <div style="width: 40%; height: 100%; background-image: url('team-photo-2.jpg'); background-size: cover;">
+                        <div style="height: 100%;background: rgba(152,68,183,0.6);">
+                        </div>
+                    </div>
+                    <div style="width: 60%; padding: 10px; background: #FFF;">
+                        <p style="font-size: 12px; line-height: 16px; color: #333;">SERVICES</p>
+                        <h3>Another service</h3>
+                        <p style="font-size: 12px; line-height: 16px; ">"We've worked with eastpoint software for a long time."</p>
+                    </div>
+                </div> 
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding-right: 0px;">
+                <div style="display: inline-flex; height: 130px; border-radius: 5px; overflow: hidden; box-shadow: 8px 10px 20px 0px rgba(46,61,73,0.15);">
+                    <div style="width: 40%; height: 100%; background-image: url('team-photo-1.jpg'); background-size: cover;">
+                        <div style="height: 100%;background: rgba(152,68,183,0.6);">
+                        </div>
+                    </div>
+                    <div style="width: 60%; padding: 10px; background: #FFF;">
+                        <p style="font-size: 12px; line-height: 16px; color: #333;">SERVICES</p>
+                        <h3>Another service</h3>
+                        <p style="font-size: 12px; line-height: 16px; ">"We've worked with eastpoint software for a long time."</p>
+                    </div>
+                </div> 
+            </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<!-- SKEW BG SECTION -->
+<section>
+    <div class="whitebg container-fluid col-md-12 col-lg-12 col-sm-12 nopaddingleft nopaddingright">
+        <!-- SPAN BG -->
+        <span class="fullwhiteskew" style="background: #fff;width: 100vw;height: 200px;position: absolute;transform: skewY(-6deg);top: -115px;"></span>
+        <!-- SPAN BG -->
+    </div>
+</section>
+<!-- SKEW BG SECTION END -->
+
+<section>   <div style="background-image: url('team-photo-1.jpg'); background-position: center; background-size: cover; background-repeat: no-repeat; width: 100%;height: 100%;" class="greybg nopadding col-md-12 col-lg-12 col-sm-12">
+            <div class="greybg fluidheight container-fluid col-md-12 col-lg-12 col-sm-12" style="background: linear-gradient(150deg,rgba(87,111,230,0.94) 15%,rgba(152,68,183,0.6) 70%,rgba(255,53,127,0.97) 94%);">
+                <div class="container-global">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding-left: 0px; text-align: center;">
+            <h2 style="font-size: 30px;font-weight: 800;line-height: 36px;letter-spacing: 0em;margin: 50px 0px 15px 0px;color: #fff;">Web App Development</h2>
+            <p style="color: #fff;">Here is the service text that introduces the selected service and picks out key phrases or words that users might be looking for without needing to read lots of content.</p>
+            <div id="button-group" role="action-button-group" class="standard-button-group" style="margin-top: 10px;">
+                <a href="#" title="button title" class="button button-vimportant-action bounce">Learn more</a>
+            </div>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 nopadding" style="margin-top: 50px; z-index: 1;">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" style="padding-left: 0px;">
+                <div style="display: inline-flex; height: 130px; border-radius: 5px; overflow: hidden; box-shadow: 8px 10px 20px 0px rgba(46,61,73,0.15);">
+                    <div style="width: 40%; height: 100%; background-image: url('team-photo-placeholder.jpg'); background-size: cover;">
+                        <div style="height: 100%;background: rgba(152,68,183,0.6);">
+                        </div>
+                    </div>
+                    <div style="width: 60%; padding: 10px; background: #FFF;">
+                        <p style="font-size: 12px; line-height: 16px; color: #333;">SERVICES</p>
+                        <h3>Another service</h3>
+                        <p style="font-size: 12px; line-height: 16px; ">"We've worked with eastpoint software for a long time."</p>
+                    </div>
+                </div> 
+            </div>
+            <div class="col-lg-4 col-md-14 col-sm-12 col-xs-12">
+                <div style="display: inline-flex; height: 130px; border-radius: 5px; overflow: hidden; box-shadow: 8px 10px 20px 0px rgba(46,61,73,0.15); margin-bottom: 15px;">
+                    <div style="width: 40%; height: 100%; background-image: url('team-photo-2.jpg'); background-size: cover;">
+                        <div style="height: 100%;background: rgba(152,68,183,0.6);">
+                        </div>
+                    </div>
+                    <div style="width: 60%; padding: 10px; background: #FFF;">
+                        <p style="font-size: 12px; line-height: 16px; color: #333;">SERVICES</p>
+                        <h3>Another service</h3>
+                        <p style="font-size: 12px; line-height: 16px; ">"We've worked with eastpoint software for a long time."</p>
+                    </div>
+                </div> 
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" style="padding-right: 0px;">
+                <div style="display: inline-flex; height: 130px; border-radius: 5px; overflow: hidden; box-shadow: 8px 10px 20px 0px rgba(46,61,73,0.15);">
+                    <div style="width: 40%; height: 100%; background-image: url('team-photo-1.jpg'); background-size: cover;">
+                        <div style="height: 100%;background: rgba(152,68,183,0.6);">
+                        </div>
+                    </div>
+                    <div style="width: 60%; padding: 10px; background: #FFF;">
+                        <p style="font-size: 12px; line-height: 16px; color: #333;">SERVICES</p>
+                        <h3>Another service</h3>
+                        <p style="font-size: 12px; line-height: 16px; ">"We've worked with eastpoint software for a long time."</p>
+                    </div>
+                </div> 
+            </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<!-- SKEW BG SECTION -->
+<section>
+    <div class="whitebg container-fluid col-md-12 col-lg-12 col-sm-12 nopaddingleft nopaddingright">
+        <!-- SPAN BG -->
+        <span class="fullwhiteskew" style="background: #fff;width: 100vw;height: 200px;position: absolute;transform: skewY(-6deg);top: -115px;"></span>
+        <!-- SPAN BG -->
+    </div>
+</section>
+<!-- SKEW BG SECTION END -->
+
+<section>
+    <div class="greybg fluidheight container-fluid col-md-12 col-lg-12 col-sm-12">
+        <div class="container-global">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="text-align: center;">
+                <h2 style="font-size: 30px; font-weight: 800; line-height: 36px; letter-spacing: 0em; margin: 0px 0px 15px 0px;">Web App Development</h2>
+                <p>Webs apps are pieces of online software that fulfil a purpose. A web app can be part of a website or a separate software tool.</p>
+                <div id="button-group" role="action-button-group" class="standard-button-group" style="margin-top: 10px;">
+                    <a href="#" title="button title" class="button button-vimportant-action bounce">Learn more</a>
+                </div>
+            </div>
+            <div class="col-lg-12 col-md-12" style="text-align: center;">
+                <span class="smallline" style="background: #CFD7DF; margin-bottom: 20px; display: inline-block;l"></span>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 nopadding" style="z-index: 1;">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <div style="display: inline-flex; height: 130px; border-radius: 5px; overflow: hidden; box-shadow: 8px 10px 20px 0px rgba(46,61,73,0.15);">
+                    <div style="width: 40%; height: 100%; background-image: url('team-photo-placeholder.jpg'); background-size: cover;">
+                        <div style="height: 100%; background: rgba(62,207,142,0.8);">
+                        </div>
+                    </div>
+                    <div style="width: 60%; padding: 10px; background: #FFF;">
+                        <p style="font-size: 12px; line-height: 16px; color: #333;">SERVICES</p>
+                        <h3>Another service</h3>
+                        <p style="font-size: 12px; line-height: 16px; ">"We've worked with eastpoint software for a long time."</p>
+                    </div>
+                </div> 
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <div style="display: inline-flex; height: 130px; border-radius: 5px; overflow: hidden; box-shadow: 8px 10px 20px 0px rgba(46,61,73,0.15);">
+                    <div style="width: 40%; height: 100%; background-image: url('team-photo-2.jpg'); background-size: cover;">
+                        <div style="height: 100%; background: rgba(152,68,183,0.7);">
+                        </div>
+                    </div>
+                    <div style="width: 60%; padding: 10px; background: #FFF;">
+                        <p style="font-size: 12px; line-height: 16px; color: #333;">SERVICES</p>
+                        <h3>Another service</h3>
+                        <p style="font-size: 12px; line-height: 16px; ">"We've worked with eastpoint software for a long time."</p>
+                    </div>
+                </div> 
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <div style="display: inline-flex; height: 130px; border-radius: 5px; overflow: hidden; box-shadow: 8px 10px 20px 0px rgba(46,61,73,0.15);">
+                    <div style="width: 40%; height: 100%; background-image: url('team-photo-1.jpg'); background-size: cover;">
+                        <div style="height: 100%; background: rgba(75, 107,198,0.7);">
+                        </div>
+                    </div>
+                    <div style="width: 60%; padding: 10px; background: #FFF;">
+                        <p style="font-size: 12px; line-height: 16px; color: #333;">SERVICES</p>
+                        <h3>Another service</h3>
+                        <p style="font-size: 12px; line-height: 16px; ">"We've worked with eastpoint software for a long time."</p>
+                    </div>
+                </div> 
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- SKEW BG SECTION -->
+<section>
+    <div class="whitebg container-fluid col-md-12 col-lg-12 col-sm-12 nopaddingleft nopaddingright">
+        <!-- SPAN BG -->
+        <span class="fullwhiteskew" style="background: #fff;width: 100vw;height: 200px;position: absolute;transform: skewY(-6deg);top: -115px;"></span>
+        <!-- SPAN BG -->
+    </div>
+</section>
+<!-- SKEW BG SECTION END -->
+<!-- NEW INTRO SECTION -->
+<section>
+    <div class="whitebg fluidheight container-fluid col-md-12 col-lg-12 col-sm-12">
+        <div class="container-global">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 paddingleft" style="padding-left: 0px; z-index: 1000; text-align: center;">
+                <p class="large">"We've worked with eastpoint software for a long time and their ability to take on new challenge and advance solutions beyond our expectations makes them the perfect team to collaborate with." <a href="#">Start a project</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- NEW INTRO SECTION END -->
+
+<!-- SERVICE CARD SECTION END -->
+
+<!-- SERVICE INFORMATION SECTION -->
+<section>
+    <div class="greybg fluidheight container-fluid col-md-12 col-lg-12 col-sm-12">
+        <div class="greybg container-global">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 paddingright paddingleft" style="padding-left: 0px;">
+                <div style="overflow: hidden; background-color: #fff; padding: 0px; border-bottom: 0px;" class="epservice bounce">
+                    <div class="medium-service-icon" style="text-align: center; padding: 15px; margin-bottom: 0px;"><img src="icon-idea-1.png" width="140px" height="140px" /></div>
+                    <div style="padding: 15px 15px 30px 15px; text-align: center;">
+                        <h2 style="color: #424770; font-size: 20px; font-weight: 800; letter-spacing: 0.0em; line-height: 26px; margin-bottom: 6px;">Mobile App Development</h2>
+                        <p style="color: rgba(66,71,112,0.7); font-size: 16px; font-weight: 400; line-height: 22px; letter-spacing: 0em; margin: 0px;">Capture your audiences attention with a dedicated mobile application.</p>
+                    </div>
+                    <div role="action-button-group" class="subtle-button-group" style="background: #f6f9fc; padding: 15px; text-align: center;">
+                    <a href="#" title="button title" class="button button-subtle-action bounce" style="color: #8898aa; font-weight: 400; font-size: 14px;"><i class="fa fa-hand-pointer-o" aria-hidden="true"></i> <b> Touch</b> for more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 paddingright paddingleft" style="">
+                <div style="overflow: hidden; background-color: #fff; padding: 0px; border-top: 2px solid #B9F4BC; border-bottom: 0px;" class="epservice bounce">
+                    <div class="medium-service-icon" style="text-align: center; padding: 15px; margin-bottom: 0px;"><img src="icon-idea-1.png" width="140px" height="140px" /></div>
+                    <div style="padding: 15px 15px 30px 15px; text-align: center;">
+                        <h2 style="color: #424770; font-size: 20px; font-weight: 800; letter-spacing: 0.03em; line-height: 26px; margin-bottom: 6px;">Web App Development</h2>
+                        <p style="color: rgba(66,71,112,0.7); font-size: 16px; line-height: 22px; letter-spacing: 0.03em; margin: 0px;">Reach the widest possible audience with intuitive web applications.</p>
+                    </div>
+                    <div role="action-button-group" class="subtle-button-group" style="background: #f6f9fc; padding: 15px; text-align: center;">
+                    <a href="#" title="button title" class="button button-subtle-action bounce" style="color: #8898aa; font-weight: 400; font-size: 14px;"><i class="fa fa-hand-pointer-o" aria-hidden="true"></i> <b> Touch</b> for more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 paddingright paddingleft" style="padding-right: 0px;">
+                <div style="overflow: hidden; background-color: #fff; padding: 0px; border-bottom: 2px solid #FF3366;" class="epservice bounce">
+                    <div class="medium-service-icon" style="text-align: center; padding: 15px; margin-bottom: 0px;"><img src="icon-idea-1.png" width="140px" height="140px" /></div>
+                    <div style="padding: 15px 15px 30px 15px; text-align: center;">
+                        <h2 style="color: #424770; font-size: 20px; font-weight: 800; letter-spacing: 0.03em; line-height: 26px; margin-bottom: 6px;">User Centered Design</h2>
+                        <p style="color: rgba(66,71,112,0.7); font-size: 16px; line-height: 22px; letter-spacing: 0.03em; margin: 0px;">We immerse ourselves in the problem to identify insights and opportunities.</p>
+                    </div>
+                    <div role="action-button-group" class="subtle-button-group" style="background: #f6f9fc; padding: 15px; text-align: center;">
+                    <a href="#" title="button title" class="button button-subtle-action bounce" style="color: #8898aa; font-weight: 400; font-size: 14px;"><i class="fa fa-hand-pointer-o" aria-hidden="true"></i> <b> Touch</b> for more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- SERVICE INFORMATION SECTION END -->
+<!-- FURTHER INFORMATION SECTION -->
+<!--<section>
+    <div class="whitebg fluidheight container-fluid col-md-12 col-lg-12 col-sm-12">
+        <div class="whitebg container-global">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 paddingleft" style="z-index: 1000; padding-left: 0px;">
+                <div class="medium-service-icon"><img src="application-development.png" width="65px" height="65px" /></div>
+                <h2>Here is some more of what we can do</h2>
+                <p>Lorem ipsum dolor sit amet, eam te utamur omittam suavitate, his no sanctus phaedrum, paulo munere te pro. Vel aeque accusam eu, justo adipiscing vituperata cu sed. Ei unum eloquentiam nam. Insolens deserunt repudiare id nam.</p>
+                <div id="button-group" role="action-button-group" class="standard-button-group">
+                    <a href="#" title="button title" class="button button-important-action bounce">Important Action</a>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 paddingright" style="z-index: 1000;padding-right: 0px;">
+                <div class="medium-service-icon"><img src="application-development-no-circle.png" width="45px" height="45px" style="margin-bottom: 20px;" /></div>
+                <h2>Here is some more of what we can do</h2>
+                <p>Lorem ipsum dolor sit amet, eam te utamur omittam suavitate, his no sanctus phaedrum, paulo munere te pro. Vel aeque accusam eu, justo adipiscing vituperata cu sed. Ei unum eloquentiam nam. Insolens deserunt repudiare id nam.</p>
+                <div id="button-group" role="action-button-group" class="standard-button-group">
+                    <a href="#" title="button title" class="button button-standard-action bounce">Standard Action</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>-->
+<!-- FURTHER INFORMATION SECTION END -->
+<!-- RECENT BLOG POST SECTION -->
+<!--<section>
+    <div class="greybg fluidheight container-fluid col-md-12 col-lg-12 col-sm-12" style="position: relative; width: 100%;">
+        <!-- SECTION HAS DIAGONAL -->
+            <!--<div class="greybg section-content-has-diagonal-left-to-right">
+            </div>-->
+        <!-- SECTION HAS DIAGONAL END -->
+        <!--<div class="greybg container-extend">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 nopaddingmobile">
+                <div class="epnewscontent bounce">
+                    <div class="epnewsposttype">
+                        <div class="col-lg-12 col-md-12 col-sm-12 nopadding">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 nopadding">
+                                <h4 style="color: #424770; font-size: 12px; font-weight: 600; letter-spacing: 0.03em; line-height: 20px; margin-bottom: 0px;">News</h4>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 nopadding" style="text-align: right;">
+                            <a href="#" title="button title" class="button-subtle-action bounce" style="color: #8898aa; font-weight: 400; font-size: 14px;">All <i class="fa fa-newspaper-o" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="epnewstext">
+                        <h2>Cyber crime in Cambridge and how to stay secure</h2>
+                        <p>Police say they are tackling cyber crime as a ‘priority’ but it is not just a policing matter.</p>
+                    </div>-->
+                    <!--<div class="epnewsimage">
+                        <img class="team-icon" src="team-photo-1.jpg" width="40px" height="40px" style="border-radius: 50%; margin-bottom: 0px;" />
+                    </div>-->
+                    <!--<div role="action-button-group" class="subtle-button-group btn-block" style="padding: 15px; text-align: left; position: absolute; bottom: 0px;">
+                    <a href="#" title="button title" class="button button-subtle-action bounce" style="color: #8898aa; font-weight: 400; font-size: 14px;"><i class="fa fa-binoculars" aria-hidden="true"></i> Read</a>
+                    </div>
+                </div>
+            </div>
+            <div class="greybg col-lg-4 col-md-4 col-sm-12 col-xs-12 nopaddingmobile">
+                <div class="epnewscontent bounce">
+                    <div class="epnewsimage">
+                    </div>
+                    <div class="epnewstext">
+                        <h2>Recent post title area</h2>
+                        <p>Lorem ipsum dolor sit amet, eam te utamur omittam suavitate, his no sanctus phaedrum, paulo munere te pro. Vel aeque accusam eu, justo adipiscing vituperata cu sed.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 nopaddingmobile">
+                <div class="epnewscontent bounce">
+                    <div class="epnewsimage">
+                    </div>
+                    <div class="epnewstext">
+                        <h2>Recent post title area</h2>
+                        <p>Lorem ipsum dolor sit amet, eam te utamur omittam suavitate, his no sanctus phaedrum, paulo munere te pro. Vel aeque accusam eu, justo adipiscing vituperata cu sed.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>-->
+<!-- RECENT BLOG POST SECTION END -->
+
+<!-- PROMO NEXT SECTION -->
+<section>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 nopaddingright nopaddingleft">
+                <div style="background-color: #F6F9FC;background-image: url('placeholder-app-image.jpg');background-size: cover;background-position: center;height: 420px;position: relative;width: 100%;overflow: hidden;">
+                    <div style="background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.6));height: 100%;">
+                        <div class="container-global" style="padding-right: 15px; height: 100%; padding-top: 120px; width: 60%;">
+                            <p style="color: #fff;font-size: 12px;line-height: 12px;text-transform: uppercase;font-weight: 400;">services</p>
+                            <h3 style="color: #fff;font-size: 22px;font-weight: 400;line-height: 22px;margin: 0px;">Mobile App Development</h3>
+                            <span class="smallline" style="height: 2px;background-color: #40B0FF;width: 40px;margin: 6px 0px 8px 0px;display: block;"></span>
+                            <p style="color: #fff;font-size: 16px;line-height: 22px;letter-spacing: 0.03em;margin: 0px;margin-bottom: 15px;">We'll work to ensure the product continues to perform in the way that it’s expected to, long after the product is launched. We'll work to ensure the product continues to perform in the way that it’s expected to, long after the product is launched. We'll work to ensure the product continues to perform in the way that it’s expected to, long after the product is launched.</p>
+                            <a href="#" title="button title" class="" style="border-bottom: 1px dashed rgba(255,255,255,0.5); color: #fff; padding-bottom: 2px; font-weight: 600;">Our Approach</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+</section>
+<!-- PROMO NEXT SECTION END -->
+
+<!-- NEW INTRO SECTION -->
+<section>
+    <div class="greybg fluidheight container-fluid col-md-12 col-lg-12 col-sm-12" style="padding-bottom: 0px;">
+        <div class="container-global">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 paddingleft" style="padding-left: 0px; z-index: 1000; text-align: center;">
+                <p class="large">"We've worked with eastpoint software for a long time and their ability to take on new challenge and advance solutions beyond our expectations makes them the perfect team to collaborate with." <a href="#">Start a project</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- NEW INTRO SECTION END -->
+
+<!-- PROMO NEXT SECTION -->
+<section>
+    <div class="greybg fluidheight container-fluid col-md-12 col-lg-12 col-sm-12 nopaddingleft nopaddingright">
+        <!-- SPAN BG -->
+        <!--<span class="fullwhiteskew" style="background: #fff;width: 100vw;height: 180px;position: absolute;transform: skewY(-6deg);top: -75px;"></span>-->
+        <!-- SPAN BG -->
+        <div class="greybg container-extend">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding-left: 0px; padding-right: 0px; box-shadow: 0px 8px 20px rgba(0,0,0,0.1); z-index: 1;">
+                <div style="background-color: #F6F9FC;background-image: url('contact-bg-image.jpg');background-size: cover;background-position: center;height: 420px;position: relative;width: 100%;overflow: hidden;">
+                    <div style="background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.4));height: 100%;">
+                        <div id="prevservice" class="" style="position: absolute;width: 80%;height: initial;bottom: 30px;padding: 15px;background: linear-gradient(150deg,rgba(87,111,230,0.94) 15%,rgba(152,68,183,0.6) 70%,rgba(255,53,127,0.97) 94%);right: -546px;margin: auto;/* height: 100%; */top: 30px;padding-right: 550px;">
+                            <p style="color: #fff;font-size: 12px;line-height: 12px;text-transform: uppercase;font-weight: 400;">services</p>
+                            <h3 style="color: #fff;font-size: 22px;font-weight: 400;line-height: 22px;margin: 0px;">Mobile App Development</h3>
+                            <span class="smallline" style="height: 2px;background-color: #40B0FF;width: 40px;margin: 6px 0px 8px 0px;display: block;"></span>
+                            <p style="color: #fff;font-size: 16px;line-height: 22px;letter-spacing: 0.03em;margin: 0px;margin-bottom: 15px;">We'll work to ensure the product continues to perform in the way that it’s expected to, long after the product is launched.</p>
+                            <a href="#" title="button title" class="" style="border-bottom: 1px dashed rgba(255,255,255,0.5); color: #fff; padding-bottom: 2px; font-weight: 600;">Our Approach</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 nopadding paddingright paddingleft" style="box-shadow: 0px 0px 20px rgba(0,0,0,0.1); z-index: 1;">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" style="padding-left: 0px; padding-right: 0px;">
+                <div style="background-color: #F6F9FC;background-image: url('contact-bg-image.jpg');background-size: 200%;background-position: left;height: 300px;position: relative;width: 100%;overflow: hidden;">
+                    <div style="background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.9));height: 100%;">
+                        <div id="prevservice" class="" style="position: absolute;width: 100%;height: initial;bottom: 0px;padding: 15px;/* background: #fff; */">
+                            <p style="color: #fff;font-size: 12px;line-height: 12px;text-transform: uppercase;font-weight: 400;">services</p>
+                            <h3 style="color: #fff;font-size: 22px;font-weight: 400;line-height: 22px;margin: 0px;">Service Title</h3>
+                            <span class="smallline" style="height: 2px;background-color: #40B0FF;width: 40px;margin: 6px 0px 8px 0px;display: block;"></span>
+                            <p style="color: #fff;font-size: 16px;line-height: 22px;letter-spacing: 0.03em;margin: 0px;margin-bottom: 15px;">We'll work to ensure the product continues to perform in the way that it’s expected to, long after the product is launched.</p>
+                            <a href="#" title="button title" class="" style="border-bottom: 1px dashed rgba(255,255,255,0.5); color: #fff; padding-bottom: 2px; font-weight: 600;">Our Approach</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" style="padding-left: 0px; padding-right: 0px;">
+                <div style="background-color: #F6F9FC;background-image: url('contact-bg-image.jpg');background-size: 250%;background-position: center;height: 300px;position: relative;width: 100%;overflow: hidden;">
+                    <div style="background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.9));height: 100%;">
+                        <div id="prevservice" class="" style="position: absolute;width: 100%;height: initial;bottom: 0px;padding: 15px;/* background: #fff; */">
+                            <p style="color: #fff;font-size: 12px;line-height: 12px;text-transform: uppercase;font-weight: 400;">services</p>
+                            <h3 style="color: #fff;font-size: 22px;font-weight: 400;line-height: 22px;margin: 0px;">Service Title</h3>
+                            <span class="smallline" style="height: 2px;background-color: #40B0FF;width: 40px;margin: 6px 0px 8px 0px;display: block;"></span>
+                            <p style="color: #fff;font-size: 16px;line-height: 22px;letter-spacing: 0.03em;margin: 0px;margin-bottom: 15px;">We'll work to ensure the product continues to perform in the way that it’s expected to, long after the product is launched.</p>
+                            <a href="#" title="button title" class="" style="border-bottom: 1px dashed rgba(255,255,255,0.5); color: #fff; padding-bottom: 2px; font-weight: 600;">Our Approach</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" style="padding-left: 0px; padding-right: 0px;">
+                <div style="background-color: #F6F9FC;background-image: url('contact-bg-image.jpg');background-size: 200%;background-position: right;height: 300px;position: relative;width: 100%;overflow: hidden;">
+                    <div style="background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.9));height: 100%;">
+                        <div id="prevservice" class="" style="position: absolute;width: 100%;height: initial;bottom: 0px;padding: 15px;/* background: #fff; */">
+                            <p style="color: #fff;font-size: 12px;line-height: 12px;text-transform: uppercase;font-weight: 400;">services</p>
+                            <h3 style="color: #fff;font-size: 22px;font-weight: 400;line-height: 22px;margin: 0px;">Service Title</h3>
+                            <span class="smallline" style="height: 2px;background-color: #40B0FF;width: 40px;margin: 6px 0px 8px 0px;display: block;"></span>
+                            <p style="color: #fff;font-size: 16px;line-height: 22px;letter-spacing: 0.03em;margin: 0px;margin-bottom: 15px;">We'll work to ensure the product continues to perform in the way that it’s expected to, long after the product is launched.</p>
+                            <a href="#" title="button title" class="" style="border-bottom: 1px dashed rgba(255,255,255,0.5); color: #fff; padding-bottom: 2px; font-weight: 600;">Our Approach</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" style="padding-left: 0px; padding-right: 0px;">
+                <h3 style="color: #424770;font-size: 22px;font-weight: 400;line-height: 22px; margin: 15px;">We also provide</h3>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="background-color: #4B6BC6; height: auto; position: relative; overflow: hidden; z-index: 1;">
+                    <div class="" style="padding: 15px;/* background: #fff; */">
+                        <a href="#" title="button title" class="pull-left" style="border-bottom: 1px dashed rgba(255,255,255,0.5); color: #fff; padding-bottom: 2px; font-weight: 600;">Project management</a>
+                        <span class="glyphicon glyphicon-menu-right pull-right" aria-hidden="true" style="color: #fff;"></span>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="background-color: #4B6BC6; height: auto; position: relative; overflow: hidden; z-index: 1;">
+                    <div class="" style="padding: 15px;/* background: #fff; */">
+                        <a href="#" title="button title" class="pull-left" style="border-bottom: 1px dashed rgba(255,255,255,0.5); color: #fff; padding-bottom: 2px; font-weight: 600;">Quality Assurance</a>
+                        <span class="glyphicon glyphicon-menu-right pull-right" aria-hidden="true" style="color: #fff;"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- PROMO NEXT SECTION END -->
+
+<!-- SKEW BG SECTION -->
+<section>
+    <div class="whitebg container-fluid col-md-12 col-lg-12 col-sm-12 nopaddingleft nopaddingright">
+        <!-- SPAN BG -->
+        <span class="fullwhiteskew" style="background: #fff;width: 100vw;height: 200px;position: absolute;transform: skewY(-6deg);top: -115px;"></span>
+        <!-- SPAN BG -->
+    </div>
+</section>
+<!-- SKEW BG SECTION END -->
+
+<!-- NEW INTRO SECTION -->
+<section>
+    <div class="whitebg fluidheight container-fluid col-md-12 col-lg-12 col-sm-12" style="padding-top: 0px;">
+        <div class="container-global">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 paddingleft" style="padding-left: 0px; z-index: 1000;">
+                <p class="large">When we work for you, we like to think of ourselves as part of your team. We aim to make your experience of working with us as enjoyable as possible. <a href="#">Start a project</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- NEW INTRO SECTION END -->
+
+<!-- GENERATE ENQUIRY SECTION -->
+<section>
+    <div class="greybg fluidheight container-fluid col-md-12 col-lg-12 col-sm-12">
+        <div class="greybg container-global">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 paddingleft" style="padding-left: 0px;">
+                <h3 style="color: #4B6BC6; font-size: 26px; font-weight: 400;">Ready to make some software magic?</h3>
+                <p style="color: #424770; font-size: 20px; font-weight: 200;">Your vision is about to be realised.</p>
+            </div>
+            <div class="greybg col-lg-6 col-md-6 col-sm-12 col-xs-12 paddingright" style="padding-right: 0px;">
+                <!--<h3>Call us <a href="" style="color: #2AB27B; font-size: 18px; font-weight: 600;">01234 567 890</a>, send us an email <a href="" style="color: #2AB27B; font-size: 18px; font-weight: 600;">info@website.com</a> or start a project below</h3>-->
+                <div id="button-group" role="action-button-group" class="standard-button-group" style="margin-top: 0px;">
+                    <a href="#" title="button title" class="button button-standard-action bounce" style="float: right; margin-right: 0px;">See our process</a> <a href="#" title="button title" class="button button-vimportant-action bounce" style="float: right;"><i class="fa fa-code" aria-hidden="true"></i> Start your project</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- GENERATE ENQUIRY SECTION END -->
+<hr>
+<!-- FOOTER TOP -->
+<footer id="top">
+    <div class="footertop container-fluid col-md-12 col-lg-12 col-sm-12">
+        <div class="container-global ">
+            <div class="footercol col-md-3 col-sm-6 col-xs-6 nopadding">
+                <h3 style="color: #4B6BC6;">Services</h3>
+                <ul>
+                    <li><a href="" style="font-weight: 600;">Mobile Apps</a></li>
+                    <li><a href="" style="font-weight: 600;">Web Apps</a></li>
+                    <li><a href="" style="font-weight: 600;">Design Sprints</a></li>
+                    <li><a href="" style="font-weight: 600;">User Experience</a></li>
+                </ul>
+            </div>
+            <div class="footercol col-md-3 col-sm-6 col-xs-6 nopadding">
+                <h3 style="color: #2AB27B;">Company</h3>
+                <ul>
+                    <li><a href="">Support & Consulation</a></li>
+                    <li><a href="">History & Team</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Careers</a></li>
+                </ul>
+            </div>
+            <div class="footercol col-md-3 col-sm-6 col-xs-6 nopadding">
+                <h3 style="color: #EDB431;">Resources</h3>
+                <ul>
+                    <li><a href="">Twitter</a></li>
+                    <li><a href="">Facebook</a></li>
+                    <li><i class="fa fa-paper-plane-o" aria-hidden="true"></i> <a href="">user@example.com</a></li>
+                    <li><i class="fa fa-phone" aria-hidden="true"></i> <a href="">01234 567890</a></li>
+                </ul>
+            </div>
+            <div class="footercol col-md-3 col-sm-6 col-xs-6 nopadding">
+                <ul>
+                    <li style="margin-bottom: 17px!important;"><a href="" style="color: #E32072!important;"><i class="fa fa-location-arrow" aria-hidden="true"></i> Slough</a></li>
+                    <li><a href="">The Office<br>Wernham Hog, Slough, DB1 4OR</a></li>
+                    <li style="line-height: 24px;">Free parking is available for clients within the main car park.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- FOOTER TOP END -->
+<hr>
+<!-- FOOTER BOTTOM -->
+<footer id="bottom">
+    <div class="footerbtm container-fluid col-md-12">
+        <div class="container-global">
+            <div class="col-md-4 col-sm-12 col-xs-12 nopadding">
+                <!--p>©2016 rights information</p>-->
+                <img src="eastpoint-brand@2x.png" width="90px" height="auto" />
+            </div>
+            <div class="col-md-8 col-md-12 col-xs-12 nopadding align-right">
+                <p>General company information</p>
+            </div>
+        </div> 
+    </div>    
+</footer>
+<!-- FOOTER BOTTOM END -->
+</body>
+<script>
+$(document).ready(function(){
+    $(".dropdown-toggle").dropdown();
+});
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+
+    if(scroll >= 300) {
+        $(".navbar").addClass("navbar-fixed-top").fadeIn();
+        $(".contact").addClass("contact-appear");
+        $(".company").css("margin-left","0px");
+        $(".navbar").addClass("fixed-bg").fadeIn();
+        $("#navgrad").removeClass("navbar-gradient").fadeOut();
+    } else {
+        $(".navbar").removeClass("fixed-bg").fadeOut();
+        $(".navbar").removeClass("navbar-fixed-top").fadeOut();
+        $(".contact").removeClass("contact-appear");
+        $(".company").css("margin-left","10vh");
+        $("#navgrad").addClass("navbar-gradient").fadeIn();
+    }
+});
+$(document).ready(function(){
+    $('.bounce').hover(
+       function(){ $(this).addClass('hover-bounce') },
+       function(){ $(this).removeClass('hover-bounce') }
+    )
+});
+$(document).ready(function(){
+    $('.button-logos-action').hover(function(){
+        $('#logos').addClass('shrinkblur');
+        /*$("#buttonaction").addClass('logobuttonappear');*/ },
+        function(){
+        $('#logos').removeClass('shrinkblur'); }
+        /*function(){ $('#buttonaction').addClass('logobuttonappear') }*/
+        /*function(){ $(this).removeClass('logoblur') }*/
+        /*function(){ $('#logobutton').removeClass('logobuttonappear') }*/
+    )
+});
+$(document).ready(function(){
+    $('#prevservice').hover(
+        function(){ $(this).addClass('moveup') },
+        function(){ $(this).removeClass('moveup') }
+    )
+});
+$(document).ready(function(){
+    $('#nextservice').hover(
+        function(){ $(this).addClass('moveup') },
+        function(){ $(this).removeClass('moveup') }
+    )
+});
+$(document).ready(function(){
+    $('.epteamprofile').hover(
+        function(){ $(this).addClass('zoom') },
+        function(){ $(this).removeClass('zoom') }
+    )
+});
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+
+    if(scroll >= 1000) {
+        $(".epintercom").addClass("epintercom-appear");
+    } else {
+        /*$(".epintercom").removeClass("epintercom-appear");*/
+    }
+});
+</script>
+</html>
