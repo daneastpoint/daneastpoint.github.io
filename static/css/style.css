@@ -274,9 +274,9 @@ span#largeheader {
     margin-top: 20px;
 }
 .largeheadersidebar a {
-    color: #40B0FF;
+    color: #210e4a;
     text-decoration: none;
-    border-bottom: 1px solid #40B0FF;
+    border-bottom: 1px solid #210e4a;
     padding-bottom: 1px;
 }
 .largeheadersidebartext p {
@@ -377,6 +377,7 @@ span#largeheader {
     position: relative;
 }
 .smallblockitemrightcontent a.nextlink {
+    color: #210e4a;
     bottom: 15px;
     position: absolute;
 }
@@ -543,7 +544,7 @@ h5#yellow {
     height: 460px;
     max-height: 460px;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 768px) {
     .epteamcontentbg h3 {
     font-size: 20px;
     line-height: 24px;
@@ -556,6 +557,9 @@ h5#yellow {
     }
     #header.fullwhiteskew {
     top: -65px;
+    }
+    #button-group .button-vimportant-action {
+        margin: 0px!important;
     }
     .button-vimportant-action {
         display: block!important;
@@ -592,6 +596,7 @@ h5#yellow {
         display: block;
         padding: 0px 30px;
         box-shadow: none;
+        margin-bottom: 0px;
     }
     .largeblockitembg {
         width: 100%!important;
@@ -608,12 +613,12 @@ h5#yellow {
     .epcontentblockitem {
         width: 100%!important;
         height: auto;
+        box-shadow: 8px 10px 20px 0px rgba(46,61,73,0.15);
     }
     .smallblockitemrightcontent {
         height: auto!important;
         min-height: 290px;
         padding-bottom: 20px;
-        box-shadow: 8px 10px 20px 0px rgba(46,61,73,0.15);
 }
     #resize.epcontentblockitem {
         height: 200px;
@@ -623,9 +628,18 @@ h5#yellow {
         border-bottom-right-radius: 10px;
         overflow: hidden;
     }
+    #hideresize.epcontentblockitem {
+        display: none;
+    }
     #addmargin.epcontentblockitem {
-        box-shadow: 8px 10px 20px 0px rgba(46,61,73,0.15);
+        /*box-shadow: 8px 10px 20px 0px rgba(46,61,73,0.15);
         margin-bottom: 30px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        overflow: hidden;*/
+        margin-bottom: 30px;
+    }
+    .roundedborderbottom.epcontentblockitem {
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
         overflow: hidden;
@@ -964,6 +978,9 @@ a.primaryalternative {
     background: linear-gradient(45deg, rgba(64,176,255,1) 0%, rgba(64,176,255,0.64) 25%, rgba(64,176,255,0.7) 51%, rgba(64,176,255,0.99) 100%);
     height: 100%;
 }
+.responsiveoverlay {
+        background: #ffffff;
+    }
 @media screen and (max-width: 768px) {
     .responsivecolormix {
         mix-blend-mode: overlay;
@@ -981,8 +998,14 @@ a.primaryalternative {
     .epcontentblockitem.responsiveoverlay {
         margin-top: -290px;
     }
-    .responsiveoverlay h3, p, a {
-        color: #fff!important;
+    .responsiveoverlay h3 {
+        color: #fff;
+    }
+    .responsiveoverlay p {
+        color: #fff;
+    }
+    .responsiveoverlay a {
+        color: #fff;
     }
     .responsiveoverlay p {
         font-weight: 400;
