@@ -97,7 +97,7 @@
 .teamquote a.button.button-vimportant-action {
         background: #338ccc;
         color: #fff;
-        margin: 30px 0px 0px 0px;
+        margin: 0px;
 }
 .cotnentblockcontainer {
     width: 100%;
@@ -106,9 +106,24 @@
     margin-bottom: 50px;
 }
 .epcontentblockitem {
-    background: linear-gradient(to bottom, rgba(64, 176, 255,1) 0%, rgba(0,91,234,0.9) 100%);
+    background: linear-gradient(-45deg, #ff7676, #f54ea2);
     width: 25%;
     height: 360px;
+}
+.small.epcontentblockitem {
+    background: transparent;
+    height: 290px;
+    max-height: 290px;
+    margin-bottom: 30px;
+}
+@media screen and (max-width: 768px) {
+    .small.epcontentblockitem {
+        background: #fff!important;
+    }
+    .smallboxitem {
+        background: transparent!important;
+        box-shadow: none!important;
+    }
 }
 .epcontentblockitembg {
     background-size: 40%!important;
@@ -188,7 +203,7 @@
 }
 .simpleheadercta {
     width: 100%;
-    height: 50vh;
+    height: 40vh;
     max-height: 400px;
     background-image: url('/img/eastpoint-home-bg.jpg');
     background-size: cover;
@@ -234,9 +249,9 @@
     padding: 0px 200px;
 }
 .simpleheaderoverlay {
-    background: linear-gradient(to bottom, rgba(64, 176, 255,1) 0%, rgba(0,91,234,0.9) 100%);
+    background: linear-gradient(-45deg, #6078ea, #17ead9);
     height: 100%;
-    top: -2px;
+    top: 0px;
     position: absolute!important;
     padding-bottom: 0px;
 }
@@ -322,10 +337,11 @@ span#largeheader {
     font-family: 'Montserrat', sans-serif;
 }
 .simpleheadertext p {
-    color: #ffffff;
+    color: #fff;
     font-size: 20px;
     line-height: 26px;
     font-weight: 200;
+    opacity: 0.8;
 }
 .largeblockitembg {
     border-radius: 10px;
@@ -376,6 +392,11 @@ span#largeheader {
     height: 100%;
     position: relative;
 }
+.smallboxitem {
+    text-align: center;
+    background: #fff;
+    box-shadow: 8px 10px 20px 0px rgba(46,61,73,0.08);
+}
 .smallblockitemrightcontent a.nextlink {
     color: #210e4a;
     bottom: 15px;
@@ -405,7 +426,7 @@ span#largeheader {
     margin: 0px;
 }
 
-.largeheadersidebar h4, .smallblockitemrightcontent h4 {
+.largeheadersidebar h4, .smallblockitemrightcontent h4, .mainblockcontent h4 {
     color: #E32072;
     font-size: 10px;
     font-weight: 400;
@@ -413,6 +434,9 @@ span#largeheader {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin: 0px;
+}
+.mainblockcontent h4 {
+    color: #40B0FF;
 }
 .largeheadersidebar h3, .smallblockitemrightcontent h3 {
     color: #210e4a;
@@ -422,9 +446,39 @@ span#largeheader {
     margin: 0px 0px 10px 0px;
     font-family: 'Montserrat', sans-serif;
 }
+.mainblockcontent h3 {
+    color: #210e4a;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: bold;
+    margin: 0px 0px 30px 0px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: initial;
+}
+.mainblockcontenttwocol {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+}
+@media screen and (max-width: 768px) {
+    .mainblockcontenttwocol {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    }
+}
 .smallblockitemrightcontent h3 {
     font-size: 26px;
     line-height: 32px;
+}
+.smallboxitem h3 {
+    font-size: 24px!important;
+    line-height: 30px!important;
+}
+.smallboxitem img {
+    width: 70px;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 /*.largeheadersidebar h4 {
     line-height: 12px!important;
@@ -644,21 +698,27 @@ h5#yellow {
         border-bottom-right-radius: 10px;
         overflow: hidden;
     }
+    .responsiveoverlay a.nextlink {
+    color: #ffffff;
+    }
 }
 @media screen and (max-width: 1280px) {
     .simpleheadercta {
-        height: 60vh;
+        height: 40vh;
     }
     #smallheaderskew, #largeheader {
         top: -80px!important;
     }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
     .largeheadertext p {
         padding: 0px 50px!important;
     }
     .largeheadercta {
         height: 58vh;
+    }
+    .simpleheadercta {
+        height: 50vh;
     }
 
 }
@@ -700,6 +760,11 @@ body {
     font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     background-color: #F6F9FC!important;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    margin: 0px;
 }
 
 hr {
@@ -945,6 +1010,11 @@ a.primaryalternative {
 }
 /* ANIMATIONS */
 /* IMAGE AND ICON BACKGROUNDS */
+.approach {
+    background-image: url('/img/icons/strategy-planning-120px.png');
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
 .xamarin {
     background-image: url('/img/xamarin.png');
 }
@@ -977,6 +1047,9 @@ a.primaryalternative {
 .gradientoverlaylight {
     background: linear-gradient(45deg, rgba(64,176,255,1) 0%, rgba(64,176,255,0.64) 25%, rgba(64,176,255,0.7) 51%, rgba(64,176,255,0.99) 100%);
     height: 100%;
+}
+.pinkgradient {
+    background: linear-gradient(-45deg, #ff7676, #f54ea2)!important;
 }
 .responsiveoverlay {
         background: #ffffff;
@@ -1018,7 +1091,7 @@ a.primaryalternative {
 }
 span.smallline {
     height: 2px;
-    background: linear-gradient(to right, rgba(64, 176, 255,1) 0%, rgba(0,91,234,0.9) 100%);
+    background: linear-gradient(-45deg, #6078ea, #17ead9);
     width: 40px;
     margin: 6px 0px 8px 0px;
     display: block;
@@ -1084,6 +1157,9 @@ span.span-gradient-pos {
     .nopaddingmobile {
         padding: 0px!important;
     }
+    .nopaddingbottommobile {
+        padding-bottom: 0px!important;
+    }
     .paddingleft {
         padding-left: 15px!important;
     }
@@ -1124,14 +1200,14 @@ a:hover {
     letter-spacing: 1px;
     margin: 0px;
 }
-.whitebg h2, .greybg h2 {
+/*.whitebg h2, .greybg h2 {
     /*color: #8898aa;
     font-size: 20pt;
     font-weight: 200;
     line-height: 24pt;
     letter-spacing: 1px;
     margin: 0px 0px 30px 0px;*/
-    color: #424770;
+    /*color: #424770;
     font-size: 20px;
     font-weight: 400;
     line-height: 28px;
@@ -1172,7 +1248,7 @@ a:hover {
     line-height: 26px;
     letter-spacing: 0.03em;
     margin: 0px;
-}
+}*/
 h3 {
     font-size: 24px;
     line-height: 32px;
@@ -1675,6 +1751,10 @@ ul.dropdown-section.epdropdown {
 }
 .teamquote img {
     margin-bottom: 20px;
+    height: 30px;
+    width: inherit;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
 }
 @media screen and (max-width: 768px) {
     .teamquoteimg img {
