@@ -203,8 +203,7 @@
 }
 .simpleheadercta {
     width: 100%;
-    height: 40vh;
-    max-height: 400px;
+    height: 320px;
     background-image: url('/img/eastpoint-home-bg.jpg');
     background-size: cover;
     background-position: center;
@@ -213,8 +212,7 @@
 }
 .largeheadercta {
     width: 100%;
-    height: 66vh;
-    max-height: 600px;
+    height: 450px;
     background-image: url('/img/eastpoint-home-bg.jpg');
     background-size: cover;
     background-position: center;
@@ -232,7 +230,7 @@
     font-size: 34px;
     line-height: 42px;
     letter-spacing: 0em;
-    margin: 85px 0px 15px 0px;
+    margin: 30px 0px 15px 0px;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
 }
@@ -738,14 +736,6 @@ h5#yellow {
     }
     .responsiveoverlay a.nextlink {
     color: #ffffff;
-    }
-}
-@media screen and (max-width: 1280px) {
-    .simpleheadercta {
-        height: 40vh;
-    }
-    #smallheaderskew, #largeheader {
-        top: -80px!important;
     }
 }
 @media screen and (max-width: 768px) {
@@ -1387,9 +1377,18 @@ p.small {
 img.hideicon {
     display: none;
 }
+li.showmobile {
+    display: none!important;
+}
 @media screen and (max-width: 768px) {
     img.hideicon {
     display: inline-block;
+    }
+    li.hidemobile {
+        display: none!important;
+    }
+    li.showmobile {
+    display: block!important;
 }
 }
 .contact {
