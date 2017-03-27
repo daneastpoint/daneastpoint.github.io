@@ -1,3 +1,122 @@
+.cke_editable {
+    min-height: inherit!important;
+}
+/* new style id's from editable content */
+p {
+    margin-bottom: 0px!important;
+}
+/* Tiny Color Intro Titles */
+#blueintroTitle p, #blueintroTitle h1, #blueintroTitle h2, #blueintroTitle h3, #blueintroTitle h4, #blueintroTitle h5, #pinkintroTitle p, #pinkintroTitle h1, #pinkintroTitle h2, #pinkintroTitle h3, #pinkintroTitle h4, #pinkintroTitle h5, #whiteintroleftTitle p, #whiteintroleftTitle h1, #whiteintroleftTitle h2, #whiteintroleftTitle h3, #whiteintroleftTitle h4, #whiteintroleftTitle h5, #whiteintrorightTitle p, #whiteintrorightTitle h1, #whiteintrorightTitle h2, #whiteintrorightTitle h3, #whiteintrorightTitle h4, #whiteintrorightTitle h5 {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 10px!important;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin: 0px!important;
+}
+#blueintroTitle {
+    color: #40B0FF;
+}
+#pinkintroTitle {
+    color: #E32072;
+}
+#whiteintroleftTitle, #whiteintrorightTitle {
+    color: #FFFFFF;
+    opacity: 0.9;
+}
+/* Tiny Color Intro Titles */
+/* Bold Dark Titles */
+#cardleftoneTitle h1, #cardleftoneTitle h2, #cardleftoneTitle h3, #cardrightoneTitle h1, #cardrightoneTitle h2, #cardrightoneTitle h3, #postTitle h1, #postTitle h2, #postTitle h3, #whitepostleftTitle h1, #whitepostleftTitle h2, #whitepostleftTitle h3, #whitepostrightTitle h1, #whitepostrightTitle h2, #whitepostrightTitle h3 {
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: bold;
+    letter-spacing: initial;
+    margin: 0px 0px 10px 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+#postTitle h4, #postTitle h5, #whitepostleftTitle h4, #whitepostrightTitle h5 {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: bold;
+    letter-spacing: initial;
+    margin: 0px 0px 10px 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+#postTitle {
+    color: #210E4A;
+}
+#whitepostleftTitle, #whitepostrightTitle {
+    color: #FFFFFF;
+    opacity: 0.9;
+}
+/* Bold Dark Titles */
+/* Post or Page Body */
+#sectionIntro p{
+    color: #210e4a;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 200;
+}
+#postBody p, #whitepostleftBody p, #whitepostrightBody p, #cardleftoneBody p, #cardrightoneBody p {
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    margin: 0px;
+}
+#postBody a, #cardleftoneBody a, #cardrightoneBody a {
+    font-weight: inherit;
+}
+#postBody, #cardleftoneBody, #cardrightoneBody  {
+    color: #424770;
+}
+#whitepostleftBody, #whitepostrightBody {
+    color: #FFFFFF;
+    opacity: 0.9;
+}
+#bluepostLink a, #bluepostleftLink a, #bluepostrightLink a {
+    color: #40B0FF;
+}
+span.nextlink #postLink {
+    color: #210e4a;
+    bottom: 15px;
+    position: absolute;
+}
+#quoteBody {
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 200;
+    text-overflow: ellipsis;
+}
+#quoteAuthor {
+    color: #ffffff;
+}
+span.button.button-vimportant-action #quoteAction a {
+    color: #fff;
+    margin: 0px;
+} 
+/* Post or Page Body */
+/* Page Header Content */
+#pageheaderTitle h1, #pageheaderTitle h2, #pageheaderTitle h3, #pageheaderTitle h4{
+    color: #fff;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: bold;
+    letter-spacing: 0em;
+    margin: 10px 0px 15px 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+#pageheaderSub p, #pageheaderSub h2, #pageheaderSub h3, #pageheaderSub h4, #pageheaderSub h5 {
+    color: #fff;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 200;
+    opacity: 0.8;
+}
+/* Page Header Content
+/* new style id's from editable content */
+
 .column::after{
   content: '';
   position: absolute;
@@ -108,7 +227,7 @@
 .epcontentblockitem {
     background: linear-gradient(-45deg, #ff7676, #f54ea2);
     width: 25%;
-    height: 360px;
+    height: 330px;
 }
 .small.epcontentblockitem {
     background: transparent;
@@ -244,6 +363,7 @@
 .simpleheaderoverlay {
     background: linear-gradient(-45deg, #6078ea, #17ead9);
     height: 100%;
+    width: 100%;
     top: 0px;
     position: absolute!important;
     padding-bottom: 0px;
@@ -451,10 +571,19 @@ span#largeheader {
     margin: 0px 0px 10px 0px;
     font-family: 'Montserrat', sans-serif;
 }
-.mainblockcontent h3 {
+/*.mainblockcontent h3, .blogpost.mainblockcontent h3, .blogpost.mainblockcontent h2, .blogpost.mainblockcontent h1 {
     color: #210e4a;
     font-size: 24px;
     line-height: 32px;
+    font-weight: bold;
+    margin: 0px 0px 30px 0px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: initial;
+}*/
+.blogpost.mainblockcontent h5 {
+    color: #210e4a;
+    font-size: 20px;
+    line-height: 28px;
     font-weight: bold;
     margin: 0px 0px 30px 0px;
     font-family: 'Montserrat', sans-serif;
@@ -482,6 +611,12 @@ span#largeheader {
     -moz-column-count: 1;
     column-count: 1;
     }
+}
+.blogpost.mainblockcontent i {
+    border-left: 2px solid #40b0ff;
+    height: 100%;
+    display: block;
+    padding-left: 5px;
 }
 .blog.mainblockcontent h3, .blog.mainblockcontent p, .blog.mainblockcontent h4 {
     color: #ffffff;
@@ -654,9 +789,8 @@ h5#yellow {
     .button-vimportant-action {
         display: block!important;
         text-align: center;
-        width: initial;
-        z-index: 1;
-        margin: 25px 50px 0px 50px!important;
+        width: 100%;
+        margin: 0px!important;
     }
     p.large {
         font-size: 18px;
@@ -815,6 +949,7 @@ hr {
 }
 .container-extend {
     max-width: 92vw;
+    max-width: 1020px;
     margin: auto;
 }
 .container-small {
@@ -978,7 +1113,7 @@ a.primaryalternative {
     line-height: 40px;
     padding: 6px 30px;
     box-shadow: 8px 8px 20px 0px rgba(46,61,73,0.15);
-    background: #3ecf8e;
+    background: #338ccc;
     border-radius: 4px;
     font-size: 14px;
     font-weight: 600;
