@@ -6,7 +6,7 @@ p {
     margin-bottom: 0px!important;
 }
 /* Tiny Color Intro Titles */
-#blueintroTitle p, #blueintroTitle h1, #blueintroTitle h2, #blueintroTitle h3, #blueintroTitle h4, #blueintroTitle h5, #pinkintroTitle p, #pinkintroTitle h1, #pinkintroTitle h2, #pinkintroTitle h3, #pinkintroTitle h4, #pinkintroTitle h5, #whiteintroleftTitle p, #whiteintroleftTitle h1, #whiteintroleftTitle h2, #whiteintroleftTitle h3, #whiteintroleftTitle h4, #whiteintroleftTitle h5, #whiteintrorightTitle p, #whiteintrorightTitle h1, #whiteintrorightTitle h2, #whiteintrorightTitle h3, #whiteintrorightTitle h4, #whiteintrorightTitle h5 {
+#blueintroTitle p, #blueintroTitle h1, #blueintroTitle h2, #blueintroTitle h3, #blueintroTitle h4, #blueintroTitle h5, #oneblueintroTitle p, #oneblueintroTitle h1, #oneblueintroTitle h2, #oneblueintroTitle h3, #oneblueintroTitle h4, #oneblueintroTitle h5, #twoblueintroTitle p, #twoblueintroTitle h1, #twoblueintroTitle h2, #twoblueintroTitle h3, #twoblueintroTitle h4, #twoblueintroTitle h5, #pinkintroTitle p, #pinkintroTitle h1, #pinkintroTitle h2, #pinkintroTitle h3, #pinkintroTitle h4, #pinkintroTitle h5, #whiteintroleftTitle p, #whiteintroleftTitle h1, #whiteintroleftTitle h2, #whiteintroleftTitle h3, #whiteintroleftTitle h4, #whiteintroleftTitle h5, #whiteintrorightTitle p, #whiteintrorightTitle h1, #whiteintrorightTitle h2, #whiteintrorightTitle h3, #whiteintrorightTitle h4, #whiteintrorightTitle h5 {
     font-size: 10px;
     font-weight: 400;
     line-height: 10px!important;
@@ -26,7 +26,7 @@ p {
 }
 /* Tiny Color Intro Titles */
 /* Bold Dark Titles */
-#cardleftoneTitle h1, #cardleftoneTitle h2, #cardleftoneTitle h3, #cardrightoneTitle h1, #cardrightoneTitle h2, #cardrightoneTitle h3, #postTitle h1, #postTitle h2, #postTitle h3, #whitepostleftTitle h1, #whitepostleftTitle h2, #whitepostleftTitle h3, #whitepostrightTitle h1, #whitepostrightTitle h2, #whitepostrightTitle h3 {
+#cardleftoneTitle h1, #cardleftoneTitle h2, #cardleftoneTitle h3, #cardrightoneTitle h1, #cardrightoneTitle h2, #cardrightoneTitle h3, #postTitle h1, #postTitle h2, #postTitle h3, #onepostTitle h1, #onepostTitle h2, #onepostTitle h3, #twopostTitle h1, #twopostTitle h2, #twopostTitle h3, #whitepostleftTitle h1, #whitepostleftTitle h2, #whitepostleftTitle h3, #whitepostrightTitle h1, #whitepostrightTitle h2, #whitepostrightTitle h3 {
     font-size: 26px;
     line-height: 32px;
     font-weight: bold;
@@ -34,7 +34,7 @@ p {
     margin: 0px 0px 10px 0px;
     font-family: 'Montserrat', sans-serif;
 }
-#postTitle h4, #postTitle h5, #whitepostleftTitle h4, #whitepostrightTitle h5 {
+#postTitle h4, #postTitle h5, #onepostTitle h4, #twopostTitle h5, #whitepostleftTitle h4, #whitepostrightTitle h5 {
     font-size: 20px;
     line-height: 28px;
     font-weight: bold;
@@ -42,7 +42,7 @@ p {
     margin: 0px 0px 10px 0px;
     font-family: 'Montserrat', sans-serif;
 }
-#postTitle {
+#postTitle, #onepostTitle, #twopostTitle {
     color: #210E4A;
 }
 #whitepostleftTitle, #whitepostrightTitle {
@@ -57,17 +57,17 @@ p {
     line-height: 32px;
     font-weight: 200;
 }
-#postBody p, #whitepostleftBody p, #whitepostrightBody p, #cardleftoneBody p, #cardrightoneBody p {
+#postBody p, #onepostBody p, #twopostBody p, #whitepostleftBody p, #whitepostrightBody p, #cardleftoneBody p, #cardrightoneBody p {
     font-size: 16px;
     font-weight: 200;
     line-height: 20px;
     letter-spacing: 0.03em;
     margin: 0px;
 }
-#postBody a, #cardleftoneBody a, #cardrightoneBody a {
+#postBody a, #onepostBody a, #twopostBody a, #cardleftoneBody a, #cardrightoneBody a {
     font-weight: inherit;
 }
-#postBody, #cardleftoneBody, #cardrightoneBody  {
+#postBody, #onepostBody, #twopostBody, #cardleftoneBody, #cardrightoneBody  {
     color: #424770;
 }
 #whitepostleftBody, #whitepostrightBody {
@@ -77,7 +77,7 @@ p {
 #bluepostLink a, #bluepostleftLink a, #bluepostrightLink a {
     color: #40B0FF;
 }
-span.nextlink #postLink {
+span.nextlink #postLink, span.nextlink #leftpostLink, span.nextlink #rightpostLink {
     color: #210e4a;
     bottom: 15px;
     position: absolute;
