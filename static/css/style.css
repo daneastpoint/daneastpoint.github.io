@@ -1,5 +1,9 @@
 /* john messing it all up */
-
+.navbar{
+        background-color: #40B0FF;
+        border-radius: 0  !important;
+        margin-bottom: 0 !important;
+}
 .happyclientquote  p:nth-child(1){
     font-size: 24px;
     line-height: 30px;
@@ -1052,8 +1056,10 @@ a.navcontact {
     display: block!important;
 }
 .nav {
-    z-index: 1000;
-    background-color: transparent;
+    /* JJP:  changed to 500 to allow admin panel to show*/
+    z-index: 500;
+    /* JJP@ removed below to give nav a background */
+    /* background-color: transparent; */
     border: 0px;
 }
 .navbar-brand .navbar-brand {

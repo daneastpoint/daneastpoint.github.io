@@ -1,10 +1,10 @@
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+        <title>{{title}} - Eastpoint Software</title>
         <link href="/css/style.css" rel="stylesheet" type="text/css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -12,13 +12,12 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Caveat+Brush" rel="stylesheet">
-        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-        <title>{{title}} - Eastpoint Software</title>
+        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">        
     </head>
 <body>
 
 <!-- NAV START -->
-<nav class="navbar nav" style="margin-bottom: -60px;">
+<nav class="navbar nav" >
     <div class="mobile container-fluid container-global paddingleft paddingright" style="padding-left: 0px; padding-right: 0px;">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
@@ -56,17 +55,17 @@
                         </ul>
                     </ul>
                 </li>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">Team</a></li>
+                <li><a href="/our-work/">Work</a></li>
+                <li><a href="/eastpoint-team/">Team</a></li>
             <ul class="nav navbar-nav company" style="margin-left: 10vw;">
-                <li><a href="#">Careers</a></li>
-                <li><a href="#">Blog</a></li>
+                <li><a href="/careers/">Careers</a></li>
+                <li><a href="/blog/">Blog</a></li>
                 <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="padding-right: 0px!important; margin-right: 0px;">Contact</a>
                     <ul class="dropdown-menu epdropdown" style="right: 1; min-width: 330px;">
-                        <li><a href="#" class="dropdownpop">Contact us<br><p>Information about phone lines, perhaps some infor to encourage or discourage some enquiries.</p></a></li>
+                        <li><a href="/contact/" class="dropdownpop">Contact us<br><p>Information about phone lines, perhaps some infor to encourage or discourage some enquiries.</p></a></li>
                         <ul class="dropdown-section epdropdown">
-                            <li><a href="#" class="dropdownpop" style="font-weight: 400!important;">01234 567 890</a></li>
-                            <li><a href="#" class="dropdownpop" style="font-weight: 400!important;">info@eastpoint.co.uk</a></li>
+                            <li><a href="te:+44122369014" class="dropdownpop" style="font-weight: 400!important;">01223 690 164</a></li>
+                            <li><a href="mailto:info@eastpoint.co.uk" class="dropdownpop" style="font-weight: 400!important;">info@eastpoint.co.uk</a></li>
                         </ul>
                     </ul>
                 </li>
@@ -122,8 +121,8 @@
                     <li><a href="">Mount Pleasant House, CB3 0RN, Cambridge</a></li>
                     <li><a href="">86-90 Paul Street, EC2A 4NE, London</a></li>
                     <!--<li style="line-height: 24px;">Free parking is available for clients within the main car park.</li>-->
-                    <li><a href=""><span>user@example.com</span></a></li>
-                    <li><a href=""><span>01234 567890</span></a></li>
+                    <li><a href="mailto:info@eastpoint.co.uk"><span>info@eastpoint.co.uk</span></a></li>
+                    <li><a href="tel:+441223690164"><span>01223 690 164</span></a></li>
                 </ul>
             </div>
         </div>
@@ -139,7 +138,7 @@
                 <img src="/img/eastpoint-brand2x.png" width="90px" height="auto" />
             </div>
             <div class="col-md-8 col-md-12 col-xs-12 nopadding align-right">
-                <p>General company information, ©2016 rights information</p>
+                <p>©2017 Eastpoint Software Limited | All rights reserved</p>
             </div>
         </div> 
     </div>    
@@ -147,77 +146,5 @@
 <!-- FOOTER BOTTOM END -->
 <!-- FOOTER -->
 </body>
-<script>
-$(document).ready(function(){
-    $(".dropdown-toggle").dropdown();
-    $(".show-scroll").hide();
-});
-$(window).scroll(function() {    
-    var scroll = $(window).scrollTop();
-
-    if(scroll >= 300) {
-        $(".navbar").addClass("navbar-fixed-top").fadeIn();
-        $(".contact").addClass("contact-appear");
-        $(".company").css("margin-left","0px");
-        $(".navbar").addClass("fixed-bg").fadeIn();
-        $("#navgrad").removeClass("navbar-gradient").fadeOut();
-        $(".show-scroll").show();
-        $(".hide-scroll").hide();
-    } else {
-        $(".navbar").removeClass("fixed-bg").fadeOut();
-        $(".navbar").removeClass("navbar-fixed-top").fadeOut();
-        $(".contact").removeClass("contact-appear");
-        $(".company").css("margin-left","10vh");
-        $("#navgrad").addClass("navbar-gradient").fadeIn();
-        $(".show-scroll").hide();
-        $(".hide-scroll").show();
-    }
-});
-$(document).ready(function(){
-    $('.bounce').hover(
-       function(){ $(this).addClass('hover-bounce') },
-       function(){ $(this).removeClass('hover-bounce') }
-    )
-});
-$(document).ready(function(){
-    $('.button-logos-action').hover(function(){
-        $('#logos').addClass('shrinkblur');
-        /*$("#buttonaction").addClass('logobuttonappear');*/ },
-        function(){
-        $('#logos').removeClass('shrinkblur'); }
-        /*function(){ $('#buttonaction').addClass('logobuttonappear') }*/
-        /*function(){ $(this).removeClass('logoblur') }*/
-        /*function(){ $('#logobutton').removeClass('logobuttonappear') }*/
-    )
-});
-$('.panelheading').on('click', function(){
-    $(this).toggleClass('panelheading-open');
-    /*$('.panelheading').removeClass('panelheading-open');*/
-
-});
-$(document).ready(function(){
-    $('#prevservice').hover(
-        function(){ $(this).addClass('moveup') },
-        function(){ $(this).removeClass('moveup') }
-    )
-});
-$(document).ready(function(){
-    $('#nextservice').hover(
-        function(){ $(this).addClass('moveup') },
-        function(){ $(this).removeClass('moveup') }
-    )
-});
-$(window).scroll(function() {    
-    var scroll = $(window).scrollTop();
-
-    if(scroll >= 1000) {
-        $(".epintercom").addClass("epintercom-appear");
-    } else {
-        /*$(".epintercom").removeClass("epintercom-appear");*/
-    }
-});
-$(document).ready(function(){
-    $("#service-boxes").fadeIn();
-});
-</script>
+<script src='/js/script.js'></script>
 </html>
