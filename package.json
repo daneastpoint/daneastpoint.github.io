@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/daneastpoint/daneastpoint.github.io#readme",
   "dependencies": {
-    "popcms": "^0.4.4"
+    "popcms": "^0.6.0"
   }
 }
