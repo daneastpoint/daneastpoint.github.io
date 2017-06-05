@@ -1,3 +1,102 @@
+/* NEW CSS */
+
+/* BLOG ABOVE FOOTER */
+.blog-above--footer :nth-child(1) {
+    color: #ffffff;
+    opacity: 0.6;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 10px!important;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+.blog-above--footer :nth-child(2) {
+    color: #ffffff;
+    opacity: 1;
+    font-size: 24px;
+    font-weight: 800!important;
+    line-height: 32px;
+    margin-bottom: 10px;
+}
+
+.blog-above--footer :nth-child(3) {
+    color: #ffffff;
+    opacity: 1;
+}
+
+.blog-above--footer a {
+    color: #40B0FF!important;
+    opacity: 1;
+    text-decoration: none;
+    border-bottom: 1px solid #40B0FF;
+    padding-bottom: 1px;
+}
+
+/* BLOG ABOVE FOOTER */
+
+/* FOOTER */
+
+.footercol h4 {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.footertop {
+    color: #40B0FF;
+}
+
+.footertop :nth-child(2) {
+    color: #17EAD9;
+}
+
+.footertop :nth-child(3) {
+    color: #FCE38A;
+}
+
+.footertop :nth-child(4) {
+    color: #F54EA2;
+}
+
+.footercol li, .footercol a {
+    color: #8898aa;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.footercol span {
+    border-bottom: 1px solid #8898aa;
+    padding-bottom: 1px;
+}
+
+.footercol span:hover, .footercol span:focus, .footercol span:active {
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 1px;
+}
+
+.footercol a:hover, .footercol a:focus, .footercol a:active {
+    color: #ffffff;
+}
+/* FOOTER */
+
+/* NEW CSS */
+
+
+
+
+
+
+
+
+
+
 .cke_editable {
     min-height: inherit!important;
 }
@@ -2186,7 +2285,6 @@ i.fa.fa-google-plus {
 }*/
 .footertop {
     height: inherit;
-    background-color: #29292c;
     padding-top: 80px;
     padding-bottom: 80px;
     /*border-bottom: 2px solid rgba(207,215,223,.25);*/
@@ -2198,19 +2296,6 @@ i.fa.fa-google-plus {
     .footertop {
     padding: 15px 15px;
 }
-}
-.footertop h3 {
-    color: #8898aa;
-}
-.footertop li {
-    color: #8898aa!important;
-}
-.footertop a {
-    color: #8898aa!important;
-}
-.footertop span {
-    border-bottom: 1px solid #8898aa;
-    padding-bottom: 1px;
 }
 .footertop a:hover {
     text-decoration: none;
@@ -2232,7 +2317,6 @@ i.fa.fa-google-plus {
 }
 .footerbtm {
     height: auto;
-    background-color: #29292c;
     padding: 10px 0px 10px 0px;
 }
 .footerbtm p {

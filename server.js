@@ -15,10 +15,16 @@ popcms.createServer(
 			],
 			secret : "nxfjkndkjlvnjkvnvndnv", 
 			dbCollectionNamePrefix : "eastpoint-2017-",
-			connString :  "mongodb://"  + username + ":"  + password + "@sl-eu-lon-2-portal.3.dblayer.com:15695,sl-eu-lon-2-portal.1.dblayer.com:15695/websitecontent?ssl=true",
-			host : "v2017.eastpoint.co.uk",
-			port : "80",
-			httpOrHttps : "http",
+
+				//connString :  "mongodb://127.0.0.1:27017/popcms",
+				host : "127.0.0.1",
+				port : "5000",
+				httpOrHttps : "http",
+
+			 connString :  "mongodb://"  + username + ":"  + password + "@sl-eu-lon-2-portal.3.dblayer.com:15695,sl-eu-lon-2-portal.1.dblayer.com:15695/websitecontent?ssl=true",
+			// host : "v2017.eastpoint.co.uk",
+			// port : "80",
+			// httpOrHttps : "http",
 			dev: { 
 				connString :  "mongodb://127.0.0.1:27017/popcms",
 				host : "127.0.0.1",
