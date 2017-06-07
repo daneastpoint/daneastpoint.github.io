@@ -140,6 +140,87 @@ div#introcontent :nth-child(2) a, .introcontent :nth-child(2) a, div#introconten
 }
 /* INTRO */
 
+/* BLOCK CONTENT */
+.blockcontent :nth-child(2) {
+    color: #40B0FF;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px!important;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin: 0px;
+    display: block;
+}
+.blockcontent :nth-child(3), .blockcontent h3 {
+    color: #210e4a;
+    font-size: 26px;
+    line-height: 32px;
+    margin: 4px 0px 10px 0px;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+}
+.blockcontent h3 {
+    color: #210e4a;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0px 0px 10px 0px;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+}
+.blockcontent :nth-child(4) {
+    color: #210e4a;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    margin: 0px 0px 20px 0px;
+    display: block;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+}
+.blockcontent :nth-child(4) h3 {
+    color: #210e4a;
+    font-size: 18px;
+    line-height: 20px!important;
+    margin: 0px 0px 10px 0px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: initial!important;
+    display: block;
+}
+@media screen and (max-width: 768px) {
+    .blockcontent :nth-child(4) {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    }
+
+    .blockcontent :nth-child(4) h3 {
+    margin: 12px 0px 10px 0px;
+    }
+}
+.blockcontent a {
+    color: #210e4a!important;
+    font-size: 14px!important;
+    font-weight: 600!important;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    border-bottom: 1px solid #210E4A;
+    text-transform: initial!important;
+    display: inline-block!important;
+}
+.blockcontent h5 {
+    color: #210e4a;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 4px 0px 10px 0px;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    border-left: 2px solid #40B0FF;
+    padding-left: 8px;
+}
+/* BLOCK CONTENT */
+
 /* CARDS */
 .box-shadow-1 {
     box-shadow: 0px 3px 20px 0px rgba(46,61,73,0.15);
@@ -169,6 +250,9 @@ div#introcontent :nth-child(2) a, .introcontent :nth-child(2) a, div#introconten
     background-position: center;
     background-size: cover;
     position: relative;
+}
+.card-header-image :nth-child(2) {
+    color: #40B0FF!important;
 }
 div#card :nth-child(2), .card :nth-child(2) {
     color: #E32072;
@@ -207,6 +291,136 @@ div#card a , .card a {
     position: absolute;
 }
 /* CARDS */
+
+/* TEAM QUOTE */
+.teamquoteimg {
+    height: 475px;
+}
+.teamquoteimg img {
+    height: 500px;
+    position: absolute;
+    bottom: 0px;
+    right: 90px;
+}
+.greyscale::after{
+  mix-blend-mode: lighten;
+}
+.greyscale img{
+   mix-blend-mode: multiply;
+  -webkit-filter: grayscale(100%) contrast(1.2);
+  filter: grayscale(100%) contrast(1.2);
+}
+.teamquote img {
+    margin-bottom: 20px;
+    height: 30px;
+    width: inherit;
+    mix-blend-mode: normal!important;
+    -webkit-filter: invert(100%)!important;
+    filter: invert(100%)!important;
+}
+.teamquote :nth-child(2) {
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 200;
+    text-overflow: ellipsis;
+    margin: 20px 0px 30px 0px;
+    display: block;
+}
+.teamquote :nth-child(3) {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 200;
+    display: block;
+}
+.teamquote :nth-child(4) {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 600;
+    display: block;
+}
+.teamquote a {
+    background: inherit;
+    white-space: nowrap;
+    display: inline-block;
+    line-height: 40px;
+    padding: 6px 30px;
+    box-shadow: 8px 8px 20px 0px rgba(46,61,73,0.15);
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    text-decoration: none;
+    -webkit-transition: all .15s ease;
+    transition: all .15s ease;
+    z-index: 1;
+}
+.blue.teamquote a {
+    color: #ffffff;
+    background: linear-gradient(-45deg, rgba(64, 176, 255,1) 10%, rgba(0,91,234,0.9) 100%)!important;
+    border: 1px solid rgba(64, 176, 255,1);
+    position: absolute;
+    bottom: 50px;
+}
+.blue.teamquote a:hover {
+    color: #ffffff;
+    background: linear-gradient(-45deg, rgba(64, 176, 255,1) 5%, rgba(0,91,234,1) 100%)!important;
+    border: 1px solid rgba(64, 176, 255,1);
+    text-decoration: none!important;
+    position: absolute;
+    bottom: 50px;
+}
+.pinkgradient.teamquote a {
+    color: #ffffff;
+    background: linear-gradient(-45deg, #ff7676, #f54ea2)!important;
+    border: 1px solid #f54ea2;
+    position: absolute;
+    bottom: 50px;
+}
+.pinkgradient.teamquote a:hover {
+    color: #ffffff;
+    background: linear-gradient(-45deg, #ff7676, #f54ea2)!important;
+    border: 1px solid #f54ea2;
+    text-decoration: none!important;
+    position: absolute;
+    bottom: 50px;
+}
+.greengradient.teamquote a {
+    color: #ffffff;
+    background: linear-gradient(45deg, rgba(96,120,234,1) 10%, rgba(23,234,217,0.9) 100%)!important;
+    position: absolute;
+    bottom: 50px;
+}
+.greengradient.teamquote a:hover {
+    color: #ffffff;
+    background: linear-gradient(45deg, rgba(96,120,234,1) 5%, rgba(23,234,217,0.9) 100%)!important;
+    position: absolute;
+    text-decoration: none!important;
+    bottom: 50px;
+}
+.bluegradient.teamquote a {
+    color: #ffffff;
+    background: linear-gradient(-45deg, rgba(64, 176, 255,1) 10%, rgba(0,91,234,0.9) 100%)!important;
+    position: absolute;
+    bottom: 50px;
+}
+.bluegradient.teamquote a:hover {
+    color: #ffffff;
+    background: linear-gradient(-45deg, rgba(64, 176, 255,1) 5%, rgba(0,91,234,0.9) 100%)!important;
+    position: absolute;
+    text-decoration: none!important;
+    bottom: 50px;
+}
+@media screen and (max-width: 768px) {
+    .pinkgradient.teamquote .button, .blue.teamquote .button, .bluegradient.teamquote .button, .greengradient.teamquote .button {
+        position: initial;
+        margin-top: 30px!important;
+    } 
+}
+/* TEAM QUOTE */
 
 /* BLOG ABOVE FOOTER */
 div#blogpostfooterleft :nth-child(1), div#blogpostfooterright :nth-child(1) {
@@ -292,6 +506,22 @@ div#blogpostfooterleft a, div#blogpostfooterright a {
     color: #ffffff;
 }
 /* FOOTER */
+
+/* COLORS */
+.greengradient {
+    background: linear-gradient(-45deg, #6078ea, #17ead9)!important;
+}
+.bluegradient {
+    background: linear-gradient(90deg, rgba(64, 176, 255,1) 0%, rgba(0,91,234,0.9) 100%)!important;
+}
+.pinkgradient {
+    background: linear-gradient(-45deg, #ff7676, #f54ea2)!important;
+}
+.blue {
+  background-color: #40B0FF;
+  background: #40B0FF;
+}
+/* COLORS */
 
 /* NEW CSS */
 
@@ -432,9 +662,6 @@ span.button.button-vimportant-action #quoteAction a {
   height: 100%;
   transition: all ease-in-out .5s;
 }
-.blue {
-  background-color: #40B0FF;
-}
 .blue img{
    mix-blend-mode: multiply;
   -webkit-filter: grayscale(100%) contrast(1.2);
@@ -443,14 +670,6 @@ span.button.button-vimportant-action #quoteAction a {
 .blue::after{
   background-color: #033dc5;
   mix-blend-mode: lighten;
-}
-.greyscale::after{
-  mix-blend-mode: lighten;
-}
-.greyscale img{
-   mix-blend-mode: multiply;
-  -webkit-filter: grayscale(100%) contrast(1.2);
-  filter: grayscale(100%) contrast(1.2);
 }
 
 /* john messing it all up */
@@ -1527,9 +1746,6 @@ a.primaryalternative {
     background: linear-gradient(45deg, rgba(64,176,255,1) 0%, rgba(64,176,255,0.64) 25%, rgba(64,176,255,0.7) 51%, rgba(64,176,255,0.99) 100%);
     height: 100%;
 }
-.pinkgradient {
-    background: linear-gradient(-45deg, #ff7676, #f54ea2)!important;
-}
 .responsiveoverlay {
     background: #ffffff;
 }
@@ -2248,17 +2464,6 @@ ul.dropdown-section.epdropdown {
 .epteamclientquote b {
     color: #40B0FF;
 }
-.teamquoteimg {
-    position: relative;
-    height: 475px;
-    overflow: hidden;
-}
-.teamquoteimg img {
-    height: 500px;
-    position: absolute;
-    bottom: 0px;
-    right: 90px;
-}
 .teamquote {
     background: #40B0FF;
     height: 475px;
@@ -2267,13 +2472,6 @@ ul.dropdown-section.epdropdown {
 }
 .teamquote p {
     color: #fff!important;
-}
-.teamquote img {
-    margin-bottom: 20px;
-    height: 30px;
-    width: inherit;
-    -webkit-filter: invert(100%);
-    filter: invert(100%);
 }
 @media screen and (max-width: 768px) {
     .teamquoteimg img {
